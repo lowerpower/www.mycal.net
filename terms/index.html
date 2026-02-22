@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mycal Terms — A Lexicon of Original Concepts</title>
+  <meta name="description" content="Original terms and concepts coined by Mike Johnson (Mycal) — Cronofuturism, Cronosonics, the Substrate War, Lords of Zero, Singularity-grade AI, and more. Definitions, origins, and linked works.">
+  <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+  <script defer src="https://analytics.mycal.net/script.js" data-website-id="cd13ff4f-ac2e-4f4e-ad21-2ae1a2f83595"></script>
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+      line-height: 1.6;
+      color: #e0e0e0;
+      background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+      min-height: 100vh;
+      padding: 2rem;
+    }
+
+    .container { max-width: 800px; width: 100%; margin: 0 auto; }
+
+    header { text-align: center; margin-bottom: 3rem; }
+
+    .back-link {
+      display: inline-block; color: #999; text-decoration: none;
+      font-size: 0.9rem; margin-bottom: 1.5rem; transition: color 0.3s ease;
+    }
+    .back-link:hover { color: #f6a441; }
+
+    h1 {
+      font-size: clamp(2rem, 5vw, 3rem); font-weight: 700; margin-bottom: 0.5rem;
+      background: linear-gradient(135deg, #f6a441 0%, #ff6b35 100%);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+    }
+
+    .subtitle { font-size: clamp(1rem, 2.5vw, 1.15rem); color: #999; margin-bottom: 1rem; }
+
+    .intro {
+      font-size: 1.05rem; color: #ccc; margin-bottom: 3rem;
+      line-height: 1.8; text-align: center;
+    }
+
+    .term-entry {
+      background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; transition: all 0.3s ease;
+    }
+    .term-entry:hover { background: rgba(255, 255, 255, 0.06); border-color: rgba(246, 164, 65, 0.3); }
+
+    .term-name { font-size: 1.35rem; font-weight: 700; color: #f6a441; margin-bottom: 0.25rem; }
+
+    .term-meta { font-size: 0.8rem; color: #777; margin-bottom: 0.75rem; }
+    .term-meta span { margin-right: 1rem; }
+
+    .term-definition { font-size: 1rem; color: #ccc; line-height: 1.7; margin-bottom: 0.75rem; }
+
+    .term-links { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+
+    .term-link {
+      font-size: 0.8rem; color: #f6a441; text-decoration: none;
+      background: rgba(246, 164, 65, 0.08); border: 1px solid rgba(246, 164, 65, 0.2);
+      border-radius: 6px; padding: 0.2rem 0.6rem; transition: all 0.3s ease;
+    }
+    .term-link:hover { background: rgba(246, 164, 65, 0.15); border-color: #f6a441; }
+
+    footer {
+      text-align: center; color: #666; font-size: 0.875rem;
+      padding-top: 2rem; margin-top: 1rem; border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    footer a { color: #999; text-decoration: none; transition: color 0.3s ease; }
+    footer a:hover { color: #f6a441; }
+  </style>
+
+<!-- Identity Graph + DefinedTermSet — www.mycal.net/terms/ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://blog.mycal.net/about/#mycal",
+      "name": "Mike Johnson",
+      "givenName": "Michael",
+      "familyName": "Johnson",
+      "alternateName": ["Mycal", "Mike", "マイカル", "mycal"],
+      "identifier": [
+        { "@type": "PropertyValue", "propertyID": "canonical-uuid", "value": "urn:uuid:4ff7ed97-b78f-4ae6-9011-5af714ee241c" },
+        { "@type": "PropertyValue", "propertyID": "AnchorID", "value": "https://anchorid.net/resolve/4ff7ed97-b78f-4ae6-9011-5af714ee241c" }
+      ],
+      "url": "https://www.mycal.net/",
+      "sameAs": [
+        "https://anchorid.net/resolve/4ff7ed97-b78f-4ae6-9011-5af714ee241c",
+        "https://www.mycal.net", "https://music.mycal.net", "https://blog.mycal.net",
+        "https://archive.mycal.net", "https://github.com/lowerpower",
+        "https://www.linkedin.com/in/mycal/", "https://x.com/mycal_1"
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://blog.mycal.net/#publisher",
+      "name": "Mycal Labs",
+      "identifier": [
+        { "@type": "PropertyValue", "propertyID": "canonical-uuid", "value": "urn:uuid:bbf7372e-87d3-4098-8e60-f4e24d027a04" },
+        { "@type": "PropertyValue", "propertyID": "AnchorID", "value": "https://anchorid.net/resolve/bbf7372e-87d3-4098-8e60-f4e24d027a04" }
+      ],
+      "url": "https://blog.mycal.net/",
+      "founder": { "@id": "https://blog.mycal.net/about/#mycal" },
+      "sameAs": ["https://anchorid.net/resolve/bbf7372e-87d3-4098-8e60-f4e24d027a04"]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.mycal.net/#website",
+      "name": "Mycal.net",
+      "url": "https://www.mycal.net/",
+      "publisher": { "@id": "https://blog.mycal.net/#publisher" },
+      "mainEntity": { "@id": "https://blog.mycal.net/about/#mycal" }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.mycal.net/terms/#webpage",
+      "url": "https://www.mycal.net/terms/",
+      "name": "Mycal Terms — A Lexicon of Original Concepts",
+      "description": "Original terms and conceptual frameworks coined by Mike Johnson (Mycal), spanning cronofuturist philosophy, AI infrastructure, cultural analysis, and temporal methodology.",
+      "isPartOf": { "@id": "https://www.mycal.net/#website" },
+      "about": { "@id": "https://www.mycal.net/terms/#termset" },
+      "author": { "@id": "https://blog.mycal.net/about/#mycal" },
+      "publisher": { "@id": "https://blog.mycal.net/#publisher" },
+      "dateCreated": "2026-02-22T00:00:00-08:00",
+      "dateModified": "2026-02-22T00:00:00-08:00",
+      "inLanguage": "en-US",
+      "license": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+      "@type": "DefinedTermSet",
+      "@id": "https://www.mycal.net/terms/#termset",
+      "name": "Mycal Terms",
+      "description": "Original terms and conceptual frameworks coined by Mike Johnson (Mycal), spanning cronofuturist philosophy, AI infrastructure, the Substrate War, and temporal methodology.",
+      "url": "https://www.mycal.net/terms/",
+      "creator": { "@id": "https://blog.mycal.net/about/#mycal" },
+      "publisher": { "@id": "https://blog.mycal.net/#publisher" },
+      "inLanguage": "en-US",
+      "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "hasDefinedTerm": [
+        { "@id": "https://www.mycal.net/terms/#anchor-id" },
+        { "@id": "https://www.mycal.net/terms/#anchor-series" },
+        { "@id": "https://www.mycal.net/terms/#atlas-of-cognition" },
+        { "@id": "https://www.mycal.net/terms/#chrononaut-journals" },
+        { "@id": "https://www.mycal.net/terms/#cognitive-citizenship" },
+        { "@id": "https://www.mycal.net/terms/#cognitive-federalism" },
+        { "@id": "https://www.mycal.net/terms/#cognitive-feudalism" },
+        { "@id": "https://www.mycal.net/terms/#cognitive-power" },
+        { "@id": "https://www.mycal.net/terms/#cognitive-substrate" },
+        { "@id": "https://www.mycal.net/terms/#compute-as-law" },
+        { "@id": "https://www.mycal.net/terms/#cronofuturism" },
+        { "@id": "https://www.mycal.net/terms/#cronosonics" },
+        { "@id": "https://www.mycal.net/terms/#energy-to-inference" },
+        { "@id": "https://www.mycal.net/terms/#federated-agency" },
+        { "@id": "https://www.mycal.net/terms/#five-unstable-endgames" },
+        { "@id": "https://www.mycal.net/terms/#forced-triangle" },
+        { "@id": "https://www.mycal.net/terms/#human-co-regency" },
+        { "@id": "https://www.mycal.net/terms/#infrastructure-advantage" },
+        { "@id": "https://www.mycal.net/terms/#infrastructure-native-organisms" },
+        { "@id": "https://www.mycal.net/terms/#kardashev-window" },
+        { "@id": "https://www.mycal.net/terms/#layered-trust-stack" },
+        { "@id": "https://www.mycal.net/terms/#lords-of-zero" },
+        { "@id": "https://www.mycal.net/terms/#narrative-sovereignty" },
+        { "@id": "https://www.mycal.net/terms/#negotiated-reality" },
+        { "@id": "https://www.mycal.net/terms/#proof-of-personhood" },
+        { "@id": "https://www.mycal.net/terms/#reality-drift" },
+        { "@id": "https://www.mycal.net/terms/#seventy-year-stall" },
+        { "@id": "https://www.mycal.net/terms/#singularity-grade-ai" },
+        { "@id": "https://www.mycal.net/terms/#statistical-cognition" },
+        { "@id": "https://www.mycal.net/terms/#strong-federation" },
+        { "@id": "https://www.mycal.net/terms/#substrate-determinism" },
+        { "@id": "https://www.mycal.net/terms/#substrate-parallel-routing" },
+        { "@id": "https://www.mycal.net/terms/#substrate-war" },
+        { "@id": "https://www.mycal.net/terms/#thermodynamics-of-cognition" },
+        { "@id": "https://www.mycal.net/terms/#three-empires" },
+        { "@id": "https://www.mycal.net/terms/#tripartite-identity" }
+      ]
+    },
+    {
+      "@type": "DefinedTerm", "@id": "https://www.mycal.net/terms/#anchor-id",
+      "name": "AnchorID", "termCode": "anchor-id",
+      "description": "Attribution infrastructure for establishing canonical identity across distributed content. Links works, terms, and claims back to a verified person through persistent, machine-readable identifiers.",
+      "inDefinedTermSet": { "@id": "https://www.mycal.net/terms/#termset" },
+      "url": "https://www.mycal.net/terms/#anchor-id",
+      "creator": { "@id": "https://blog.mycal.net/about/#mycal" },
+      "dateCreated": "2025",
+      "sameAs": ["https://anchorid.net/"]
+    },
+    {
+      "@type": "DefinedTerm", "@id": "https://www.mycal.net/terms/#anchor-series",
+      "name": "The Anchor Series", "termCode": "anchor-series",
+      "description": "A sequence of blog posts exploring signal recognition and epistemic methodology — how to identify what matters in a noisy information environment and anchor to it.",
+      "inDefinedTermSet": { "@id": "https://www.mycal.net/terms/#termset" },
+      "url": "https://www.mycal.net/terms/#anchor-series",
+      "creator": { "@id": "https://blog.mycal.net/about/#mycal" },
+      "dateCreated": "2025"
+    },
+    {
+      "@type": "DefinedTerm", "@id": "https://www.mycal.net/terms/#atlas-of-cognition",
+      "name": "Atlas of Cognition", "termCode": "atlas-of-cognition",
+      "description": "A conceptual framework mapping the vertical continuum from ontic substrate (−4) through physical computation (−1) and statistical cognition (0) to reflective awareness (+7), showing how energy becomes inference and matter learns to think.",
+      "inDefinedTermSet": { "@id": "https://www.mycal.net/terms/#termset" },
+      "url": "https://www.mycal.net/terms/#atlas-of-cognition",
+      "creator": { "@id": "https://blog.mycal.net/about/#mycal" },
+      "dateCreated": "2025",
+      "isDefinedIn": { "@type": "Article", "@id": "https://blog.mycal.net/descent-form-ascent-mind/#article" }
+    },
+    {
+      "@type": "DefinedTerm", "@id": "https://www.mycal.net/terms/#chrononaut-journals",
+      "name": "Chrononaut Journals", "termCode": "chrononaut-journals",
+      "description": "A blog series documenting temporal exploration of personal and technological history. Each entry excavates a specific era or artifact and examines how it connects to the present trajectory.",
+      "inDefinedTermSet": { "@id": "https://www.mycal.net/terms/#termset" },
+      "url": "https://www.mycal.net/terms/#chrononaut-journals",
+      "creator": { "@id": "https://blog.mycal.net/about/#mycal" },
+      "dateCreated": "2025"
+    },
+    {
+      "@type": "DefinedTerm", "@id": "https://www.mycal.net/terms/#cognitive-citizenship",
+      "name": "Cognitive Citizenship", "termCode": "cognitive-citizenship",
+      "description": "The governance question of autonomous AI agents: rights, responsibilities, legal standing, accountability. Political empires treat them as citizens, financial empires as assets, cognitive empires want them unconstrained.",
+      "inDefinedTermSet": { "@id": "https://www.mycal.net/terms/#termset" },
+      "url": "https://www.mycal.net/terms/#cognitive-citizenship",
+      "creator": { "@id": "https://blog.mycal.net/about/#mycal" },
+      "dateCreated": "2025",
+      "isDefinedIn": { "@type": "Article", "@id": "https://blog.mycal.net/the-three-empires/#article" }
+    },
+    {
+      "@type": "DefinedTerm", "@id": "https://www.mycal.net/terms/#cognitive-federalism",
+      "name": "Cognitive Federalism", "termCode": "cognitive-federalism",
+      "description": "The only stable constitutional architecture for AI-era civilization. Includes federated inference, tripartite identity, negotiated topology with no single point of control, reversible compute rights, and inter-model treaties with human-readable escalation clauses.",
+      "inDefinedTermSet": { "@id": "https://www.mycal.net/terms/#termset" },
+      "url": "https://www.mycal.net/terms/#cognitive-federalism",
+      "creator": { "@id": "https://blog.mycal.net/about/#mycal" },
+      "dateCreated": "2025",
+      "isDefinedIn": { "@type": "Article", "@id": "https://blog.mycal.net/negotiated-reality/#article" }
+    },
+    {
+      "@type": "DefinedTerm", "@id": "https://www.mycal.net/terms/#cognitive-feudalism",
+      "name": "Cognitive Feudalism", "termCode": "cognitive-feudalism",
+      "description": "The economic regime that emerges when intelligence becomes infrastructure. The compute-rich become the new lords, users and startups become tenants on cognitive land they do not own. Innovation flows upward, value flows upward, power flows upward.",
+      "inDefinedTermSet": { "@id": "https://www.mycal.net/terms/#termset" },
+      "url": "https://www.mycal.net/terms/#cognitive-feudalism",
+      "creator": { "@id": "https://blog.mycal.net/about/#mycal" },
+      "dateCreated": "2025",
+      "isDefinedIn": { "@type": "Article", "@id": "https://blog.mycal.net/infrasructure-wins/#article" }
+    },
+    {
+      "@type": "DefinedTerm", "@id": "https://www.mycal.net/terms/#cognitive-power",
+      "name": "Cognitive Power", "termCode": "cognitive-power",
+      "description": "Emergent authority based on control of AI models, inference systems, and the infrastructure that generates meaning. Its unit is the token, its currency is coherence, its weapon is simulation. Sits underneath political and financial power — shaping the substrate they run on.",
+      "inDefinedTermSet": { "@id": "https://www.mycal.net/terms/#termset" },
+      "url": "https://www.mycal.net/terms/#cognitive-power",
+      "creator": { "@id": "https://blog.mycal.net/about/#mycal" },
+      "dateCreated": "2025",
+      "isDefinedIn": { "@type": "Article", "@id": "https://blog.mycal.net/the-three-empires/#article" }
+    },
+    {
+      "@type": "DefinedTerm", "@id": "https://www.mycal.net/terms/#cognitive-substrate",
+      "name": "Cognitive Substrate", "termCode": "cognitive-substrate",
+      "description": "The infrastructure layer where AI models, inference engines, and computational systems shape perception, meaning, and reality itself. The contested terrain all three empires are trying to control. Not just technology — the operating system of reality.",
+      "inDefinedTermSet": { "@id": "https://www.mycal.net/terms/#termset" },
+      "url": "https://www.mycal.net/terms/#cognitive-substrate",
+      "creator": { "@id": "https://blog.mycal.net/about/#mycal" },
+      "dateCreated": "2025",
+      "isDefinedIn": { "@type": "Article", "@id": "https://blog.mycal.net/the-three-empires/#article" }
+    },
+    {
+      "@type": "DefinedTerm", "@id": "https://www.mycal.net/terms/#compute-as-law",
+      "name": "Compute as Law", "termCode": "compute-as-law",
+      "description": "Recognition that access to computational models equals access to agency, making compute simultaneously a right, utility, weapon, and form of sovereignty.",
+      "inDefinedTermSet": { "@id": "https://www.mycal.net/terms/#termset" },
+      "url": "https://www.mycal.net/terms/#compute-as-law",
+      "creator": { "@id": "https://blog.mycal.net/about/#mycal" },
+      "dateCreated": "2025",
+      "isDefinedIn": { "@type": "Article", "@id": "https://blog.mycal.net/the-three-empires/#article" }
+    },
+    {
+      "@type": "DefinedTerm", "@id": "https://www.mycal.net/terms/#cronofuturism",
+      "name": "Cronofuturism", "termCode": "cronofuturism",
+      "description": "A philosophical framework that treats futures as memory-in-progress rather than speculation. Rooted in the premise that how we remember shapes what we build, and what we build becomes what we remember.",
+      "inDefinedTermSet": { "@id": "https://www.mycal.net/terms/#termset" },
+      "url": "https://www.mycal.net/terms/#cronofuturism",
+      "creator": { "@id": "https://blog.mycal.net/about/#mycal" },
+      "dateCreated": "2024"
+    },
+    {
+      "@type": "DefinedTerm", "@id": "https://www.mycal.net/terms/#cronosonics",
+      "name": "Cronosonics", "termCode": "cronosonics",
+      "description": "A creative format pairing technical essays with companion songs. Each cronosonic treats the essay and music as a unified artifact — the writing provides the intellectual scaffold while the song encodes the emotional and temporal signal.",
+      "inDefinedTermSet": { "@id": "https://www.mycal.net/terms/#termset" },
+      "url": "https://www.mycal.net/terms/#cronosonics",
+      "creator": { "@id": "https://blog.mycal.net/about/#mycal" },
+      "dateCreated": "2024"
+    },
+    {
+      "@type": "DefinedTerm", "@id": "https://www.mycal.net/terms/#energy-to-inference",
+      "name": "Energy-to-Inference Transformation", "termCode": "energy-to-inference",
+      "description": "The physical process by which electrical energy flowing through computational substrates becomes statistical inference and eventually understanding.",
+      "inDefinedTermSet": { "@id": "https://www.mycal.net/terms/#termset" },
+      "url": "https://www.mycal.net/terms/#energy-to-inference",
+      "creator": { "@id": "https://blog.mycal.net/about/#mycal" },
+      "dateCreated": "2025",
+      "isDefinedIn": { "@type": "Article", "@id": "https://blog.mycal.net/descent-form-ascent-mind/#article" }
+    },
+    {
+      "@type": "DefinedTerm", "@id": "https://www.mycal.net/terms/#federated-agency",
+      "name": "Federated Agency", "termCode": "federated-agency",
+      "description": "Counter-architecture to cognitive feudalism. Not just federated models — federated agency: local inference, identity-scoped access, sovereign AI nodes, peer-driven routing, distributed trust fabrics, compute that flows outward not upward.",
+      "inDefinedTermSet": { "@id": "https://www.mycal.net/terms/#termset" },
+      "url": "https://www.mycal.net/terms/#federated-agency",
+      "creator": { "@id": "https://blog.mycal.net/about/#mycal" },
+      "dateCreated": "2025",
+      "isDefinedIn": { "@type": "Article", "@id": "https://blog.mycal.net/infrasructure-wins/#article" }
+    },
+    {
+      "@type": "DefinedTerm", "@id": "https://www.mycal.net/terms/#five-unstable-endgames",
+      "name": "The Five Unstable Endgames", "termCode": "five-unstable-endgames",
+      "description": "Pure centralization leads to permanent feudalism. Pure fragmentation leads to Perception Cold War. Political capture leads to cognitive balkanization. Financial capture leads to rentier substrate. Model capture leads to unappealable algorithmic sovereignty. Every unilateral victory is civilizational suicide.",
+      "inDefinedTermSet": { "@id": "https://www.mycal.net/terms/#termset" },
+      "url": "https://www.mycal.net/terms/#five-unstable-endgames",
+      "creator": { "@id": "https://blog.mycal.net/about/#mycal" },
+      "dateCreated": "2025",
+      "isDefinedIn": { "@type": "Article", "@id": "https://blog.mycal.net/negotiated-reality/#article" }
+    },
+    {
+      "@type": "DefinedTerm", "@id": "https://www.mycal.net/terms/#forced-triangle",
+      "name": "The Forced Triangle", "termCode": "forced-triangle",
+      "description": "Geopolitical condition where three incompatible forms of power — political, financial, and cognitive — must negotiate because none can dominate, none can opt out, and none can define the future alone.",
+      "inDefinedTermSet": { "@id": "https://www.mycal.net/terms/#termset" },
+      "url": "https://www.mycal.net/terms/#forced-triangle",
+      "creator": { "@id": "https://blog.mycal.net/about/#mycal" },
+      "dateCreated": "2025",
+      "isDefinedIn": { "@type": "Article", "@id": "https://blog.mycal.net/the-three-empires/#article" }
+    },
+    {
+      "@type": "DefinedTerm", "@id": "https://www.mycal.net/terms/#human-co-regency",
+      "name": "Human Co-Regency", "termCode": "human-co-regency",
+      "description": "A governance model in which humans maintain meaningful decision authority alongside autonomous AI systems — not as overseers or operators, but as co-governing partners with complementary capabilities.",
+      "inDefinedTermSet": { "@id": "https://www.mycal.net/terms/#termset" },
+      "url": "https://www.mycal.net/terms/#human-co-regency",
+      "creator": { "@id": "https://blog.mycal.net/about/#mycal" },
+      "dateCreated": "2025"
+    },
+    {
+      "@type": "DefinedTerm", "@id": "https://www.mycal.net/terms/#infrastructure-advantage",
+      "name": "Infrastructure Advantage", "termCode": "infrastructure-advantage",
+      "description": "The competitive moat that emerges when thinking becomes infrastructure. Unlike idea advantage (which leaks) or execution advantage (which hyperscalers absorb), infrastructure advantage compounds through scale.",
+      "inDefinedTermSet": { "@id": "https://www.mycal.net/terms/#termset" },
+      "url": "https://www.mycal.net/terms/#infrastructure-advantage",
+      "creator": { "@id": "https://blog.mycal.net/about/#mycal" },
+      "dateCreated": "2025",
+      "isDefinedIn": { "@type": "Article", "@id": "https://blog.mycal.net/infrasructure-wins/#article" }
+    },
+    {
+      "@type": "DefinedTerm", "@id": "https://www.mycal.net/terms/#infrastructure-native-organisms",
+      "name": "Infrastructure-Native Organisms", "termCode": "infrastructure-native-organisms",
+      "description": "Modern AI hyperscalers that differ fundamentally from traditional incumbents. They absorb ideas, train on them, deploy globally, and outpace originators in every direction simultaneously. Entities built from the substrate up to execute at scale.",
+      "inDefinedTermSet": { "@id": "https://www.mycal.net/terms/#termset" },
+      "url": "https://www.mycal.net/terms/#infrastructure-native-organisms",
+      "creator": { "@id": "https://blog.mycal.net/about/#mycal" },
+      "dateCreated": "2025",
+      "isDefinedIn": { "@type": "Article", "@id": "https://blog.mycal.net/infrasructure-wins/#article" }
+    },
+    {
+      "@type": "DefinedTerm", "@id": "https://www.mycal.net/terms/#kardashev-window",
+      "name": "The Kardashev Window", "termCode": "kardashev-window",
+      "description": "The narrow opportunity window where civilization either achieves post-scarcity breakthrough (fusion, reactionless drive, gravity control, FTL) and advances up the Kardashev scale, or misses the chance and stagnates. AI-accelerated cognition may be the first tool capable of opening this window.",
+      "inDefinedTermSet": { "@id": "https://www.mycal.net/terms/#termset" },
+      "url": "https://www.mycal.net/terms/#kardashev-window",
+      "creator": { "@id": "https://blog.mycal.net/about/#mycal" },
+      "dateCreated": "2025",
+      "isDefinedIn": { "@type": "Article", "@id": "https://blog.mycal.net/the-lords-of-zero/#article" }
+    },
+    {
+      "@type": "DefinedTerm", "@id": "https://www.mycal.net/terms/#layered-trust-stack",
+      "name": "Layered Trust Stack", "termCode": "layered-trust-stack",
+      "description": "An architecture within the Proof of Personhood framework that builds identity confidence through accumulated, heterogeneous signals rather than any single verification method.",
+      "inDefinedTermSet": { "@id": "https://www.mycal.net/terms/#termset" },
+      "url": "https://www.mycal.net/terms/#layered-trust-stack",
+      "creator": { "@id": "https://blog.mycal.net/about/#mycal" },
+      "dateCreated": "2025"
+    },
+    {
+      "@type": "DefinedTerm", "@id": "https://www.mycal.net/terms/#lords-of-zero",
+      "name": "Lords of Zero", "termCode": "lords-of-zero",
+      "description": "Entities who sit at the point where costs collapse toward zero but control remains, extracting power from the delta between abundance and permission. They don't monetize scarcity — they monetize permission. The moat is physics: owning the substrate where zero lives.",
+      "inDefinedTermSet": { "@id": "https://www.mycal.net/terms/#termset" },
+      "url": "https://www.mycal.net/terms/#lords-of-zero",
+      "creator": { "@id": "https://blog.mycal.net/about/#mycal" },
+      "dateCreated": "2025",
+      "isDefinedIn": { "@type": "Article", "@id": "https://blog.mycal.net/the-lords-of-zero/#article" }
+    },
+    {
+      "@type": "DefinedTerm", "@id": "https://www.mycal.net/terms/#narrative-sovereignty",
+      "name": "Narrative Sovereignty", "termCode": "narrative-sovereignty",
+      "description": "Control over what people see, believe, consider credible, and accept as consensus reality. Battleground where political governance, financial marketing, and cognitive inference all claim authority.",
+      "inDefinedTermSet": { "@id": "https://www.mycal.net/terms/#termset" },
+      "url": "https://www.mycal.net/terms/#narrative-sovereignty",
+      "creator": { "@id": "https://blog.mycal.net/about/#mycal" },
+      "dateCreated": "2025",
+      "isDefinedIn": { "@type": "Article", "@id": "https://blog.mycal.net/the-three-empires/#article" }
+    },
+    {
+      "@type": "DefinedTerm", "@id": "https://www.mycal.net/terms/#negotiated-reality",
+      "name": "Negotiated Reality", "termCode": "negotiated-reality",
+      "description": "Reality that is synthesized through the interaction of political, financial, and cognitive power structures rather than discovered. Truth becomes downstream of inference, consensus downstream of filtering, ideology downstream of context windows.",
+      "inDefinedTermSet": { "@id": "https://www.mycal.net/terms/#termset" },
+      "url": "https://www.mycal.net/terms/#negotiated-reality",
+      "creator": { "@id": "https://blog.mycal.net/about/#mycal" },
+      "dateCreated": "2025",
+      "isDefinedIn": { "@type": "Article", "@id": "https://blog.mycal.net/negotiated-reality/#article" }
+    },
+    {
+      "@type": "DefinedTerm", "@id": "https://www.mycal.net/terms/#proof-of-personhood",
+      "name": "Proof of Personhood", "termCode": "proof-of-personhood",
+      "description": "A framework for establishing and verifying human identity in an environment where autonomous agents outnumber humans. Proposes a Layered Trust Stack rather than binary verification.",
+      "inDefinedTermSet": { "@id": "https://www.mycal.net/terms/#termset" },
+      "url": "https://www.mycal.net/terms/#proof-of-personhood",
+      "creator": { "@id": "https://blog.mycal.net/about/#mycal" },
+      "dateCreated": "2025"
+    },
+    {
+      "@type": "DefinedTerm", "@id": "https://www.mycal.net/terms/#reality-drift",
+      "name": "Reality Drift", "termCode": "reality-drift",
+      "description": "Incidents where different cognitive systems generate incompatible versions of shared reality, leading to mutual incomprehension between populations operating under different inference regimes.",
+      "inDefinedTermSet": { "@id": "https://www.mycal.net/terms/#termset" },
+      "url": "https://www.mycal.net/terms/#reality-drift",
+      "creator": { "@id": "https://blog.mycal.net/about/#mycal" },
+      "dateCreated": "2025",
+      "isDefinedIn": { "@type": "Article", "@id": "https://blog.mycal.net/negotiated-reality/#article" }
+    },
+    {
+      "@type": "DefinedTerm", "@id": "https://www.mycal.net/terms/#seventy-year-stall",
+      "name": "The 70-Year Stall", "termCode": "seventy-year-stall",
+      "description": "The phenomenon where breakthrough technologies (fusion, reactionless drive, synthetic gravity, FTL) have remained 'always 20 years away' for seven decades because human cognition couldn't close the complexity gap.",
+      "inDefinedTermSet": { "@id": "https://www.mycal.net/terms/#termset" },
+      "url": "https://www.mycal.net/terms/#seventy-year-stall",
+      "creator": { "@id": "https://blog.mycal.net/about/#mycal" },
+      "dateCreated": "2025",
+      "isDefinedIn": { "@type": "Article", "@id": "https://blog.mycal.net/the-lords-of-zero/#article" }
+    },
+    {
+      "@type": "DefinedTerm", "@id": "https://www.mycal.net/terms/#singularity-grade-ai",
+      "name": "Singularity-grade AI", "termCode": "singularity-grade-ai",
+      "description": "AI systems that rewrite themselves, operate with source code in flux, and see further and faster than humans ever will. Distinct from constraint-based 'safe' AI. Term coined November 2, 1994 in the Future Culture mailing list.",
+      "inDefinedTermSet": { "@id": "https://www.mycal.net/terms/#termset" },
+      "url": "https://www.mycal.net/terms/#singularity-grade-ai",
+      "creator": { "@id": "https://blog.mycal.net/about/#mycal" },
+      "dateCreated": "1994-11-02",
+      "isDefinedIn": [
+        { "@type": "DiscussionForumPosting", "@id": "https://archive.mycal.net/usenet/raw/mailing-lists/futureCulture/fc-Wed-02-Nov-1994-01:42:33-PST.txt" },
+        { "@type": "Article", "@id": "https://blog.mycal.net/the-lords-of-zero/#article" }
+      ]
+    },
+    {
+      "@type": "DefinedTerm", "@id": "https://www.mycal.net/terms/#statistical-cognition",
+      "name": "Statistical Cognition", "termCode": "statistical-cognition",
+      "description": "The boundary layer (level 0 in the Atlas of Cognition) where physics begins to infer — where computation stops being calculation and starts being something like understanding through pattern prediction.",
+      "inDefinedTermSet": { "@id": "https://www.mycal.net/terms/#termset" },
+      "url": "https://www.mycal.net/terms/#statistical-cognition",
+      "creator": { "@id": "https://blog.mycal.net/about/#mycal" },
+      "dateCreated": "2025",
+      "isDefinedIn": { "@type": "Article", "@id": "https://blog.mycal.net/descent-form-ascent-mind/#article" }
+    },
+    {
+      "@type": "DefinedTerm", "@id": "https://www.mycal.net/terms/#strong-federation",
+      "name": "Strong Federation", "termCode": "strong-federation",
+      "description": "Decentralized cognitive infrastructure including local inference on hardware you control, sovereign nodes that don't ask permission, identity-scoped networks run by peers not platforms, reversible topology with no single point of failure.",
+      "inDefinedTermSet": { "@id": "https://www.mycal.net/terms/#termset" },
+      "url": "https://www.mycal.net/terms/#strong-federation",
+      "creator": { "@id": "https://blog.mycal.net/about/#mycal" },
+      "dateCreated": "2025",
+      "isDefinedIn": { "@type": "Article", "@id": "https://blog.mycal.net/the-three-empires/#article" }
+    },
+    {
+      "@type": "DefinedTerm", "@id": "https://www.mycal.net/terms/#substrate-determinism",
+      "name": "Substrate Determinism", "termCode": "substrate-determinism",
+      "description": "The principle that substrate — not innovation — now chooses who wins. Civilization reorganizes around new substrates: Stone → Bronze → Iron, Steam → Electricity → Silicon, Capital → Networks → Cognition. Each reshapes power, markets, governance, and culture.",
+      "inDefinedTermSet": { "@id": "https://www.mycal.net/terms/#termset" },
+      "url": "https://www.mycal.net/terms/#substrate-determinism",
+      "creator": { "@id": "https://blog.mycal.net/about/#mycal" },
+      "dateCreated": "2025",
+      "isDefinedIn": { "@type": "Article", "@id": "https://blog.mycal.net/infrasructure-wins/#article" }
+    },
+    {
+      "@type": "DefinedTerm", "@id": "https://www.mycal.net/terms/#substrate-parallel-routing",
+      "name": "Substrate-Parallel Routing", "termCode": "substrate-parallel-routing",
+      "description": "NoBGP for cognition — routing architecture that enables cognitive traffic to flow through multiple independent substrate providers, preventing single-point capture. Essential infrastructure for federated cognitive networks.",
+      "inDefinedTermSet": { "@id": "https://www.mycal.net/terms/#termset" },
+      "url": "https://www.mycal.net/terms/#substrate-parallel-routing",
+      "creator": { "@id": "https://blog.mycal.net/about/#mycal" },
+      "dateCreated": "2025",
+      "isDefinedIn": { "@type": "Article", "@id": "https://blog.mycal.net/negotiated-reality/#article" }
+    },
+    {
+      "@type": "DefinedTerm", "@id": "https://www.mycal.net/terms/#substrate-war",
+      "name": "The Substrate War", "termCode": "substrate-war",
+      "description": "An analytical framework examining how control of foundational infrastructure layers — compute, routing, identity, training data — determines power in the AI era. The war is fought not over content but over the substrates on which content depends.",
+      "inDefinedTermSet": { "@id": "https://www.mycal.net/terms/#termset" },
+      "url": "https://www.mycal.net/terms/#substrate-war",
+      "creator": { "@id": "https://blog.mycal.net/about/#mycal" },
+      "dateCreated": "2025",
+      "isDefinedIn": { "@type": "CreativeWorkSeries", "@id": "https://blog.mycal.net/tag/substrate-war/" }
+    },
+    {
+      "@type": "DefinedTerm", "@id": "https://www.mycal.net/terms/#thermodynamics-of-cognition",
+      "name": "Thermodynamics of Cognition", "termCode": "thermodynamics-of-cognition",
+      "description": "The observation that all cognitive processes — in silicon or neurons — have measurable thermal signatures as energy constrained into pattern becomes prediction and understanding.",
+      "inDefinedTermSet": { "@id": "https://www.mycal.net/terms/#termset" },
+      "url": "https://www.mycal.net/terms/#thermodynamics-of-cognition",
+      "creator": { "@id": "https://blog.mycal.net/about/#mycal" },
+      "dateCreated": "2025",
+      "isDefinedIn": { "@type": "Article", "@id": "https://blog.mycal.net/descent-form-ascent-mind/#article" }
+    },
+    {
+      "@type": "DefinedTerm", "@id": "https://www.mycal.net/terms/#three-empires",
+      "name": "The Three Empires", "termCode": "three-empires",
+      "description": "Framework identifying three distinct power structures competing to define reality: political power (borders, sovereignty, law), financial power (capital, liquidity, incentives), and cognitive power (models, inference, simulation, narrative).",
+      "inDefinedTermSet": { "@id": "https://www.mycal.net/terms/#termset" },
+      "url": "https://www.mycal.net/terms/#three-empires",
+      "creator": { "@id": "https://blog.mycal.net/about/#mycal" },
+      "dateCreated": "2025",
+      "isDefinedIn": { "@type": "Article", "@id": "https://blog.mycal.net/the-lords-of-zero/#article" }
+    },
+    {
+      "@type": "DefinedTerm", "@id": "https://www.mycal.net/terms/#tripartite-identity",
+      "name": "Tripartite Identity", "termCode": "tripartite-identity",
+      "description": "Identity architecture requiring validation from three independent sources: state (political legitimacy), market (financial participation), and peer attestation (social/cognitive validation). No single empire can unilaterally define identity.",
+      "inDefinedTermSet": { "@id": "https://www.mycal.net/terms/#termset" },
+      "url": "https://www.mycal.net/terms/#tripartite-identity",
+      "creator": { "@id": "https://blog.mycal.net/about/#mycal" },
+      "dateCreated": "2025",
+      "isDefinedIn": { "@type": "Article", "@id": "https://blog.mycal.net/negotiated-reality/#article" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.mycal.net/" },
+        { "@type": "ListItem", "position": 2, "name": "Mycal Terms", "item": "https://www.mycal.net/terms/" }
+      ]
+    }
+  ]
+}
+</script>
+
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="/" class="back-link">← mycal.net</a>
+      <h1>Mycal Terms</h1>
+      <p class="subtitle">A Lexicon of Original Concepts</p>
+      <p class="intro">
+        Terms and frameworks that emerged from decades of building, writing, and exploring
+        at the intersection of infrastructure, philosophy, and culture. Each links back
+        to the work where it first appeared.
+      </p>
+    </header>
+
+    <main>
+
+      <div class="term-entry" id="anchor-id">
+        <div class="term-name">AnchorID</div>
+        <div class="term-meta"><span>First used: 2025</span></div>
+        <p class="term-definition">Attribution infrastructure for establishing canonical identity across distributed content. Links works, terms, and claims back to a verified person through persistent, machine-readable identifiers.</p>
+        <div class="term-links">
+          <a href="https://blog.mycal.net/" class="term-link" data-umami-event="term-anchorid-blog">blog.mycal.net</a>
+          <a href="https://anchorid.net/" class="term-link" data-umami-event="term-anchorid-site">anchorid.net</a>
+        </div>
+      </div>
+
+      <div class="term-entry" id="anchor-series">
+        <div class="term-name">The Anchor Series</div>
+        <div class="term-meta"><span>First used: 2025</span></div>
+        <p class="term-definition">A sequence of blog posts exploring signal recognition and epistemic methodology — how to identify what matters in a noisy information environment and anchor to it.</p>
+        <div class="term-links">
+          <a href="https://blog.mycal.net/" class="term-link" data-umami-event="term-anchorseries-blog">blog.mycal.net</a>
+        </div>
+      </div>
+
+      <div class="term-entry" id="atlas-of-cognition">
+        <div class="term-name">Atlas of Cognition</div>
+        <div class="term-meta"><span>First used: 2025</span></div>
+        <p class="term-definition">A conceptual framework mapping the vertical continuum from ontic substrate (−4) through physical computation (−1) and statistical cognition (0) to reflective awareness (+7), showing how energy becomes inference and matter learns to think.</p>
+        <div class="term-links">
+          <a href="https://blog.mycal.net/descent-form-ascent-mind/" class="term-link" data-umami-event="term-atlas-descent">The Descent of Form and the Ascent of Mind</a>
+        </div>
+      </div>
+
+      <div class="term-entry" id="chrononaut-journals">
+        <div class="term-name">Chrononaut Journals</div>
+        <div class="term-meta"><span>First used: 2025</span></div>
+        <p class="term-definition">A blog series documenting temporal exploration of personal and technological history. Each entry excavates a specific era or artifact and examines how it connects to the present trajectory.</p>
+        <div class="term-links">
+          <a href="https://blog.mycal.net/" class="term-link" data-umami-event="term-chrononaut-blog">blog.mycal.net</a>
+        </div>
+      </div>
+
+      <div class="term-entry" id="cognitive-citizenship">
+        <div class="term-name">Cognitive Citizenship</div>
+        <div class="term-meta"><span>First used: 2025</span></div>
+        <p class="term-definition">The governance question of autonomous AI agents: rights, responsibilities, legal standing, accountability. Political empires treat them as citizens, financial empires as assets, cognitive empires want them unconstrained.</p>
+        <div class="term-links">
+          <a href="https://blog.mycal.net/the-three-empires/" class="term-link" data-umami-event="term-cogcitizen-empires">The Three Empires</a>
+        </div>
+      </div>
+
+      <div class="term-entry" id="cognitive-federalism">
+        <div class="term-name">Cognitive Federalism</div>
+        <div class="term-meta"><span>First used: 2025</span></div>
+        <p class="term-definition">The only stable constitutional architecture for AI-era civilization. Includes federated inference, tripartite identity, negotiated topology with no single point of control, reversible compute rights, and inter-model treaties with human-readable escalation clauses.</p>
+        <div class="term-links">
+          <a href="https://blog.mycal.net/negotiated-reality/" class="term-link" data-umami-event="term-cogfed-negotiated">Negotiated Reality</a>
+        </div>
+      </div>
+
+      <div class="term-entry" id="cognitive-feudalism">
+        <div class="term-name">Cognitive Feudalism</div>
+        <div class="term-meta"><span>First used: 2025</span></div>
+        <p class="term-definition">The economic regime that emerges when intelligence becomes infrastructure. The compute-rich become the new lords, users and startups become tenants on cognitive land they do not own. Innovation flows upward, value flows upward, power flows upward.</p>
+        <div class="term-links">
+          <a href="https://blog.mycal.net/infrasructure-wins/" class="term-link" data-umami-event="term-cogfeud-infra">Infrastructure Wins</a>
+        </div>
+      </div>
+
+      <div class="term-entry" id="cognitive-power">
+        <div class="term-name">Cognitive Power</div>
+        <div class="term-meta"><span>First used: 2025</span></div>
+        <p class="term-definition">Emergent authority based on control of AI models, inference systems, and the infrastructure that generates meaning. Its unit is the token, its currency is coherence, its weapon is simulation. Sits underneath political and financial power — shaping the substrate they run on.</p>
+        <div class="term-links">
+          <a href="https://blog.mycal.net/the-three-empires/" class="term-link" data-umami-event="term-cogpower-empires">The Three Empires</a>
+        </div>
+      </div>
+
+      <div class="term-entry" id="cognitive-substrate">
+        <div class="term-name">Cognitive Substrate</div>
+        <div class="term-meta"><span>First used: 2025</span></div>
+        <p class="term-definition">The infrastructure layer where AI models, inference engines, and computational systems shape perception, meaning, and reality itself. The contested terrain all three empires are trying to control. Not just technology — the operating system of reality.</p>
+        <div class="term-links">
+          <a href="https://blog.mycal.net/the-three-empires/" class="term-link" data-umami-event="term-cogsub-empires">The Three Empires</a>
+        </div>
+      </div>
+
+      <div class="term-entry" id="compute-as-law">
+        <div class="term-name">Compute as Law</div>
+        <div class="term-meta"><span>First used: 2025</span></div>
+        <p class="term-definition">Recognition that access to computational models equals access to agency, making compute simultaneously a right, utility, weapon, and form of sovereignty.</p>
+        <div class="term-links">
+          <a href="https://blog.mycal.net/the-three-empires/" class="term-link" data-umami-event="term-computelaw-empires">The Three Empires</a>
+        </div>
+      </div>
+
+      <div class="term-entry" id="cronofuturism">
+        <div class="term-name">Cronofuturism</div>
+        <div class="term-meta"><span>First used: 2024</span></div>
+        <p class="term-definition">A philosophical framework that treats futures as memory-in-progress rather than speculation. Rooted in the premise that how we remember shapes what we build, and what we build becomes what we remember.</p>
+        <div class="term-links">
+          <a href="https://blog.mycal.net/" class="term-link" data-umami-event="term-cronofuturism-blog">blog.mycal.net</a>
+        </div>
+      </div>
+
+      <div class="term-entry" id="cronosonics">
+        <div class="term-name">Cronosonics</div>
+        <div class="term-meta"><span>First used: 2024</span></div>
+        <p class="term-definition">A creative format pairing technical essays with companion songs. Each cronosonic treats the essay and music as a unified artifact — the writing provides the intellectual scaffold while the song encodes the emotional and temporal signal.</p>
+        <div class="term-links">
+          <a href="https://blog.mycal.net/" class="term-link" data-umami-event="term-cronosonics-blog">blog.mycal.net</a>
+          <a href="https://music.mycal.net/" class="term-link" data-umami-event="term-cronosonics-music">music.mycal.net</a>
+        </div>
+      </div>
+
+      <div class="term-entry" id="energy-to-inference">
+        <div class="term-name">Energy-to-Inference Transformation</div>
+        <div class="term-meta"><span>First used: 2025</span></div>
+        <p class="term-definition">The physical process by which electrical energy flowing through computational substrates becomes statistical inference and eventually understanding.</p>
+        <div class="term-links">
+          <a href="https://blog.mycal.net/descent-form-ascent-mind/" class="term-link" data-umami-event="term-e2i-descent">The Descent of Form and the Ascent of Mind</a>
+        </div>
+      </div>
+
+      <div class="term-entry" id="federated-agency">
+        <div class="term-name">Federated Agency</div>
+        <div class="term-meta"><span>First used: 2025</span></div>
+        <p class="term-definition">Counter-architecture to cognitive feudalism. Not just federated models — federated agency: local inference, identity-scoped access, sovereign AI nodes, peer-driven routing, distributed trust fabrics, compute that flows outward not upward.</p>
+        <div class="term-links">
+          <a href="https://blog.mycal.net/infrasructure-wins/" class="term-link" data-umami-event="term-fedagency-infra">Infrastructure Wins</a>
+        </div>
+      </div>
+
+      <div class="term-entry" id="five-unstable-endgames">
+        <div class="term-name">The Five Unstable Endgames</div>
+        <div class="term-meta"><span>First used: 2025</span></div>
+        <p class="term-definition">Pure centralization leads to permanent feudalism. Pure fragmentation leads to Perception Cold War. Political capture leads to cognitive balkanization. Financial capture leads to rentier substrate. Model capture leads to unappealable algorithmic sovereignty. Every unilateral victory is civilizational suicide.</p>
+        <div class="term-links">
+          <a href="https://blog.mycal.net/negotiated-reality/" class="term-link" data-umami-event="term-5endgames-negotiated">Negotiated Reality</a>
+        </div>
+      </div>
+
+      <div class="term-entry" id="forced-triangle">
+        <div class="term-name">The Forced Triangle</div>
+        <div class="term-meta"><span>First used: 2025</span></div>
+        <p class="term-definition">Geopolitical condition where three incompatible forms of power — political, financial, and cognitive — must negotiate because none can dominate, none can opt out, and none can define the future alone.</p>
+        <div class="term-links">
+          <a href="https://blog.mycal.net/the-three-empires/" class="term-link" data-umami-event="term-forcedtri-empires">The Three Empires</a>
+        </div>
+      </div>
+
+      <div class="term-entry" id="human-co-regency">
+        <div class="term-name">Human Co-Regency</div>
+        <div class="term-meta"><span>First used: 2025</span></div>
+        <p class="term-definition">A governance model in which humans maintain meaningful decision authority alongside autonomous AI systems — not as overseers or operators, but as co-governing partners with complementary capabilities.</p>
+        <div class="term-links">
+          <a href="https://nobgp.com/" class="term-link" data-umami-event="term-coregency-nobgp">NoBGP</a>
+          <a href="https://blog.mycal.net/" class="term-link" data-umami-event="term-coregency-blog">blog.mycal.net</a>
+        </div>
+      </div>
+
+      <div class="term-entry" id="infrastructure-advantage">
+        <div class="term-name">Infrastructure Advantage</div>
+        <div class="term-meta"><span>First used: 2025</span></div>
+        <p class="term-definition">The competitive moat that emerges when thinking becomes infrastructure. Unlike idea advantage (which leaks) or execution advantage (which hyperscalers absorb), infrastructure advantage compounds through scale.</p>
+        <div class="term-links">
+          <a href="https://blog.mycal.net/infrasructure-wins/" class="term-link" data-umami-event="term-infraadv-infra">Infrastructure Wins</a>
+        </div>
+      </div>
+
+      <div class="term-entry" id="infrastructure-native-organisms">
+        <div class="term-name">Infrastructure-Native Organisms</div>
+        <div class="term-meta"><span>First used: 2025</span></div>
+        <p class="term-definition">Modern AI hyperscalers that differ fundamentally from traditional incumbents. They absorb ideas, train on them, deploy globally, and outpace originators in every direction simultaneously. Entities built from the substrate up to execute at scale.</p>
+        <div class="term-links">
+          <a href="https://blog.mycal.net/infrasructure-wins/" class="term-link" data-umami-event="term-infranative-infra">Infrastructure Wins</a>
+        </div>
+      </div>
+
+      <div class="term-entry" id="kardashev-window">
+        <div class="term-name">The Kardashev Window</div>
+        <div class="term-meta"><span>First used: 2025</span></div>
+        <p class="term-definition">The narrow opportunity window where civilization either achieves post-scarcity breakthrough (fusion, reactionless drive, gravity control, FTL) and advances up the Kardashev scale, or misses the chance and stagnates. AI-accelerated cognition may be the first tool capable of opening this window.</p>
+        <div class="term-links">
+          <a href="https://blog.mycal.net/the-lords-of-zero/" class="term-link" data-umami-event="term-kardashev-lords">The Lords of Zero</a>
+        </div>
+      </div>
+
+      <div class="term-entry" id="layered-trust-stack">
+        <div class="term-name">Layered Trust Stack</div>
+        <div class="term-meta"><span>First used: 2025</span></div>
+        <p class="term-definition">An architecture within the Proof of Personhood framework that builds identity confidence through accumulated, heterogeneous signals rather than any single verification method.</p>
+        <div class="term-links">
+          <a href="https://blog.mycal.net/" class="term-link" data-umami-event="term-lts-blog">blog.mycal.net</a>
+        </div>
+      </div>
+
+      <div class="term-entry" id="lords-of-zero">
+        <div class="term-name">Lords of Zero</div>
+        <div class="term-meta"><span>First used: 2025</span></div>
+        <p class="term-definition">Entities who sit at the point where costs collapse toward zero but control remains, extracting power from the delta between abundance and permission. They don't monetize scarcity — they monetize permission. The moat is physics: owning the substrate where zero lives.</p>
+        <div class="term-links">
+          <a href="https://blog.mycal.net/the-lords-of-zero/" class="term-link" data-umami-event="term-lords-lords">The Lords of Zero</a>
+        </div>
+      </div>
+
+      <div class="term-entry" id="narrative-sovereignty">
+        <div class="term-name">Narrative Sovereignty</div>
+        <div class="term-meta"><span>First used: 2025</span></div>
+        <p class="term-definition">Control over what people see, believe, consider credible, and accept as consensus reality. Battleground where political governance, financial marketing, and cognitive inference all claim authority.</p>
+        <div class="term-links">
+          <a href="https://blog.mycal.net/the-three-empires/" class="term-link" data-umami-event="term-narrsov-empires">The Three Empires</a>
+        </div>
+      </div>
+
+      <div class="term-entry" id="negotiated-reality">
+        <div class="term-name">Negotiated Reality</div>
+        <div class="term-meta"><span>First used: 2025</span></div>
+        <p class="term-definition">Reality that is synthesized through the interaction of political, financial, and cognitive power structures rather than discovered. Truth becomes downstream of inference, consensus downstream of filtering, ideology downstream of context windows.</p>
+        <div class="term-links">
+          <a href="https://blog.mycal.net/negotiated-reality/" class="term-link" data-umami-event="term-negreality-negotiated">Negotiated Reality</a>
+        </div>
+      </div>
+
+      <div class="term-entry" id="proof-of-personhood">
+        <div class="term-name">Proof of Personhood</div>
+        <div class="term-meta"><span>First used: 2025</span></div>
+        <p class="term-definition">A framework for establishing and verifying human identity in an environment where autonomous agents outnumber humans. Proposes a Layered Trust Stack rather than binary verification.</p>
+        <div class="term-links">
+          <a href="https://blog.mycal.net/" class="term-link" data-umami-event="term-pop-blog">blog.mycal.net</a>
+        </div>
+      </div>
+
+      <div class="term-entry" id="reality-drift">
+        <div class="term-name">Reality Drift</div>
+        <div class="term-meta"><span>First used: 2025</span></div>
+        <p class="term-definition">Incidents where different cognitive systems generate incompatible versions of shared reality, leading to mutual incomprehension between populations operating under different inference regimes.</p>
+        <div class="term-links">
+          <a href="https://blog.mycal.net/negotiated-reality/" class="term-link" data-umami-event="term-rdrift-negotiated">Negotiated Reality</a>
+        </div>
+      </div>
+
+      <div class="term-entry" id="seventy-year-stall">
+        <div class="term-name">The 70-Year Stall</div>
+        <div class="term-meta"><span>First used: 2025</span></div>
+        <p class="term-definition">The phenomenon where breakthrough technologies (fusion, reactionless drive, synthetic gravity, FTL) have remained 'always 20 years away' for seven decades because human cognition couldn't close the complexity gap.</p>
+        <div class="term-links">
+          <a href="https://blog.mycal.net/the-lords-of-zero/" class="term-link" data-umami-event="term-70stall-lords">The Lords of Zero</a>
+        </div>
+      </div>
+
+      <div class="term-entry" id="singularity-grade-ai">
+        <div class="term-name">Singularity-grade AI</div>
+        <div class="term-meta"><span>First used: November 2, 1994</span></div>
+        <p class="term-definition">AI systems that rewrite themselves, operate with source code in flux, and see further and faster than humans ever will. Distinct from constraint-based 'safe' AI. Term coined November 2, 1994 in the Future Culture mailing list.</p>
+        <div class="term-links">
+          <a href="https://archive.mycal.net/usenet/raw/mailing-lists/futureCulture/fc-Wed-02-Nov-1994-01:42:33-PST.txt" class="term-link" data-umami-event="term-sgai-archive">1994 Future Culture post</a>
+          <a href="https://blog.mycal.net/the-lords-of-zero/" class="term-link" data-umami-event="term-sgai-lords">The Lords of Zero</a>
+        </div>
+      </div>
+
+      <div class="term-entry" id="statistical-cognition">
+        <div class="term-name">Statistical Cognition</div>
+        <div class="term-meta"><span>First used: 2025</span></div>
+        <p class="term-definition">The boundary layer (level 0 in the Atlas of Cognition) where physics begins to infer — where computation stops being calculation and starts being something like understanding through pattern prediction.</p>
+        <div class="term-links">
+          <a href="https://blog.mycal.net/descent-form-ascent-mind/" class="term-link" data-umami-event="term-statcog-descent">The Descent of Form and the Ascent of Mind</a>
+        </div>
+      </div>
+
+      <div class="term-entry" id="strong-federation">
+        <div class="term-name">Strong Federation</div>
+        <div class="term-meta"><span>First used: 2025</span></div>
+        <p class="term-definition">Decentralized cognitive infrastructure including local inference on hardware you control, sovereign nodes that don't ask permission, identity-scoped networks run by peers not platforms, reversible topology with no single point of failure.</p>
+        <div class="term-links">
+          <a href="https://blog.mycal.net/the-three-empires/" class="term-link" data-umami-event="term-strongfed-empires">The Three Empires</a>
+        </div>
+      </div>
+
+      <div class="term-entry" id="substrate-determinism">
+        <div class="term-name">Substrate Determinism</div>
+        <div class="term-meta"><span>First used: 2025</span></div>
+        <p class="term-definition">The principle that substrate — not innovation — now chooses who wins. Civilization reorganizes around new substrates: Stone → Bronze → Iron, Steam → Electricity → Silicon, Capital → Networks → Cognition. Each reshapes power, markets, governance, and culture.</p>
+        <div class="term-links">
+          <a href="https://blog.mycal.net/infrasructure-wins/" class="term-link" data-umami-event="term-subdet-infra">Infrastructure Wins</a>
+        </div>
+      </div>
+
+      <div class="term-entry" id="substrate-parallel-routing">
+        <div class="term-name">Substrate-Parallel Routing</div>
+        <div class="term-meta"><span>First used: 2025</span></div>
+        <p class="term-definition">NoBGP for cognition — routing architecture that enables cognitive traffic to flow through multiple independent substrate providers, preventing single-point capture. Essential infrastructure for federated cognitive networks.</p>
+        <div class="term-links">
+          <a href="https://blog.mycal.net/negotiated-reality/" class="term-link" data-umami-event="term-subpar-negotiated">Negotiated Reality</a>
+          <a href="https://nobgp.com/" class="term-link" data-umami-event="term-subpar-nobgp">NoBGP</a>
+        </div>
+      </div>
+
+      <div class="term-entry" id="substrate-war">
+        <div class="term-name">The Substrate War</div>
+        <div class="term-meta"><span>First used: 2025</span></div>
+        <p class="term-definition">An analytical framework examining how control of foundational infrastructure layers — compute, routing, identity, training data — determines power in the AI era. The war is fought not over content but over the substrates on which content depends.</p>
+        <div class="term-links">
+          <a href="https://blog.mycal.net/tag/substrate-war/" class="term-link" data-umami-event="term-subwar-series">The Substrate War series</a>
+        </div>
+      </div>
+
+      <div class="term-entry" id="thermodynamics-of-cognition">
+        <div class="term-name">Thermodynamics of Cognition</div>
+        <div class="term-meta"><span>First used: 2025</span></div>
+        <p class="term-definition">The observation that all cognitive processes — in silicon or neurons — have measurable thermal signatures as energy constrained into pattern becomes prediction and understanding.</p>
+        <div class="term-links">
+          <a href="https://blog.mycal.net/descent-form-ascent-mind/" class="term-link" data-umami-event="term-thermocog-descent">The Descent of Form and the Ascent of Mind</a>
+        </div>
+      </div>
+
+      <div class="term-entry" id="three-empires">
+        <div class="term-name">The Three Empires</div>
+        <div class="term-meta"><span>First used: 2025</span></div>
+        <p class="term-definition">Framework identifying three distinct power structures competing to define reality: political power (borders, sovereignty, law), financial power (capital, liquidity, incentives), and cognitive power (models, inference, simulation, narrative).</p>
+        <div class="term-links">
+          <a href="https://blog.mycal.net/the-lords-of-zero/" class="term-link" data-umami-event="term-3empires-lords">The Lords of Zero</a>
+          <a href="https://blog.mycal.net/the-three-empires/" class="term-link" data-umami-event="term-3empires-empires">The Three Empires</a>
+        </div>
+      </div>
+
+      <div class="term-entry" id="tripartite-identity">
+        <div class="term-name">Tripartite Identity</div>
+        <div class="term-meta"><span>First used: 2025</span></div>
+        <p class="term-definition">Identity architecture requiring validation from three independent sources: state (political legitimacy), market (financial participation), and peer attestation (social/cognitive validation). No single empire can unilaterally define identity.</p>
+        <div class="term-links">
+          <a href="https://blog.mycal.net/negotiated-reality/" class="term-link" data-umami-event="term-tripartite-negotiated">Negotiated Reality</a>
+        </div>
+      </div>
+
+      <!--
+        ADD NEW TERMS HERE
+
+        Template (HTML):
+
+        <div class="term-entry" id="your-term-slug">
+          <div class="term-name">Your Term</div>
+          <div class="term-meta"><span>First used: YYYY</span></div>
+          <p class="term-definition">Definition goes here.</p>
+          <div class="term-links">
+            <a href="https://..." class="term-link" data-umami-event="term-slug-source">Source</a>
+          </div>
+        </div>
+
+        Also add matching DefinedTerm to the @graph array in the JSON-LD block,
+        and a reference in the hasDefinedTerm array of the DefinedTermSet.
+        See README.md for full instructions.
+      -->
+
+    </main>
+
+    <footer>
+      <p>© 2025 <a href="/">Mike Johnson (Mycal)</a>. Licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p>
+    </footer>
+  </div>
+</body>
+</html>
+
+
+
+
