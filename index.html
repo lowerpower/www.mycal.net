@@ -9,7 +9,9 @@
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="shortcut icon" href="/favicon.ico">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  
+ 
+  <script defer src="https://analytics.mycal.net/script.js" data-website-id="cd13ff4f-ac2e-4f4e-ad21-2ae1a2f83595"></script>
+ 
   <style>
     * {
       margin: 0;
@@ -139,232 +141,236 @@
     }
   </style>
 
-<!-- WebSite Entity -->
+<!-- Identity Graph — www.mycal.net -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "WebSite",
-  "@id": "https://www.mycal.net/#website",
-  "url": "https://www.mycal.net/",
-  "name": "Mycal.net",
-  "alternateName": "Mike Johnson (Mycal) - Official Site",
-  "description": "Official site for Mike Johnson (Mycal) - chronofuturist, technologist, musician, and long-time Burner. Links to music, blog, archive, and technical projects.",
-  "publisher": {
-    "@type": "Person",
-    "@id": "https://blog.mycal.net/about/#mycal"
-  },
-  "inLanguage": "en-US",
-  "copyrightYear": 2025,
-  "copyrightHolder": {
-    "@type": "Person",
-    "@id": "https://blog.mycal.net/about/#mycal"
-  }
-}
-</script>
-
-<!-- Person Entity - CANONICAL VERSION -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "@id": "https://blog.mycal.net/about/#mycal",
-  "identifier": {
-    "@type": "PropertyValue",
-    "propertyID": "canonical-uuid",
-    "value": "urn:uuid:4ff7ed97-b78f-4ae6-9011-5af714ee241c"
-  },
-  "name": "Mike Johnson",
-  "givenName": "Michael",
-  "familyName": "Johnson",
-  "alternateName": ["Mycal", "Mike", "マイカル", "mycal"],
-  "url": "https://www.mycal.net/",
-  "image": {
-    "@type": "ImageObject",
-    "url": "https://music.mycal.net/assets/img/album/ashes-and-echoes-cover.jpg",
-    "caption": "Mike Johnson (Mycal)"
-  },
-  "jobTitle": [
-    "Cronofuturist",
-    "Chief Technology Officer",
-    "Founder and Architect",
-    "Musician"
-  ],
-  "description": "Cronofuturist, technologist, and musician creating folk-electronic fusion inspired by Burning Man and Black Rock City. Long-time Burner and member of Reared in Steel fire art collective. CTO of Remote.it and Founder/Architect of NoBGP Inc. Treats futures as memory-in-progress, building AI-programmable infrastructure and documenting 40+ years of technical lineage.",
-  "knowsAbout": [
-    "Cronofuturism",
-    "AI-programmable infrastructure",
-    "Internet protocols",
-    "Burning Man culture",
-    "Fire art",
-    "Folk-electronic music",
-    "Network architecture",
-    "Technical history preservation",
-    "Cognitive retention systems",
-    "Temporal philosophy"
-  ],
-  "genre": [
-    "Folk",
-    "Electronic",
-    "Experimental",
-    "Burning Man",
-    "Playa Music",
-    "Cinematic Electronic"
-  ],
-  "hasOccupation": [
+  "@graph": [
     {
-      "@type": "Occupation",
-      "name": "Cronofuturist",
-      "description": "Treating futures as memory-in-progress through temporal philosophy and cognitive retention systems",
-      "occupationalCategory": "Philosophy and Technology"
+      "@type": "Person",
+      "@id": "https://blog.mycal.net/about/#mycal",
+      "name": "Mike Johnson",
+      "givenName": "Michael",
+      "familyName": "Johnson",
+      "alternateName": ["Mycal", "Mike", "マイカル", "mycal"],
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "canonical-uuid",
+          "value": "urn:uuid:4ff7ed97-b78f-4ae6-9011-5af714ee241c"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "AnchorID",
+          "value": "https://anchorid.net/resolve/4ff7ed97-b78f-4ae6-9011-5af714ee241c"
+        }
+      ],
+      "url": "https://www.mycal.net/",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://music.mycal.net/assets/img/album/ashes-and-echoes-cover.jpg",
+        "caption": "Mike Johnson (Mycal)"
+      },
+      "jobTitle": [
+        "Cronofuturist",
+        "Chief Technology Officer",
+        "Founder and Architect",
+        "Musician"
+      ],
+      "description": "Cronofuturist, technologist, and musician creating folk-electronic fusion inspired by Burning Man and Black Rock City. Long-time Burner and member of Reared in Steel fire art collective. CTO of Remote.it and Founder/Architect of NoBGP Inc. Treats futures as memory-in-progress, building AI-programmable infrastructure and documenting 40+ years of technical lineage.",
+      "knowsAbout": [
+        "Cronofuturism",
+        "AI-programmable infrastructure",
+        "Internet protocols",
+        "Burning Man culture",
+        "Fire art",
+        "Folk-electronic music",
+        "Network architecture",
+        "Technical history preservation",
+        "Cognitive retention systems",
+        "Temporal philosophy"
+      ],
+      "genre": [
+        "Folk",
+        "Electronic",
+        "Experimental",
+        "Burning Man",
+        "Playa Music",
+        "Cinematic Electronic"
+      ],
+      "hasOccupation": [
+        {
+          "@type": "Occupation",
+          "name": "Cronofuturist",
+          "description": "Treating futures as memory-in-progress through temporal philosophy and cognitive retention systems",
+          "occupationalCategory": "Philosophy and Technology"
+        },
+        {
+          "@type": "Occupation",
+          "name": "Chief Technology Officer",
+          "occupationalCategory": "Computer and Information Technology",
+          "occupationLocation": {
+            "@type": "Organization",
+            "@id": "https://remote.it/#organization"
+          }
+        },
+        {
+          "@type": "Occupation",
+          "name": "Musician",
+          "occupationalCategory": "Arts and Entertainment",
+          "occupationLocation": {
+            "@type": "Place",
+            "name": "Black Rock City"
+          }
+        }
+      ],
+      "worksFor": [
+        {
+          "@type": "Organization",
+          "@id": "https://remote.it/#organization",
+          "name": "Remote.it",
+          "url": "https://remote.it"
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://nobgp.com/#organization",
+          "name": "NoBGP Inc.",
+          "url": "https://nobgp.com",
+          "founder": { "@id": "https://blog.mycal.net/about/#mycal" },
+          "foundingDate": "2024",
+          "description": "AI-programmable infrastructure platform"
+        }
+      ],
+      "memberOf": [
+        {
+          "@type": "Organization",
+          "@id": "https://music.mycal.net/#reared-in-steel",
+          "name": "Reared in Steel",
+          "description": "Burning Man fire art collective specializing in large-scale fire installations"
+        }
+      ],
+      "publishedBy": [
+        {
+          "@type": "Organization",
+          "@id": "https://music.mycal.net/#mycal-music",
+          "name": "Mycal Music"
+        }
+      ],
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "California State University, Chico",
+        "sameAs": "https://www.csuchico.edu/"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Petaluma",
+        "addressRegion": "CA",
+        "addressCountry": "US"
+      },
+      "sameAs": [
+        "https://anchorid.net/resolve/4ff7ed97-b78f-4ae6-9011-5af714ee241c",
+        "https://www.mycal.net",
+        "https://music.mycal.net",
+        "https://blog.mycal.net",
+        "https://archive.mycal.net",
+        "https://www.group42.net",
+        "https://github.com/lowerpower",
+        "https://github.com/lowerpower/music.mycal.net",
+        "https://lowerpower.github.io/music.mycal.net/",
+        "https://www.linkedin.com/in/mycal/",
+        "https://x.com/mycal_1",
+        "https://mycalmusic.bandcamp.com/",
+        "https://open.spotify.com/artist/5HgUqmIzyL8nF0jS1jSTeB",
+        "https://music.apple.com/us/artist/mycal/1830794420",
+        "https://www.pandora.com/artist/mycal/AR5Ktb2xXcgKm4X",
+        "https://music.amazon.com/artists/B003GMIO2A/mycal",
+        "https://music.youtube.com/channel/UCM7dxY_VuZh7aDYYO66yd9A",
+        "https://www.facebook.com/mycalmusic/",
+        "https://www.instagram.com/mycal.music/",
+        "https://www.tiktok.com/@mycal.music"
+      ],
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.mycal.net/"
+      },
+      "subjectOf": [
+        {
+          "@type": "WebSite",
+          "@id": "https://blog.mycal.net/#website",
+          "name": "blog.mycal.net",
+          "description": "Technical essays, cultural analysis, and cronofuturist philosophy"
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://archive.mycal.net/#website",
+          "name": "archive.mycal.net",
+          "description": "Historical artifacts and technical lineage from 1977-present"
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://music.mycal.net/#website",
+          "name": "music.mycal.net",
+          "description": "Albums and songs from Black Rock City and the playa"
+        }
+      ]
     },
     {
-      "@type": "Occupation",
-      "name": "Chief Technology Officer",
-      "occupationalCategory": "Computer and Information Technology",
-      "occupationLocation": {
-        "@type": "Organization",
-        "@id": "https://remote.it/#organization"
-      }
+      "@type": "Organization",
+      "@id": "https://blog.mycal.net/#publisher",
+      "name": "Mycal Labs",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "canonical-uuid",
+          "value": "urn:uuid:bbf7372e-87d3-4098-8e60-f4e24d027a04"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "AnchorID",
+          "value": "https://anchorid.net/resolve/bbf7372e-87d3-4098-8e60-f4e24d027a04"
+        }
+      ],
+      "url": "https://blog.mycal.net/",
+      "founder": { "@id": "https://blog.mycal.net/about/#mycal" },
+      "sameAs": [
+        "https://anchorid.net/resolve/bbf7372e-87d3-4098-8e60-f4e24d027a04"
+      ]
     },
-    {
-      "@type": "Occupation",
-      "name": "Musician",
-      "occupationalCategory": "Arts and Entertainment",
-      "occupationLocation": {
-        "@type": "Place",
-        "name": "Black Rock City"
-      }
-    }
-  ],
-  "worksFor": [
-    {
-      "@type": "Organization",
-      "@id": "https://remote.it/#organization",
-      "name": "Remote.it",
-      "url": "https://remote.it"
-    },
-    {
-      "@type": "Organization",
-      "@id": "https://nobgp.com/#organization",
-      "name": "NoBGP Inc.",
-      "url": "https://nobgp.com",
-      "founder": {"@id": "https://blog.mycal.net/about/#mycal"},
-      "foundingDate": "2024",
-      "description": "AI-programmable infrastructure platform"
-    }
-  ],
-  "memberOf": [
-    {
-      "@type": "Organization",
-      "@id": "https://music.mycal.net/#reared-in-steel",
-      "name": "Reared in Steel",
-      "description": "Burning Man fire art collective specializing in large-scale fire installations"
-    }
-  ],
-  "publishedBy": [
-    {
-      "@type": "Organization",
-      "@id": "https://music.mycal.net/#mycal-music",
-      "name": "Mycal Music"
-    }
-  ],
-  "performerIn": {
-    "@type": "Event",
-    "@id": "https://music.mycal.net/#burning-man-event",
-    "name": "Burning Man",
-    "description": "Annual Black Rock City gatherings, fire art performances and installations"
-  },
-  "alumniOf": {
-    "@type": "CollegeOrUniversity",
-    "name": "Various technical institutions and self-directed learning since 1980s"
-  },
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Petaluma",
-    "addressRegion": "CA",
-    "addressCountry": "US"
-  },
-  "sameAs": [
-    "https://www.mycal.net",
-    "https://music.mycal.net",
-    "https://blog.mycal.net",
-    "https://archive.mycal.net",
-    "https://www.group42.net",
-    "https://github.com/lowerpower",
-    "https://github.com/lowerpower/music.mycal.net",
-    "https://lowerpower.github.io/music.mycal.net/",
-    "https://www.linkedin.com/in/mycal/",
-    "https://x.com/mycal_1",
-    "https://mycalmusic.bandcamp.com/",
-    "https://open.spotify.com/artist/5HgUqmIzyL8nF0jS1jSTeB",
-    "https://music.apple.com/us/artist/mycal/1830794420",
-    "https://www.pandora.com/artist/mycal/AR5Ktb2xXcgKm4X",
-    "https://music.amazon.com/artists/B003GMIO2A/mycal",
-    "https://music.youtube.com/channel/UCM7dxY_VuZh7aDYYO66yd9A",
-    "https://www.facebook.com/mycalmusic/",
-    "https://www.instagram.com/mycal.music/",
-    "https://www.tiktok.com/@mycal.music"
-  ],
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://www.mycal.net/"
-  },
-  "subjectOf": [
     {
       "@type": "WebSite",
-      "@id": "https://blog.mycal.net/#website",
-      "name": "blog.mycal.net",
-      "description": "Technical essays, cultural analysis, and cronofuturist philosophy"
+      "@id": "https://www.mycal.net/#website",
+      "url": "https://www.mycal.net/",
+      "name": "Mycal.net",
+      "alternateName": "Mike Johnson (Mycal) - Official Site",
+      "description": "Official site for Mike Johnson (Mycal) - cronofuturist, technologist, musician, and long-time Burner. Links to music, blog, archive, and technical projects.",
+      "publisher": { "@id": "https://blog.mycal.net/#publisher" },
+      "mainEntity": { "@id": "https://blog.mycal.net/about/#mycal" },
+      "inLanguage": "en-US",
+      "copyrightYear": 2025,
+      "copyrightHolder": { "@id": "https://blog.mycal.net/about/#mycal" }
     },
     {
-      "@type": "WebSite",
-      "@id": "https://archive.mycal.net/#website",
-      "name": "archive.mycal.net",
-      "description": "Historical artifacts and technical lineage from 1977-present"
+      "@type": "ProfilePage",
+      "@id": "https://www.mycal.net/#profilepage",
+      "name": "Mike Johnson (Mycal) - Official Profile",
+      "url": "https://www.mycal.net/",
+      "mainEntity": { "@id": "https://blog.mycal.net/about/#mycal" },
+      "description": "Central hub for Mike Johnson (Mycal) - cronofuturist, technologist, musician, and long-time Burner",
+      "publisher": { "@id": "https://blog.mycal.net/#publisher" },
+      "dateCreated": "2025-12-14T00:00:00-08:00",
+      "dateModified": "2026-02-22T00:00:00-08:00",
+      "inLanguage": "en-US"
     },
     {
-      "@type": "WebSite",
-      "@id": "https://music.mycal.net/#website",
-      "name": "music.mycal.net",
-      "description": "Albums and songs from Black Rock City and the playa"
-    }
-  ]
-}
-</script>
-
-<!-- ProfilePage -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ProfilePage",
-  "name": "Mike Johnson (Mycal) - Official Profile",
-  "url": "https://www.mycal.net/",
-  "mainEntity": {
-    "@type": "Person",
-    "@id": "https://blog.mycal.net/about/#mycal"
-  },
-  "description": "Central hub for Mike Johnson (Mycal) - cronofuturist, technologist, musician, and long-time Burner",
-  "publisher": {
-    "@type": "Person",
-    "@id": "https://blog.mycal.net/about/#mycal"
-  },
-  "dateCreated": "2025-12-14",
-  "dateModified": "2025-12-14",
-  "inLanguage": "en-US"
-}
-</script>
-
-<!-- BreadcrumbList -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "https://www.mycal.net/"
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.mycal.net/"
+        }
+      ]
     }
   ]
 }
@@ -375,7 +381,7 @@
   <div class="container">
     <header>
       <h1>Mike Johnson (Mycal)</h1>
-      <p class="subtitle">Cronofuturist • Technologist • Musician • Long-time Burner</p>
+      <p class="subtitle">Cronofuturist • Technologist • Musician • Burner</p>
       <p class="bio">
         Building AI-programmable infrastructure, creating folk-electronic fusion from the playa, 
         and documenting 40+ years of technical lineage. Based in Petaluma, CA.
@@ -384,37 +390,43 @@
 
     <main>
       <div class="links">
-        <a href="https://music.mycal.net/" class="link-card">
+        <a href="https://music.mycal.net/" class="link-card" data-umami-event="click-music">
           <span class="icon">🎵</span>
           <h2>music.mycal.net</h2>
           <p>Albums from Black Rock City. Folk x Fire x Electronic for art cars, sunrise sets, and Temple nights.</p>
         </a>
 
-        <a href="https://blog.mycal.net/" class="link-card">
+        <a href="https://blog.mycal.net/" class="link-card" data-umami-event="click-blog">
           <span class="icon">📝</span>
           <h2>blog.mycal.net</h2>
           <p>Tinkering with time, tech, and culture. Essays on cronofuturism, AI infrastructure, and Burning Man philosophy.</p>
         </a>
 
-        <a href="https://archive.mycal.net/" class="link-card">
+        <a href="/terms/" class="link-card" data-umami-event="click-terms">
+          <span class="icon">🔤</span>
+          <h2>Mycal Terms</h2>
+          <p>A lexicon of original concepts — Cronofuturism, Cronosonics, the Substrate War, and more. Definitions, origins, and linked works.</p>
+        </a>
+
+        <a href="https://archive.mycal.net/" class="link-card" data-umami-event="click-archive">
           <span class="icon">🏛️</span>
           <h2>archive.mycal.net</h2>
           <p>Historical artifacts and technical lineage. PPP code, Group42 CD-ROMs, early internet infrastructure, 1977-present.</p>
         </a>
 
-        <a href="https://nobgp.com/" class="link-card">
+        <a href="https://nobgp.com/" class="link-card" data-umami-event="click-nobgp">
           <span class="icon">🔧</span>
           <h2>NoBGP Inc.</h2>
           <p>AI-programmable infrastructure. Founder and Architect building the next generation of network systems.</p>
         </a>
 
-        <a href="https://remote.it/" class="link-card">
+        <a href="https://remote.it/" class="link-card" data-umami-event="click-remoteit">
           <span class="icon">💼</span>
           <h2>Remote.it</h2>
           <p>Chief Technology Officer. Secure remote access and connectivity infrastructure.</p>
         </a>
 
-        <a href="https://www.instagram.com/rearedinsteel/" class="link-card">
+        <a href="https://www.instagram.com/rearedinsteel/" class="link-card" data-umami-event="click-rearedinsteel">
           <span class="icon">🔥</span>
           <h2>Reared in Steel</h2>
           <p>Burning Man fire art collective. Large-scale metal fabrication and flame installations at 9:00 & A.</p>
@@ -422,14 +434,14 @@
       </div>
 
       <div class="social-links">
-        <a href="https://github.com/lowerpower" class="social-link">GitHub</a>
-        <a href="https://www.linkedin.com/in/mycal/" class="social-link">LinkedIn</a>
-        <a href="https://x.com/mycal_1" class="social-link">X/Twitter</a>
-        <a href="https://www.instagram.com/mycal.music/" class="social-link">Instagram</a>
-        <a href="https://www.youtube.com/@mycalmusicofficial" class="social-link">YouTube</a>
-        <a href="https://mycalmusic.bandcamp.com/" class="social-link">Bandcamp</a>
-        <a href="https://www.facebook.com/mycalmusic/" class="social-link">Facebook</a>
-        <a href="https://www.tiktok.com/@mycal.music" class="social-link">TikTok</a>
+        <a href="https://github.com/lowerpower" class="social-link" data-umami-event="social-github">GitHub</a>
+        <a href="https://www.linkedin.com/in/mycal/" class="social-link" data-umami-event="social-linkedin">LinkedIn</a>
+        <a href="https://x.com/mycal_1" class="social-link" data-umami-event="social-twitter">X/Twitter</a>
+        <a href="https://www.instagram.com/mycal.music/" class="social-link" data-umami-event="social-instagram">Instagram</a>
+        <a href="https://www.youtube.com/@mycalmusicofficial" class="social-link" data-umami-event="social-youtube">YouTube</a>
+        <a href="https://mycalmusic.bandcamp.com/" class="social-link" data-umami-event="social-bandcamp">Bandcamp</a>
+        <a href="https://www.facebook.com/mycalmusic/" class="social-link" data-umami-event="social-facebook">Facebook</a>
+        <a href="https://www.tiktok.com/@mycal.music" class="social-link" data-umami-event="social-tiktok">TikTok</a>
       </div>
     </main>
 
