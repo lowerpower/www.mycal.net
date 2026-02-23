@@ -10,13 +10,15 @@ The JSON-LD uses a single `@graph` array containing the identity graph (Person, 
 
 Terms are listed **alphabetically** in both the HTML and the `hasDefinedTerm` array.
 
-## Current Term Count: 36
+## Current Term Count: 55
 
-## Adding a New Term
+## Generator Script
 
-Every new term requires updates in **three places** within `index.html`:
+`generate_terms.py` in the repo root can regenerate `index.html` from its internal terms list. To add a term via the script, add a dict to the `TERMS` list (alphabetical position) and re-run. The script ensures perfect consistency between JSON-LD and HTML.
 
-### 1. JSON-LD DefinedTerm (add to `@graph` array)
+To add a term manually, update **three places** in `index.html`:
+
+### 1. JSON-LD DefinedTerm (add to `@graph` array, alphabetical)
 
 ```json
 {
@@ -33,13 +35,11 @@ Every new term requires updates in **three places** within `index.html`:
 }
 ```
 
-### 2. JSON-LD reference (add to `hasDefinedTerm` array in DefinedTermSet)
+### 2. JSON-LD reference (add to `hasDefinedTerm` array, alphabetical)
 
 ```json
 { "@id": "https://www.mycal.net/terms/#your-term-slug" }
 ```
-
-Insert alphabetically within the array.
 
 ### 3. HTML entry (add in `<main>`, alphabetical position)
 
@@ -49,7 +49,7 @@ Insert alphabetically within the array.
   <div class="term-meta"><span>First used: YYYY</span></div>
   <p class="term-definition">Definition goes here. Must match JSON-LD description exactly.</p>
   <div class="term-links">
-    <a href="https://blog.mycal.net/post-slug/" class="term-link" data-umami-event="term-slug-source">Post Title</a>
+    <a href="https://blog.mycal.net/post-slug/" class="term-link" data-umami-event="term-slug-0">Post Title</a>
   </div>
 </div>
 ```
@@ -61,7 +61,7 @@ Insert alphabetically within the array.
 | HTML `id` | lowercase, hyphenated slug | `substrate-war` |
 | JSON-LD `@id` | `https://www.mycal.net/terms/#` + slug | `https://www.mycal.net/terms/#substrate-war` |
 | JSON-LD `termCode` | same as slug | `substrate-war` |
-| Umami event | `term-` + short slug + `-` + source | `term-subwar-series` |
+| Umami event | `term-` + slug + `-` + index | `term-substrate-war-0` |
 
 ## Checklist for Adding a Term
 
@@ -76,13 +76,7 @@ Insert alphabetically within the array.
 - [ ] `dateModified` updated on the `WebPage` object in `@graph`
 - [ ] At least one source link in `.term-links` pointing to originating work
 - [ ] Umami `data-umami-event` attribute on each link
-- [ ] Update term count in this README
-
-## Optional JSON-LD Properties
-
-- `sameAs` — URLs where this term is also defined (e.g., anchorid.net for AnchorID)
-- `isDefinedIn` — the specific CreativeWork where the term originated
-- `seeAlso` — related DefinedTerm references (used in blog post JSON-LD, optional here)
+- [ ] Update term count in this README and in the page intro text
 
 ## Identity Graph
 
@@ -109,11 +103,4 @@ The `@graph` includes canonical identity objects. **Do not modify these** — th
 - Source links: pill-style `.term-link` elements linking to originating work
 - HTML `definition` and JSON-LD `description` must be identical
 - Alphabetical ordering throughout — no grouping or categorization
-
-
-
-
-
-
-
-
+- The intro paragraph includes the term count — update it when adding terms
