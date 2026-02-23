@@ -1,0 +1,11 @@
+{
+  "name": "Complexity as Noise",
+  "date": "2026",
+  "description": "The phenomenon where system density becomes so high that complexity itself functions as a form of noise, making deterministic systems practically unpredictable. In transformers, billions of parameters create so many interacting pathways that microscopic differences act like atmospheric turbulence.",
+  "links": [
+    {
+      "url": "https://blog.mycal.net/never-twice-the-same-color/",
+      "label": "Never Twice the Same Color"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Cognitive Drift",
+  "date": "2026",
+  "description": "The analog equivalent of NTSC color drift applied to AI systems — the phenomenon where language model outputs vary across runs, contexts, and sampling conditions in ways that are bounded but not eliminable.",
+  "links": [
+    {
+      "url": "https://blog.mycal.net/why-benchmarks-fail/",
+      "label": "Why Benchmarks Fail"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Chrononaut Journals",
+  "date": "2025",
+  "description": "A blog series documenting temporal exploration of personal and technological history. Each entry excavates a specific era or artifact and examines how it connects to the present trajectory.",
+  "links": [
+    {
+      "url": "https://blog.mycal.net/",
+      "label": "blog.mycal.net"
+    }
+  ]
+}

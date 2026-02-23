@@ -1,0 +1,11 @@
+{
+  "name": "Analog-from-Digital Systems",
+  "date": "2026",
+  "description": "Digital systems that have crossed a complexity threshold where they exhibit emergent analog behavior — sensitivity to initial conditions, context-dependence, and bounded unpredictability. Not because the substrate changed, but because complexity became its own form of noise.",
+  "links": [
+    {
+      "url": "https://blog.mycal.net/never-twice-the-same-color/",
+      "label": "Never Twice the Same Color"
+    }
+  ]
+}

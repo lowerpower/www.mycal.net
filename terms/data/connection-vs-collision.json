@@ -1,0 +1,11 @@
+{
+  "name": "Connection vs Collision",
+  "date": "2025",
+  "description": "Without proper handshake protocols, interactions between agents don’t create connections — they create collisions. The distinction between coordinated communication and chaotic interference.",
+  "links": [
+    {
+      "url": "https://blog.mycal.net/proof-of-personhood/",
+      "label": "Proof of Personhood"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Density Threshold",
+  "date": "2026",
+  "description": "The point at which a neural network becomes dense enough in parameters and interconnections that it begins exhibiting emergent analog behavior. No single breakthrough marked this crossing — just a series of thresholds quietly passed.",
+  "links": [
+    {
+      "url": "https://blog.mycal.net/never-twice-the-same-color/",
+      "label": "Never Twice the Same Color"
+    }
+  ]
+}

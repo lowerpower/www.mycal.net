@@ -94,7 +94,3 @@ The **first link** is treated as the primary origin. The generator uses it to bu
 - The generator builds both HTML entries and the full `@graph` JSON-LD from these files
 - Identity graph objects (Person, Organization, WebSite) are hardcoded in the generator, not in these files
 - Term count in the page intro is calculated automatically
-
-
-
-

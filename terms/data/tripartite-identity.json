@@ -1,0 +1,11 @@
+{
+  "name": "Tripartite Identity",
+  "date": "2025",
+  "description": "Identity architecture requiring validation from three independent sources: state (political legitimacy), market (financial participation), and peer attestation (social/cognitive validation). No single empire can unilaterally define identity.",
+  "links": [
+    {
+      "url": "https://blog.mycal.net/negotiated-reality/",
+      "label": "Negotiated Reality"
+    }
+  ]
+}

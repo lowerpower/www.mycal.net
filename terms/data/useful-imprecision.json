@@ -1,0 +1,11 @@
+{
+  "name": "Useful Imprecision",
+  "date": "2026",
+  "description": "The property of transformer systems where imprecision is not a failure but a feature. NTSC failed because it couldn’t control analog noise. Transformers succeed because complexity itself becomes the signal.",
+  "links": [
+    {
+      "url": "https://blog.mycal.net/never-twice-the-same-color/",
+      "label": "Never Twice the Same Color"
+    }
+  ]
+}

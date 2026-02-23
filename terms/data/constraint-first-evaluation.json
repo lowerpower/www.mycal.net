@@ -1,0 +1,11 @@
+{
+  "name": "Constraint-First Evaluation",
+  "date": "2026",
+  "description": "An evaluation methodology that begins with real-world constraints (hardware, latency, context length, tooling) rather than abstract benchmark scores. Instead of asking ‘which model is best?’, asks ‘which model survives longest inside my actual workflow?’",
+  "links": [
+    {
+      "url": "https://blog.mycal.net/why-benchmarks-fail/",
+      "label": "Why Benchmarks Fail"
+    }
+  ]
+}

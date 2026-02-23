@@ -1,0 +1,11 @@
+{
+  "name": "Bounded Variation",
+  "date": "2026",
+  "description": "The property of chaotic systems where outcomes vary but within predictable ranges. We evaluate weather models by expecting bounded variation, not exact reproducibility. Large language models live in the same category of system.",
+  "links": [
+    {
+      "url": "https://blog.mycal.net/why-benchmarks-fail/",
+      "label": "Why Benchmarks Fail"
+    }
+  ]
+}

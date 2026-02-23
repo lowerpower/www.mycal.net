@@ -1,0 +1,15 @@
+{
+  "name": "Substrate-Parallel Routing",
+  "date": "2025",
+  "description": "NoBGP for cognition — routing architecture that enables cognitive traffic to flow through multiple independent substrate providers, preventing single-point capture. Essential infrastructure for federated cognitive networks.",
+  "links": [
+    {
+      "url": "https://blog.mycal.net/negotiated-reality/",
+      "label": "Negotiated Reality"
+    },
+    {
+      "url": "https://nobgp.com/",
+      "label": "NoBGP"
+    }
+  ]
+}

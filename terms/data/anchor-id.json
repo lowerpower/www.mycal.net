@@ -1,0 +1,18 @@
+{
+  "name": "AnchorID",
+  "date": "2025",
+  "description": "Attribution infrastructure for establishing canonical identity across distributed content. Links works, terms, and claims back to a verified person through persistent, machine-readable identifiers.",
+  "links": [
+    {
+      "url": "https://blog.mycal.net/",
+      "label": "blog.mycal.net"
+    },
+    {
+      "url": "https://anchorid.net/",
+      "label": "anchorid.net"
+    }
+  ],
+  "sameAs": [
+    "https://anchorid.net/"
+  ]
+}

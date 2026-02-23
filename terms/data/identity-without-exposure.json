@@ -1,0 +1,11 @@
+{
+  "name": "Identity Without Exposure",
+  "date": "2025",
+  "description": "The privacy-preserving principle underlying proof-of-personhood: proving uniqueness and continuity through zero-knowledge proofs rather than invasive identification. Verification without surveillance.",
+  "links": [
+    {
+      "url": "https://blog.mycal.net/proof-of-personhood/",
+      "label": "Proof of Personhood"
+    }
+  ]
+}

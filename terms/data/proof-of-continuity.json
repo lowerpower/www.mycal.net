@@ -1,0 +1,11 @@
+{
+  "name": "Proof of Continuity",
+  "date": "2025",
+  "description": "Verification that an entity is still the same one that started an interaction, conversation, or transaction. Not just who you are, but that you persist as the same identity over time. In a world of infinite agent copies, continuity becomes the new scarcity.",
+  "links": [
+    {
+      "url": "https://blog.mycal.net/proof-of-personhood/",
+      "label": "Proof of Personhood"
+    }
+  ]
+}

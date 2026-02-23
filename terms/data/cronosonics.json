@@ -1,0 +1,15 @@
+{
+  "name": "Cronosonics",
+  "date": "2024",
+  "description": "A creative format pairing technical essays with companion songs. Each cronosonic treats the essay and music as a unified artifact — the writing provides the intellectual scaffold while the song encodes the emotional and temporal signal.",
+  "links": [
+    {
+      "url": "https://blog.mycal.net/",
+      "label": "blog.mycal.net"
+    },
+    {
+      "url": "https://music.mycal.net/",
+      "label": "music.mycal.net"
+    }
+  ]
+}

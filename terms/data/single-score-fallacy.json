@@ -1,0 +1,11 @@
+{
+  "name": "Single Score Fallacy",
+  "date": "2026",
+  "description": "The error of assuming that LLM capability can be meaningfully compressed into a single scalar value, when ‘best’ depends on user, constraints, and intended use. A leaderboard tells you which model most closely matches the benchmark author’s idea of ‘good.’",
+  "links": [
+    {
+      "url": "https://blog.mycal.net/why-benchmarks-fail/",
+      "label": "Why Benchmarks Fail"
+    }
+  ]
+}

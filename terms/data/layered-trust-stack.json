@@ -1,0 +1,11 @@
+{
+  "name": "Layered Trust Stack",
+  "date": "2025",
+  "description": "Four-layer protocol framework ensuring trust at scale: (1) TCP proves the address is real, (2) x402 proves intent has economic weight, (3) proof-of-personhood proves a unique human anchors the action, (4) ISOPREP-style verification proves that human is still the same one.",
+  "links": [
+    {
+      "url": "https://blog.mycal.net/proof-of-personhood/",
+      "label": "Proof of Personhood"
+    }
+  ]
+}

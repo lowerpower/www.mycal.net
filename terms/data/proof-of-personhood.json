@@ -1,0 +1,11 @@
+{
+  "name": "Proof of Personhood",
+  "date": "2025",
+  "description": "Cryptographic ways to prove you’re a unique human without revealing who you are. Uses zero-knowledge proofs, biometric hashes, and distributed attestations to verify uniqueness without exposure or surveillance.",
+  "links": [
+    {
+      "url": "https://blog.mycal.net/proof-of-personhood/",
+      "label": "Proof of Personhood"
+    }
+  ]
+}
