@@ -1,0 +1,12 @@
+{
+  "name": "Rewrite Archeology",
+  "date": "2026",
+  "description": "The practice of investigating the failure history encoded in a mature system's structure before refactoring or rewriting it — understanding why a branch, guard, or asymmetry exists as the prerequisite license to remove it.",
+  "links": [
+    {
+      "url": "https://blog.mycal.net/when-perfection-becomes-unethical/",
+      "label": "When Perfection Becomes Unethical"
+    }
+  ]
+}
+

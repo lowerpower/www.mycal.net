@@ -1,0 +1,12 @@
+{
+  "name": "Constraint Memory",
+  "date": "2026",
+  "description": "The structural record of past failures encoded not in documentation but in the shape of code itself — branches, guards, retries, and conditionals that preserve knowledge of real-world constraints encountered over the life of a system.",
+  "links": [
+    {
+      "url": "https://blog.mycal.net/when-perfection-becomes-unethical/",
+      "label": "When Perfection Becomes Unethical"
+    }
+  ]
+}
+

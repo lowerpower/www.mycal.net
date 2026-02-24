@@ -1,0 +1,12 @@
+{
+  "name": "Borrowed Certainty",
+  "date": "2026",
+  "description": "The false confidence produced when AI-driven refactors generate code that looks like it has history but carries none — preserving surface coherence while silently deleting the sediment that kept a system honest.",
+  "links": [
+    {
+      "url": "https://blog.mycal.net/when-perfection-becomes-unethical/",
+      "label": "When Perfection Becomes Unethical"
+    }
+  ]
+}
+
