@@ -245,12 +245,60 @@ def build_page(terms, jsonld, html_entries):
       -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
     }}
     .subtitle {{ font-size: clamp(1rem, 2.5vw, 1.15rem); color: #999; margin-bottom: 1rem; }}
-    .intro {{ font-size: 1.05rem; color: #ccc; margin-bottom: 3rem; line-height: 1.8; text-align: center; }}
+    .intro {{ font-size: 1.05rem; color: #ccc; margin-bottom: 2rem; line-height: 1.8; text-align: center; }}
+    .search-wrap {{
+      position: relative; max-width: 480px; margin: 0 auto 2.5rem;
+    }}
+    .search-icon {{
+      position: absolute; left: 14px; top: 50%; transform: translateY(-50%);
+      width: 18px; height: 18px; color: #666; pointer-events: none;
+    }}
+    #term-search {{
+      width: 100%; padding: 0.7rem 2.6rem;
+      font-size: 1rem; color: #e0e0e0;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      border-radius: 10px; outline: none;
+      transition: border-color 0.3s ease, background 0.3s ease;
+    }}
+    #term-search::placeholder {{ color: #666; }}
+    #term-search:focus {{
+      border-color: rgba(246, 164, 65, 0.5);
+      background: rgba(255, 255, 255, 0.07);
+    }}
+    .search-clear {{
+      position: absolute; right: 12px; top: 50%; transform: translateY(-50%);
+      width: 20px; height: 20px; border: none; background: none;
+      color: #666; cursor: pointer; padding: 0; display: none;
+      font-size: 18px; line-height: 1;
+    }}
+    .search-clear:hover {{ color: #e0e0e0; }}
+    .search-clear.visible {{ display: block; }}
+    .search-hint {{
+      position: absolute; right: 12px; top: 50%; transform: translateY(-50%);
+      font-size: 0.75rem; color: #555; pointer-events: none;
+      border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 4px;
+      padding: 0.1rem 0.4rem; font-family: monospace;
+    }}
+    .search-hint.hidden {{ display: none; }}
+    .search-count {{
+      text-align: center; font-size: 0.85rem; color: #666;
+      margin-top: 0.5rem; min-height: 1.3em;
+    }}
     .term-entry {{
       background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.1);
       border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; transition: all 0.3s ease;
     }}
     .term-entry:hover {{ background: rgba(255, 255, 255, 0.06); border-color: rgba(246, 164, 65, 0.3); }}
+    .term-entry.hidden {{ display: none; }}
+    .term-entry:target {{
+      border-color: rgba(246, 164, 65, 0.6);
+      animation: target-pulse 2s ease-out;
+    }}
+    @keyframes target-pulse {{
+      0% {{ background: rgba(246, 164, 65, 0.15); border-color: #f6a441; }}
+      100% {{ background: rgba(255, 255, 255, 0.03); border-color: rgba(246, 164, 65, 0.6); }}
+    }}
     .term-name {{ font-size: 1.35rem; font-weight: 700; color: #f6a441; margin-bottom: 0.25rem; }}
     .term-meta {{ font-size: 0.8rem; color: #777; margin-bottom: 0.75rem; }}
     .term-meta span {{ margin-right: 1rem; }}
@@ -262,12 +310,21 @@ def build_page(terms, jsonld, html_entries):
       border-radius: 6px; padding: 0.2rem 0.6rem; transition: all 0.3s ease;
     }}
     .term-link:hover {{ background: rgba(246, 164, 65, 0.15); border-color: #f6a441; }}
+    .no-results {{
+      text-align: center; color: #666; font-size: 1.05rem;
+      padding: 3rem 1rem; display: none;
+    }}
     footer {{
       text-align: center; color: #666; font-size: 0.875rem;
       padding-top: 2rem; margin-top: 1rem; border-top: 1px solid rgba(255, 255, 255, 0.1);
     }}
     footer a {{ color: #999; text-decoration: none; transition: color 0.3s ease; }}
     footer a:hover {{ color: #f6a441; }}
+    @media (max-width: 480px) {{
+      body {{ padding: 1rem; }}
+      .term-entry {{ padding: 1.2rem; }}
+      .search-hint {{ display: none; }}
+    }}
   </style>
 
 <!-- Identity Graph + DefinedTermSet — www.mycal.net/terms/ -->
@@ -287,18 +344,160 @@ def build_page(terms, jsonld, html_entries):
         at the intersection of infrastructure, philosophy, and culture. Each links back
         to the work where it first appeared.
       </p>
+      <div class="search-wrap" role="search">
+        <svg class="search-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="8.5" cy="8.5" r="6"/>
+          <line x1="13" y1="13" x2="18" y2="18"/>
+        </svg>
+        <input type="text" id="term-search" placeholder="Search terms\u2026" autocomplete="off" spellcheck="false">
+        <button class="search-clear" id="search-clear" aria-label="Clear search">\u00d7</button>
+        <span class="search-hint" id="search-hint">/</span>
+        <div class="search-count" id="search-count" aria-live="polite"></div>
+      </div>
     </header>
 
-    <main>
+    <main id="terms-list">
 
 {html_entries}
 
+      <div class="no-results" id="no-results">No terms match your search.</div>
     </main>
 
     <footer>
       <p>\u00a9 2025 <a href="/">Mike Johnson (Mycal)</a>. Licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p>
     </footer>
   </div>
+
+  <script>
+  (() => {{
+    const input = document.getElementById('term-search');
+    const clearBtn = document.getElementById('search-clear');
+    const hint = document.getElementById('search-hint');
+    const entries = document.querySelectorAll('.term-entry');
+    const noResults = document.getElementById('no-results');
+    const countEl = document.getElementById('search-count');
+    const total = entries.length;
+
+    let urlTimer = null;
+    let umamiTimer = null;
+
+    function updateClearBtn() {{
+      const hasText = input.value.length > 0;
+      clearBtn.classList.toggle('visible', hasText);
+      hint.classList.toggle('hidden', hasText || document.activeElement === input);
+    }}
+
+    function doSearch(updateUrl) {{
+      const q = input.value.trim().toLowerCase();
+      updateClearBtn();
+
+      // Debounced URL update
+      if (updateUrl !== false) {{
+        clearTimeout(urlTimer);
+        urlTimer = setTimeout(() => {{
+          const url = new URL(location.href);
+          if (q) {{
+            url.searchParams.set('q', input.value.trim());
+          }} else {{
+            url.searchParams.delete('q');
+          }}
+          if (url.href !== location.href) {{
+            history.replaceState(null, '', url);
+          }}
+        }}, 300);
+      }}
+
+      if (!q) {{
+        entries.forEach(el => el.classList.remove('hidden'));
+        noResults.style.display = 'none';
+        countEl.textContent = '';
+        return;
+      }}
+      const words = q.split(/\\s+/);
+      let visible = 0;
+      entries.forEach(el => {{
+        const text = (
+          el.querySelector('.term-name').textContent + ' ' +
+          el.querySelector('.term-definition').textContent + ' ' +
+          el.querySelector('.term-meta').textContent + ' ' +
+          (el.querySelector('.term-links') ? el.querySelector('.term-links').textContent : '')
+        ).toLowerCase();
+        const match = words.every(w => text.includes(w));
+        el.classList.toggle('hidden', !match);
+        if (match) visible++;
+      }});
+      noResults.style.display = visible === 0 ? 'block' : 'none';
+      countEl.textContent = visible === total ? '' : visible + ' of ' + total + ' terms';
+
+      // Debounced Umami search tracking (3+ chars, 500ms idle)
+      clearTimeout(umamiTimer);
+      if (q.length >= 3 && window.umami) {{
+        umamiTimer = setTimeout(() => {{
+          try {{
+            window.umami.track('Term Search', {{
+              query: input.value.trim().slice(0, 100),
+              results: visible,
+            }});
+          }} catch {{}}
+        }}, 500);
+      }}
+    }}
+
+    input.addEventListener('input', () => doSearch());
+    input.addEventListener('focus', () => {{ hint.classList.add('hidden'); }});
+    input.addEventListener('blur', () => {{ if (!input.value) hint.classList.remove('hidden'); }});
+
+    clearBtn.addEventListener('click', () => {{
+      input.value = '';
+      doSearch();
+      input.focus();
+    }});
+
+    // Keyboard shortcut: / to focus search
+    document.addEventListener('keydown', (e) => {{
+      if (e.key === '/' && document.activeElement !== input &&
+          !['INPUT', 'TEXTAREA', 'SELECT'].includes(document.activeElement.tagName)) {{
+        e.preventDefault();
+        input.focus();
+      }}
+      if (e.key === 'Escape' && document.activeElement === input) {{
+        input.value = '';
+        doSearch();
+        input.blur();
+      }}
+    }});
+
+    // Support linking with ?q=term
+    const params = new URLSearchParams(location.search);
+    const qParam = params.get('q');
+    if (qParam) {{
+      input.value = qParam;
+      doSearch(false);
+    }}
+
+    // Handle back/forward with ?q= changes
+    window.addEventListener('popstate', () => {{
+      const p = new URLSearchParams(location.search);
+      input.value = p.get('q') || '';
+      doSearch(false);
+    }});
+
+    // Hash navigation: scroll and pulse on direct link
+    function handleHash() {{
+      if (!location.hash) return;
+      const target = document.querySelector(location.hash);
+      if (target && target.classList.contains('term-entry')) {{
+        if (input.value) {{
+          input.value = '';
+          doSearch(false);
+        }}
+        target.scrollIntoView({{ behavior: 'smooth', block: 'center' }});
+      }}
+    }}
+    handleHash();
+    window.addEventListener('hashchange', handleHash);
+  }})();
+  </script>
 </body>
 </html>'''
 
@@ -321,3 +520,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
