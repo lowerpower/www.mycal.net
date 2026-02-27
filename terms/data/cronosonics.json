@@ -1,11 +1,11 @@
 {
   "name": "Cronosonics",
   "date": "2024",
-  "description": "A creative format pairing technical essays with companion songs. Each cronosonic treats the essay and music as a unified artifact — the writing provides the intellectual scaffold while the song encodes the emotional and temporal signal.",
+  "description": "A hybrid format pairing written essays with companion songs designed to distill, reinforce, and encode ideas into memory through dual-channel processing. From Greek chronos (time — persistence of an idea) and sonus (sound — the musical layer). Not background music — active reinforcement devices. The essay explains; the song makes you remember.",
   "links": [
     {
-      "url": "https://blog.mycal.net/",
-      "label": "blog.mycal.net"
+      "url": "https://blog.mycal.net/cronosonics-when-essays-sing/",
+      "label": "Cronosonics: When Essays Sing"
     },
     {
       "url": "https://music.mycal.net/",
@@ -13,3 +13,4 @@
     }
   ]
 }
+
