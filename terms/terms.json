@@ -1,0 +1,1342 @@
+[
+  {
+    "slug": "Petaluma-Chicken-Scratch",
+    "name": "Petaluma Chicken Scratch",
+    "date": "2010s",
+    "description": "A cannabis strain bred in Petaluma, CA using chicken coop compost ('coop-born gold') as the growing medium — the name is literal, not metaphorical. Developed through years of backyard breeding, crossing Guava Cookie with Clearlake fire-stressed Chili Verde genetics, the strain became a local legend distributed through a gift economy rather than sold. The seeds carry the lineage forward.",
+    "links": [
+      {
+        "url": "https://archive.mycal.net/pcs/",
+        "label": "Petaluma Chicken Scratch Archive"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:c9f89b33-f1f2-45ce-a8d3-a6c8bf06b01c",
+    "canonicalUrl": "https://www.mycal.net/terms/Petaluma-Chicken-Scratch/"
+  },
+  {
+    "slug": "accountable-velocity",
+    "name": "Accountable Velocity",
+    "date": "2025",
+    "description": "The combination of transactional speed (x402 protocol) with identity verification (proof-of-personhood) to create trustworthy high-speed agent markets. Speed plus trust. The synthesis of economic friction and cryptographic verification.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/proof-of-personhood/",
+        "label": "Proof of Personhood"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:28318ea5-0c6e-47e1-b17b-40dc507bde46",
+    "canonicalUrl": "https://www.mycal.net/terms/accountable-velocity/"
+  },
+  {
+    "slug": "activation-competition",
+    "name": "Activation Competition",
+    "date": "2026",
+    "description": "The dynamic in AI-mediated information landscapes where ideas compete not for truth but for activation. In a world of constant indexing, embedding, and reassembly, what survives is the densest token cluster with the strongest pull — not necessarily the most careful argument.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/when-a-phrase-becomes-gravity/",
+        "label": "When a Phrase Becomes Gravity"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:54dd0a64-ce71-42b4-89c6-2da990828a46",
+    "canonicalUrl": "https://www.mycal.net/terms/activation-competition/"
+  },
+  {
+    "slug": "analog-from-digital",
+    "name": "Analog-from-Digital Systems",
+    "date": "2026",
+    "description": "Digital systems that have crossed a complexity threshold where they exhibit emergent analog behavior — sensitivity to initial conditions, context-dependence, and bounded unpredictability. Not because the substrate changed, but because complexity became its own form of noise.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/never-twice-the-same-color/",
+        "label": "Never Twice the Same Color"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:1db21370-02ff-4789-91c6-e785edb88a49",
+    "canonicalUrl": "https://www.mycal.net/terms/analog-from-digital/"
+  },
+  {
+    "slug": "anchor-id",
+    "name": "AnchorID",
+    "date": "2025",
+    "description": "Attribution infrastructure for establishing canonical identity across distributed content. Links works, terms, and claims back to a verified person through persistent, machine-readable identifiers.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/",
+        "label": "blog.mycal.net"
+      },
+      {
+        "url": "https://anchorid.net/",
+        "label": "anchorid.net"
+      }
+    ],
+    "sameAs": [
+      "https://anchorid.net/"
+    ],
+    "aliases": [],
+    "termId": "urn:uuid:c3036e50-9c95-45f4-ac4c-d2e7cd85cc90",
+    "canonicalUrl": "https://www.mycal.net/terms/anchor-id/"
+  },
+  {
+    "slug": "anchor-series",
+    "name": "The Anchor Series",
+    "date": "2025",
+    "description": "A sequence of blog posts exploring signal recognition and epistemic methodology — how to identify what matters in a noisy information environment and anchor to it.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/",
+        "label": "blog.mycal.net"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:0bb6b629-e181-4ecc-ad5c-49ef665b5b0d",
+    "canonicalUrl": "https://www.mycal.net/terms/anchor-series/"
+  },
+  {
+    "slug": "atlas-of-cognition",
+    "name": "Atlas of Cognition",
+    "date": "2025",
+    "description": "A conceptual framework mapping the vertical continuum from ontic substrate (−4) through physical computation (−1) and statistical cognition (0) to reflective awareness (+7), showing how energy becomes inference and matter learns to think.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/descent-form-ascent-mind/",
+        "label": "The Descent of Form and the Ascent of Mind"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:2f56d401-dc7f-4f5b-9132-a1401ec05f8f",
+    "canonicalUrl": "https://www.mycal.net/terms/atlas-of-cognition/"
+  },
+  {
+    "slug": "borrowed-certainty",
+    "name": "Borrowed Certainty",
+    "date": "2026",
+    "description": "The false confidence produced when AI-driven refactors generate code that looks like it has history but carries none — preserving surface coherence while silently deleting the sediment that kept a system honest.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/when-perfection-becomes-unethical/",
+        "label": "When Perfection Becomes Unethical"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:42ee68dd-ac27-4fdf-b90a-9f65ec417557",
+    "canonicalUrl": "https://www.mycal.net/terms/borrowed-certainty/"
+  },
+  {
+    "slug": "bounded-variation",
+    "name": "Bounded Variation",
+    "date": "2026",
+    "description": "The property of chaotic systems where outcomes vary but within predictable ranges. We evaluate weather models by expecting bounded variation, not exact reproducibility. Large language models live in the same category of system.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/why-benchmarks-fail/",
+        "label": "Why Benchmarks Fail"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:91f7fba2-1590-4a4c-9b74-54a7bd6e7aa2",
+    "canonicalUrl": "https://www.mycal.net/terms/bounded-variation/"
+  },
+  {
+    "slug": "chrononaut-journals",
+    "name": "Chrononaut Journals",
+    "date": "2025",
+    "description": "A blog series documenting temporal exploration of personal and technological history. Each entry excavates a specific era or artifact and examines how it connects to the present trajectory.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/",
+        "label": "blog.mycal.net"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:6f203498-4192-46fa-a865-25bc50b16421",
+    "canonicalUrl": "https://www.mycal.net/terms/chrononaut-journals/"
+  },
+  {
+    "slug": "cognitive-citizenship",
+    "name": "Cognitive Citizenship",
+    "date": "2025",
+    "description": "The governance question of autonomous AI agents: rights, responsibilities, legal standing, accountability. Political empires treat them as citizens, financial empires as assets, cognitive empires want them unconstrained.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/the-three-empires/",
+        "label": "The Three Empires"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:521c6b5b-5336-462d-b4ea-149a95fec019",
+    "canonicalUrl": "https://www.mycal.net/terms/cognitive-citizenship/"
+  },
+  {
+    "slug": "cognitive-drift",
+    "name": "Cognitive Drift",
+    "date": "2026",
+    "description": "The analog equivalent of NTSC color drift applied to AI systems — the phenomenon where language model outputs vary across runs, contexts, and sampling conditions in ways that are bounded but not eliminable.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/why-benchmarks-fail/",
+        "label": "Why Benchmarks Fail"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:9bbf4346-b243-4c1e-8059-726684ad3604",
+    "canonicalUrl": "https://www.mycal.net/terms/cognitive-drift/"
+  },
+  {
+    "slug": "cognitive-federalism",
+    "name": "Cognitive Federalism",
+    "date": "2025",
+    "description": "The only stable constitutional architecture for AI-era civilization. Includes federated inference, tripartite identity, negotiated topology with no single point of control, reversible compute rights, and inter-model treaties with human-readable escalation clauses.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/negotiated-reality/",
+        "label": "Negotiated Reality"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:98b3beeb-561a-4821-9de5-e795e7c262ec",
+    "canonicalUrl": "https://www.mycal.net/terms/cognitive-federalism/"
+  },
+  {
+    "slug": "cognitive-feudalism",
+    "name": "Cognitive Feudalism",
+    "date": "2025",
+    "description": "The economic regime that emerges when intelligence becomes infrastructure. The compute-rich become the new lords, users and startups become tenants on cognitive land they do not own. Innovation flows upward, value flows upward, power flows upward.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/infrasructure-wins/",
+        "label": "Infrastructure Wins"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:a2b570e5-1a64-456e-8d46-7556af864da8",
+    "canonicalUrl": "https://www.mycal.net/terms/cognitive-feudalism/"
+  },
+  {
+    "slug": "cognitive-power",
+    "name": "Cognitive Power",
+    "date": "2025",
+    "description": "Emergent authority based on control of AI models, inference systems, and the infrastructure that generates meaning. Its unit is the token, its currency is coherence, its weapon is simulation. Sits underneath political and financial power — shaping the substrate they run on.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/the-three-empires/",
+        "label": "The Three Empires"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:a99a26cd-3fcd-4b03-8954-c6f20b318465",
+    "canonicalUrl": "https://www.mycal.net/terms/cognitive-power/"
+  },
+  {
+    "slug": "cognitive-substrate",
+    "name": "Cognitive Substrate",
+    "date": "2025",
+    "description": "The infrastructure layer where AI models, inference engines, and computational systems shape perception, meaning, and reality itself. The contested terrain all three empires are trying to control. Not just technology — the operating system of reality.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/the-three-empires/",
+        "label": "The Three Empires"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:8f5f2ca4-4ebf-4eec-8435-963d4ae59a5a",
+    "canonicalUrl": "https://www.mycal.net/terms/cognitive-substrate/"
+  },
+  {
+    "slug": "complexity-as-noise",
+    "name": "Complexity as Noise",
+    "date": "2026",
+    "description": "The phenomenon where system density becomes so high that complexity itself functions as a form of noise, making deterministic systems practically unpredictable. In transformers, billions of parameters create so many interacting pathways that microscopic differences act like atmospheric turbulence.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/never-twice-the-same-color/",
+        "label": "Never Twice the Same Color"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:6374ae87-64b0-4c7a-9d98-299cb559ccf9",
+    "canonicalUrl": "https://www.mycal.net/terms/complexity-as-noise/"
+  },
+  {
+    "slug": "compute-as-law",
+    "name": "Compute as Law",
+    "date": "2025",
+    "description": "Recognition that access to computational models equals access to agency, making compute simultaneously a right, utility, weapon, and form of sovereignty.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/the-three-empires/",
+        "label": "The Three Empires"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:592d1935-f350-43f2-b355-13b5b291be06",
+    "canonicalUrl": "https://www.mycal.net/terms/compute-as-law/"
+  },
+  {
+    "slug": "connection-vs-collision",
+    "name": "Connection vs Collision",
+    "date": "2025",
+    "description": "Without proper handshake protocols, interactions between agents don’t create connections — they create collisions. The distinction between coordinated communication and chaotic interference.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/proof-of-personhood/",
+        "label": "Proof of Personhood"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:97d285c3-19da-4a57-a97e-bb212bc94a2a",
+    "canonicalUrl": "https://www.mycal.net/terms/connection-vs-collision/"
+  },
+  {
+    "slug": "constraint-first-evaluation",
+    "name": "Constraint-First Evaluation",
+    "date": "2026",
+    "description": "An evaluation methodology that begins with real-world constraints (hardware, latency, context length, tooling) rather than abstract benchmark scores. Instead of asking ‘which model is best?’, asks ‘which model survives longest inside my actual workflow?’",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/why-benchmarks-fail/",
+        "label": "Why Benchmarks Fail"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:8d66e775-df01-4ef7-8b8f-e9460b43791b",
+    "canonicalUrl": "https://www.mycal.net/terms/constraint-first-evaluation/"
+  },
+  {
+    "slug": "constraint-memory",
+    "name": "Constraint Memory",
+    "date": "2026",
+    "description": "The structural record of past failures encoded not in documentation but in the shape of code itself — branches, guards, retries, and conditionals that preserve knowledge of real-world constraints encountered over the life of a system.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/when-perfection-becomes-unethical/",
+        "label": "When Perfection Becomes Unethical"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:5bb02193-5059-4b6d-8db8-50511cf9e899",
+    "canonicalUrl": "https://www.mycal.net/terms/constraint-memory/"
+  },
+  {
+    "slug": "continuity-as-scarcity",
+    "name": "Continuity as Scarcity",
+    "date": "2025",
+    "description": "In a world of infinite agent copies, provable continuous identity becomes the scarce resource. The question becomes not ‘can you do this?’ but ‘were you there when it mattered?’",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/proof-of-personhood/",
+        "label": "Proof of Personhood"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:ac97b6c1-b503-4634-9711-e415af76188e",
+    "canonicalUrl": "https://www.mycal.net/terms/continuity-as-scarcity/"
+  },
+  {
+    "slug": "conversational-attractors",
+    "name": "Conversational Attractors",
+    "date": "2026",
+    "description": "Stories, lines, and shorthand that humans and AI systems repeatedly gravitate toward within a conversation. Compressed fragments of belief systems that persist because portability makes ideas survivable — what is easiest to retrieve is what recurs.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/when-a-phrase-becomes-gravity/",
+        "label": "When a Phrase Becomes Gravity"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:2aafddff-203c-4afa-95e7-5daf55c4d3e0",
+    "canonicalUrl": "https://www.mycal.net/terms/conversational-attractors/"
+  },
+  {
+    "slug": "creative-abundance-without-curation",
+    "name": "Creative Abundance Without Curation",
+    "date": "2025",
+    "description": "The phenomenon where AI lowers barriers to creation so far that everyone feels like a creator, filling the internet with 'good enough' content. The signal drowns in noise — an infinite garage band where every demo gets uploaded.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/the-aikea-effect-the-psychology-of-loving-our-ai-creations/",
+        "label": "The AIKEA Effect"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:ad89d463-d130-48d0-91f1-26349384be3f",
+    "canonicalUrl": "https://www.mycal.net/terms/creative-abundance-without-curation/"
+  },
+  {
+    "slug": "cronofuturism",
+    "name": "Cronofuturism",
+    "date": "2024",
+    "description": "A philosophical framework that treats futures as memory-in-progress rather than speculation. Rooted in the premise that how we remember shapes what we build, and what we build becomes what we remember.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/",
+        "label": "blog.mycal.net"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:53e7bd40-873c-4d9e-8591-d765b53308be",
+    "canonicalUrl": "https://www.mycal.net/terms/cronofuturism/"
+  },
+  {
+    "slug": "cronosonics",
+    "name": "Cronosonics",
+    "date": "2024",
+    "description": "A hybrid format pairing written essays with companion songs designed to distill, reinforce, and encode ideas into memory through dual-channel processing. From Greek chronos (time — persistence of an idea) and sonus (sound — the musical layer). Not background music — active reinforcement devices. The essay explains; the song makes you remember.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/cronosonics-when-essays-sing/",
+        "label": "Cronosonics: When Essays Sing"
+      },
+      {
+        "url": "https://music.mycal.net/",
+        "label": "music.mycal.net"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:4bb9743a-899b-46de-b0dd-71fa1db2cf43",
+    "canonicalUrl": "https://www.mycal.net/terms/cronosonics/"
+  },
+  {
+    "slug": "cronosonics-workflow",
+    "name": "Cronosonics Workflow",
+    "date": "2025",
+    "description": "The five-step process for creating a cronosonic: essay first (analysis drives everything), distill the core (identify framework or key concepts), turn it into lyrics (compression forces clarity), match the tone (serious goes atmospheric, sardonic gets edge), release them together (not two artifacts but one unified work).",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/cronosonics-when-essays-sing/",
+        "label": "Cronosonics: When Essays Sing"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:91994a43-f8bf-4acc-be75-9ff7d3c71e18",
+    "canonicalUrl": "https://www.mycal.net/terms/cronosonics-workflow/"
+  },
+  {
+    "slug": "density-threshold",
+    "name": "Density Threshold",
+    "date": "2026",
+    "description": "The point at which a neural network becomes dense enough in parameters and interconnections that it begins exhibiting emergent analog behavior. No single breakthrough marked this crossing — just a series of thresholds quietly passed.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/never-twice-the-same-color/",
+        "label": "Never Twice the Same Color"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:5b22e22a-e744-44e3-87f4-d296b94ac221",
+    "canonicalUrl": "https://www.mycal.net/terms/density-threshold/"
+  },
+  {
+    "slug": "digital-preservation-as-resistance",
+    "name": "Digital Preservation as Resistance",
+    "date": "2025",
+    "description": "The principle that every Git commit, lyric, and byte in backup is an act of resistance against forgetting. Naming files, tagging metadata, and organizing drives are quiet battles against chaos — curation as rebellion.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/fight-entropy/",
+        "label": "Fight Entropy: From Group42 to Mycal Music"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:ab544f0f-e565-41fa-8824-45dc42846f8c",
+    "canonicalUrl": "https://www.mycal.net/terms/digital-preservation-as-resistance/"
+  },
+  {
+    "slug": "discernment-as-creative-superpower",
+    "name": "Discernment as Creative Superpower",
+    "date": "2025",
+    "description": "The thesis that in the AI era, the new creative superpower is not prompting ability but the capacity to judge quality, curate effectively, and distinguish signal from noise. Curation beats generation in the taste economy.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/the-aikea-effect-the-psychology-of-loving-our-ai-creations/",
+        "label": "The AIKEA Effect"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [
+      "discernment-as-creative-superpowe"
+    ],
+    "termId": "urn:uuid:29795690-9757-4275-a24e-c9145ace26b3",
+    "canonicalUrl": "https://www.mycal.net/terms/discernment-as-creative-superpower/"
+  },
+  {
+    "slug": "energy-to-inference",
+    "name": "Energy-to-Inference Transformation",
+    "date": "2025",
+    "description": "The physical process by which electrical energy flowing through computational substrates becomes statistical inference and eventually understanding.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/descent-form-ascent-mind/",
+        "label": "The Descent of Form and the Ascent of Mind"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:82c3a107-295b-49d7-9eeb-4fd6aa034dc6",
+    "canonicalUrl": "https://www.mycal.net/terms/energy-to-inference/"
+  },
+  {
+    "slug": "existential-horror-of-prior-art",
+    "name": "Existential Horror of Prior Art",
+    "date": "2025",
+    "description": "The realization that you have been reinventing the same idea across three decades, each time convinced it's revolutionary — building on the shoulders of yourself at 32, who was building on yourself at 24. You've become your own prior art.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/post-patent-brain/",
+        "label": "Post-Patent Brain: How to Think When You Can't Think"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:2e96478a-dbe1-4eea-a7a5-93b511e2985d",
+    "canonicalUrl": "https://www.mycal.net/terms/existential-horror-of-prior-art/"
+  },
+  {
+    "slug": "federated-agency",
+    "name": "Federated Agency",
+    "date": "2025",
+    "description": "Counter-architecture to cognitive feudalism. Not just federated models — federated agency: local inference, identity-scoped access, sovereign AI nodes, peer-driven routing, distributed trust fabrics, compute that flows outward not upward.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/infrasructure-wins/",
+        "label": "Infrastructure Wins"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:cc4680c2-438b-42e0-8cc5-81b819d70558",
+    "canonicalUrl": "https://www.mycal.net/terms/federated-agency/"
+  },
+  {
+    "slug": "fight-entropy",
+    "name": "Fighting Entropy",
+    "date": "1994",
+    "description": "The hacker philosophy of persistence — resisting decay through code, preservation, and creation. Not conquering entropy, but making it stumble through pattern, trace, and echo. Originally expressed in a poem on the Group42 Sells Out CD-ROM.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/fight-entropy/",
+        "label": "Fight Entropy: From Group42 to Mycal Music"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:1f1e1f72-99f2-43b2-9e3f-5086f1941045",
+    "canonicalUrl": "https://www.mycal.net/terms/fight-entropy/"
+  },
+  {
+    "slug": "five-unstable-endgames",
+    "name": "The Five Unstable Endgames",
+    "date": "2025",
+    "description": "Pure centralization leads to permanent feudalism. Pure fragmentation leads to Perception Cold War. Political capture leads to cognitive balkanization. Financial capture leads to rentier substrate. Model capture leads to unappealable algorithmic sovereignty. Every unilateral victory is civilizational suicide.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/negotiated-reality/",
+        "label": "Negotiated Reality"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:141c651c-0e22-428c-a2c3-574b3baf1a9b",
+    "canonicalUrl": "https://www.mycal.net/terms/five-unstable-endgames/"
+  },
+  {
+    "slug": "fluent-not-wise",
+    "name": "Fluent Not Wise",
+    "date": "2025",
+    "description": "The distinction between AI fluency and human wisdom. Models can generate code, schematics, and language but have never smelled failure — only simulated it. Wisdom comes only from failure personally survived. Fluency without wisdom produces confident wrongness.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/new-country-for-old-men/",
+        "label": "New Country for Old Men"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:6b0dd0f2-7cdd-4dec-8894-27ba38a487bb",
+    "canonicalUrl": "https://www.mycal.net/terms/fluent-not-wise/"
+  },
+  {
+    "slug": "forced-triangle",
+    "name": "The Forced Triangle",
+    "date": "2025",
+    "description": "Geopolitical condition where three incompatible forms of power — political, financial, and cognitive — must negotiate because none can dominate, none can opt out, and none can define the future alone.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/the-three-empires/",
+        "label": "The Three Empires"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:078f539a-45e6-49cf-919f-8fd6410a5aa8",
+    "canonicalUrl": "https://www.mycal.net/terms/forced-triangle/"
+  },
+  {
+    "slug": "friction-as-stabilizer",
+    "name": "Friction as Stabilizer",
+    "date": "2025",
+    "description": "The principle that tiny costs (fees, proof-of-work, proof-of-identity) aren’t inefficiencies but the cultural DNA that keeps a system coherent when the cost of action falls to zero. Friction is not a bug. It’s the stabilizer.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/proof-of-personhood/",
+        "label": "Proof of Personhood"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:e307f023-1585-42aa-ac0e-9fb23570ce10",
+    "canonicalUrl": "https://www.mycal.net/terms/friction-as-stabilizer/"
+  },
+  {
+    "slug": "ghost-footprints-of-curiosity",
+    "name": "Ghost Footprints of Curiosity",
+    "date": "2025",
+    "description": "Unfinished projects revealing real maker process — thinking, dead ends, early sparks. More interesting than finished work because they show authentic exploration without retrospective editing. Nobody preserves half-finished work except attics.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/warehouse-13-an-inventory-of-forgotten-futures/",
+        "label": "Warehouse 13: An Inventory of Forgotten Futures"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:3480b2c9-f9f1-45c3-9fd7-d05f49aeba7d",
+    "canonicalUrl": "https://www.mycal.net/terms/ghost-footprints-of-curiosity/"
+  },
+  {
+    "slug": "human-co-regency",
+    "name": "Human Co-Regency",
+    "date": "2025",
+    "description": "A governance model in which humans maintain meaningful decision authority alongside autonomous AI systems — not as overseers or operators, but as co-governing partners with complementary capabilities.",
+    "links": [
+      {
+        "url": "https://nobgp.com/",
+        "label": "NoBGP"
+      },
+      {
+        "url": "https://blog.mycal.net/",
+        "label": "blog.mycal.net"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:fca50315-999d-431b-b5ea-96074e1f0d07",
+    "canonicalUrl": "https://www.mycal.net/terms/human-co-regency/"
+  },
+  {
+    "slug": "identity-without-exposure",
+    "name": "Identity Without Exposure",
+    "date": "2025",
+    "description": "The privacy-preserving principle underlying proof-of-personhood: proving uniqueness and continuity through zero-knowledge proofs rather than invasive identification. Verification without surveillance.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/proof-of-personhood/",
+        "label": "Proof of Personhood"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:4ddbdf37-e128-49d0-ae5f-0589de55dadf",
+    "canonicalUrl": "https://www.mycal.net/terms/identity-without-exposure/"
+  },
+  {
+    "slug": "infrastructure-advantage",
+    "name": "Infrastructure Advantage",
+    "date": "2025",
+    "description": "The competitive moat that emerges when thinking becomes infrastructure. Unlike idea advantage (which leaks) or execution advantage (which hyperscalers absorb), infrastructure advantage compounds through scale.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/infrasructure-wins/",
+        "label": "Infrastructure Wins"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:49a437d9-19a4-450c-b71d-ff476e8b3f3d",
+    "canonicalUrl": "https://www.mycal.net/terms/infrastructure-advantage/"
+  },
+  {
+    "slug": "infrastructure-native-organisms",
+    "name": "Infrastructure-Native Organisms",
+    "date": "2025",
+    "description": "Modern AI hyperscalers that differ fundamentally from traditional incumbents. They absorb ideas, train on them, deploy globally, and outpace originators in every direction simultaneously. Entities built from the substrate up to execute at scale.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/infrasructure-wins/",
+        "label": "Infrastructure Wins"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:0b9f6545-fc9d-4a69-88f5-e7f106b3a49a",
+    "canonicalUrl": "https://www.mycal.net/terms/infrastructure-native-organisms/"
+  },
+  {
+    "slug": "intent-layer",
+    "name": "Intent Layer",
+    "date": "2025",
+    "description": "The layer that replaces the interface layer when autonomous agents negotiate directly on behalf of humans at machine speed. Where machines transact meaning rather than just executing commands.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/proof-of-personhood/",
+        "label": "Proof of Personhood"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:95159fe6-eaf0-48c7-804f-ceb927fd38f4",
+    "canonicalUrl": "https://www.mycal.net/terms/intent-layer/"
+  },
+  {
+    "slug": "j-space",
+    "name": "J-Space",
+    "date": "1990s",
+    "description": "Originally a stack-smashing term for when code execution goes somewhere it was never meant to — into dead memory, the dead beef cafe. Extended to describe when a person or consciousness goes way out there, past the boundaries of normal operation. Code can go to J-Space. People can too.",
+    "links": [
+      {
+        "url": "https://www.mycal.net/terms/",
+        "label": "Mycal common spoken term"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:308ed74c-2480-4c81-908a-4d6b0e4fde7a",
+    "canonicalUrl": "https://www.mycal.net/terms/j-space/"
+  },
+  {
+    "slug": "kajingen",
+    "name": "Kajingen",
+    "date": "1980s",
+    "description": "The state of being not-quite-right — functional but degraded, broken but still limping along, or done in a wrong or stupid way. A bike wheel rubbing every rotation is kajingen. A tape-repaired sole flapping with every step is kajingen. A person doing something half-assed is kajingen. Broader than 'janky' — covers objects, repairs, and human behavior alike. Predates and parallels modern usage of 'janky' by decades.",
+    "links": [
+      {
+        "url": "https://www.mycal.net/terms/",
+        "label": "Mycal common spoken term"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:c5a56089-84a2-4761-8a42-96e6a1d5eb5b",
+    "canonicalUrl": "https://www.mycal.net/terms/kajingen/"
+  },
+  {
+    "slug": "kardashev-window",
+    "name": "The Kardashev Window",
+    "date": "2025",
+    "description": "The narrow opportunity window where civilization either achieves post-scarcity breakthrough (fusion, reactionless drive, gravity control, FTL) and advances up the Kardashev scale, or misses the chance and stagnates. AI-accelerated cognition may be the first tool capable of opening this window.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/the-lords-of-zero/",
+        "label": "The Lords of Zero"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:8ff736d4-93ff-4944-8470-2ff9ea1b0cf7",
+    "canonicalUrl": "https://www.mycal.net/terms/kardashev-window/"
+  },
+  {
+    "slug": "layered-trust-stack",
+    "name": "Layered Trust Stack",
+    "date": "2025",
+    "description": "Four-layer protocol framework ensuring trust at scale: (1) TCP proves the address is real, (2) x402 proves intent has economic weight, (3) proof-of-personhood proves a unique human anchors the action, (4) ISOPREP-style verification proves that human is still the same one.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/proof-of-personhood/",
+        "label": "Proof of Personhood"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:f9b82457-d4c3-4800-bbd5-c0651a194eab",
+    "canonicalUrl": "https://www.mycal.net/terms/layered-trust-stack/"
+  },
+  {
+    "slug": "legacy-as-pattern",
+    "name": "Legacy as Pattern",
+    "date": "2025",
+    "description": "The idea that we don't preserve perfection — we preserve trace. Legacy is not permanence but pattern. The goal is to leave interference in the noise sharp enough to catch in memory's gears.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/fight-entropy/",
+        "label": "Fight Entropy: From Group42 to Mycal Music"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:905e9e0c-65af-40fa-bcff-532dcf5ea1e2",
+    "canonicalUrl": "https://www.mycal.net/terms/legacy-as-pattern/"
+  },
+  {
+    "slug": "load-bearing-phrases",
+    "name": "Load-Bearing Phrases",
+    "date": "2026",
+    "description": "Language engineered to carry structural weight through summarization, embedding, and recombination. Distinct from buzzwords or slogans — load-bearing phrases compress genuine framework into portable form, designed to survive the lossy processes of AI-mediated information landscapes.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/when-a-phrase-becomes-gravity/",
+        "label": "When a Phrase Becomes Gravity"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:3294752b-f1f3-4ffc-8283-0c683b9b8fa8",
+    "canonicalUrl": "https://www.mycal.net/terms/load-bearing-phrases/"
+  },
+  {
+    "slug": "lords-of-zero",
+    "name": "Lords of Zero",
+    "date": "2025",
+    "description": "Entities who sit at the point where costs collapse toward zero but control remains, extracting power from the delta between abundance and permission. They don’t monetize scarcity — they monetize permission. The moat is physics: owning the substrate where zero lives.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/the-lords-of-zero/",
+        "label": "The Lords of Zero"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:fa7f90a5-4c1e-4b49-98a5-a22ce962f60b",
+    "canonicalUrl": "https://www.mycal.net/terms/lords-of-zero/"
+  },
+  {
+    "slug": "machines-of-pure-comprehension",
+    "name": "Machines of Pure Comprehension",
+    "date": "2025",
+    "description": "Mechanical technology where function is visible and repairable. Gears, lenses, bulb — no firmware, forced updates, or cloud accounts. Represents pre-digital era when technology was comprehensible, user-serviceable, and transparent in operation.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/warehouse-13-an-inventory-of-forgotten-futures/",
+        "label": "Warehouse 13: An Inventory of Forgotten Futures"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:1e39f15f-5976-41ec-8b5b-ecbfb817413b",
+    "canonicalUrl": "https://www.mycal.net/terms/machines-of-pure-comprehension/"
+  },
+  {
+    "slug": "memetic-compression",
+    "name": "Memetic Compression",
+    "date": "2026",
+    "description": "The process by which a phrase becomes rhythmically tight, semantically dense, and compact enough to function as an attractor in both human cognition and AI context windows. Like lossy image compression, it preserves force while discarding nuance — the structure becomes lighter, the context becomes optional.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/when-a-phrase-becomes-gravity/",
+        "label": "When a Phrase Becomes Gravity"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:9b33c82d-e582-4111-8d67-e9ceabe23e49",
+    "canonicalUrl": "https://www.mycal.net/terms/memetic-compression/"
+  },
+  {
+    "slug": "memetic-gravity",
+    "name": "Memetic Gravity",
+    "date": "2026",
+    "description": "The principle that compressed, portable language fragments exert gravitational pull on both human cognition and AI systems. Ideas compete not just for truth but for activation — what survives summarization, embedding, and recombination is the densest cluster rather than the most careful argument.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/when-a-phrase-becomes-gravity/",
+        "label": "When a Phrase Becomes Gravity"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:b19ca009-1590-40bb-9336-c76b42b5ddbc",
+    "canonicalUrl": "https://www.mycal.net/terms/memetic-gravity/"
+  },
+  {
+    "slug": "narrative-sovereignty",
+    "name": "Narrative Sovereignty",
+    "date": "2025",
+    "description": "Control over what people see, believe, consider credible, and accept as consensus reality. Battleground where political governance, financial marketing, and cognitive inference all claim authority.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/the-three-empires/",
+        "label": "The Three Empires"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:49570c40-d59b-41b0-871d-4776588ae16e",
+    "canonicalUrl": "https://www.mycal.net/terms/narrative-sovereignty/"
+  },
+  {
+    "slug": "negotiated-reality",
+    "name": "Negotiated Reality",
+    "date": "2025",
+    "description": "Reality that is synthesized through the interaction of political, financial, and cognitive power structures rather than discovered. Truth becomes downstream of inference, consensus downstream of filtering, ideology downstream of context windows.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/negotiated-reality/",
+        "label": "Negotiated Reality"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:f4962523-859f-41ef-8de8-abcf6e0581f5",
+    "canonicalUrl": "https://www.mycal.net/terms/negotiated-reality/"
+  },
+  {
+    "slug": "novelty-compression-syndrome",
+    "name": "Novelty Compression Syndrome",
+    "date": "2025",
+    "description": "The mental flattening when imagination has been forced through the language of patent claims and clauses. Every idea gets filed, numbered, and notarized in your head. Your inner monologue becomes USPTO-speak, your creativity responds to FOIA requests, and you cite prior art in arguments with your spouse.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/post-patent-brain/",
+        "label": "Post-Patent Brain: How to Think When You Can't Think"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:f688ca86-f8d0-4d4b-840d-ba2f82cbc7b1",
+    "canonicalUrl": "https://www.mycal.net/terms/novelty-compression-syndrome/"
+  },
+  {
+    "slug": "patent-parallel",
+    "name": "Patent Parallel",
+    "date": "2025",
+    "description": "The principle that the best patents — and the best AI results — come not from the fastest minds but from those who have seen every way a good idea can die. Older engineers write defensible patents because they have lived the failure modes. The same pattern applies to AI: the real signal-integrity test is knowing when the model is confidently wrong.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/new-country-for-old-men/",
+        "label": "New Country for Old Men"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:c6148b4f-aaa4-4920-b407-1f09163d7bd8",
+    "canonicalUrl": "https://www.mycal.net/terms/patent-parallel/"
+  },
+  {
+    "slug": "post-patent-brain",
+    "name": "Post-Patent Brain",
+    "date": "2025",
+    "description": "The liminal mental state between invention and bureaucracy after filing patents — neurons buffering, rebooting into human language after speaking USPTO. You look at your coffee and wonder if it's patentable. Even your imagination needs prior approval.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/post-patent-brain/",
+        "label": "Post-Patent Brain: How to Think When You Can't Think"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:f8758374-fd58-486b-a4bb-f8fb7cdbca6d",
+    "canonicalUrl": "https://www.mycal.net/terms/post-patent-brain/"
+  },
+  {
+    "slug": "proof-of-continuity",
+    "name": "Proof of Continuity",
+    "date": "2025",
+    "description": "Verification that an entity is still the same one that started an interaction, conversation, or transaction. Not just who you are, but that you persist as the same identity over time. In a world of infinite agent copies, continuity becomes the new scarcity.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/proof-of-personhood/",
+        "label": "Proof of Personhood"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:d3e60598-47cc-43d1-92fd-1c1252b14502",
+    "canonicalUrl": "https://www.mycal.net/terms/proof-of-continuity/"
+  },
+  {
+    "slug": "proof-of-personhood",
+    "name": "Proof of Personhood",
+    "date": "2025",
+    "description": "Cryptographic ways to prove you’re a unique human without revealing who you are. Uses zero-knowledge proofs, biometric hashes, and distributed attestations to verify uniqueness without exposure or surveillance.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/proof-of-personhood/",
+        "label": "Proof of Personhood"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:0fe79224-5380-4bc3-91ac-e218a6918c37",
+    "canonicalUrl": "https://www.mycal.net/terms/proof-of-personhood/"
+  },
+  {
+    "slug": "reality-drift",
+    "name": "Reality Drift",
+    "date": "2025",
+    "description": "Incidents where different cognitive systems generate incompatible versions of shared reality, leading to mutual incomprehension between populations operating under different inference regimes.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/negotiated-reality/",
+        "label": "Negotiated Reality"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:51692523-2bb5-4439-a6cf-4c05985e5747",
+    "canonicalUrl": "https://www.mycal.net/terms/reality-drift/"
+  },
+  {
+    "slug": "reckless-curiosity",
+    "name": "Reckless Curiosity",
+    "date": "2025",
+    "description": "The spark that reignites veteran engineers in the AI age. When older hands break the shell of calcified experience and rediscover the willingness to tinker without permission, the results are nuclear — not nostalgia but ignition, where the speed of AI meets the intuition of time.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/new-country-for-old-men/",
+        "label": "New Country for Old Men"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:efedf417-679e-4dba-8e2f-089b4a6ecefe",
+    "canonicalUrl": "https://www.mycal.net/terms/reckless-curiosity/"
+  },
+  {
+    "slug": "rewrite-archeology",
+    "name": "Rewrite Archeology",
+    "date": "2026",
+    "description": "The practice of investigating the failure history encoded in a mature system's structure before refactoring or rewriting it — understanding why a branch, guard, or asymmetry exists as the prerequisite license to remove it.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/when-perfection-becomes-unethical/",
+        "label": "When Perfection Becomes Unethical"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:1edeee14-f16b-4b23-85c7-a04600914ddd",
+    "canonicalUrl": "https://www.mycal.net/terms/rewrite-archeology/"
+  },
+  {
+    "slug": "running-modified-code",
+    "name": "Running Modified Code",
+    "date": "1990s",
+    "description": "When a human takes substances that modify their behavior, perception, or inhibitions. The person is still running, but the code has been patched — outputs are unpredictable, error handling may be compromised, and the runtime environment has shifted beneath the application.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/post-patent-brain/",
+        "label": "Post-Patent Brain"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:6a41b9fc-f2a2-41f3-984d-014e91222c59",
+    "canonicalUrl": "https://www.mycal.net/terms/running-modified-code/"
+  },
+  {
+    "slug": "schrodingers-disc",
+    "name": "Schrödinger’s Disc",
+    "date": "2025",
+    "description": "Digital media in quantum superposition — simultaneously readable and corrupted until observation attempt. Represents maker’s rational avoidance: not checking preserves possibility of success; checking risks confronting permanent loss.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/warehouse-13-an-inventory-of-forgotten-futures/",
+        "label": "Warehouse 13: An Inventory of Forgotten Futures"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:65cb095e-a9f7-4ab4-8d9a-3db92f1121c2",
+    "canonicalUrl": "https://www.mycal.net/terms/schrodingers-disc/"
+  },
+  {
+    "slug": "seventy-year-stall",
+    "name": "The 70-Year Stall",
+    "date": "2025",
+    "description": "The phenomenon where breakthrough technologies (fusion, reactionless drive, synthetic gravity, FTL) have remained ‘always 20 years away’ for seven decades because human cognition couldn’t close the complexity gap.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/the-lords-of-zero/",
+        "label": "The Lords of Zero"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:9a4d4ee4-f8e6-40c8-a1a5-db6834341c4f",
+    "canonicalUrl": "https://www.mycal.net/terms/seventy-year-stall/"
+  },
+  {
+    "slug": "single-score-fallacy",
+    "name": "Single Score Fallacy",
+    "date": "2026",
+    "description": "The error of assuming that LLM capability can be meaningfully compressed into a single scalar value, when ‘best’ depends on user, constraints, and intended use. A leaderboard tells you which model most closely matches the benchmark author’s idea of ‘good.’",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/why-benchmarks-fail/",
+        "label": "Why Benchmarks Fail"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:bbc760f6-c6d9-4eb6-a6b4-072c66aca7a6",
+    "canonicalUrl": "https://www.mycal.net/terms/single-score-fallacy/"
+  },
+  {
+    "slug": "singularity-grade-ai",
+    "name": "Singularity-grade AI",
+    "date": "November 2, 1994",
+    "description": "AI systems that rewrite themselves, operate with source code in flux, and see further and faster than humans ever will. Distinct from constraint-based ‘safe’ AI. Term coined November 2, 1994 in the Future Culture mailing list.",
+    "links": [
+      {
+        "url": "https://archive.mycal.net/usenet/raw/mailing-lists/futureCulture/fc-Wed-02-Nov-1994-01:42:33-PST.txt",
+        "label": "1994 Future Culture post"
+      },
+      {
+        "url": "https://blog.mycal.net/the-lords-of-zero/",
+        "label": "The Lords of Zero"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:c1050d1f-b82b-44c0-9b59-f161b34248cf",
+    "canonicalUrl": "https://www.mycal.net/terms/singularity-grade-ai/"
+  },
+  {
+    "slug": "solder-smoke-grind",
+    "name": "Solder-Smoke Grind",
+    "date": "2025",
+    "description": "The 1990s maker-hacker culture of learning through direct physical and digital confrontation — soldering irons, datasheets, hand-rolled TCP stacks, hex editors until sunrise. Every popped capacitor and segfault was a teacher. The foundation that produced engineers who debug reality rather than vibe code.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/new-country-for-old-men/",
+        "label": "New Country for Old Men"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:17d892b3-86ec-4fc3-bd73-14af3254affc",
+    "canonicalUrl": "https://www.mycal.net/terms/solder-smoke-grind/"
+  },
+  {
+    "slug": "speed-without-trust",
+    "name": "Speed Without Trust",
+    "date": "2025",
+    "description": "The principle that velocity alone, without verification mechanisms, creates entropy rather than efficiency. High-speed transactions require high-trust protocols. Speed without trust collapses into noise.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/proof-of-personhood/",
+        "label": "Proof of Personhood"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:157c2952-8cb1-433f-8ad3-4bb19fcb9624",
+    "canonicalUrl": "https://www.mycal.net/terms/speed-without-trust/"
+  },
+  {
+    "slug": "statistical-cognition",
+    "name": "Statistical Cognition",
+    "date": "2025",
+    "description": "The boundary layer (level 0 in the Atlas of Cognition) where physics begins to infer — where computation stops being calculation and starts being something like understanding through pattern prediction.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/descent-form-ascent-mind/",
+        "label": "The Descent of Form and the Ascent of Mind"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:2bcbc09c-6aac-4bb9-a476-a46f98636d54",
+    "canonicalUrl": "https://www.mycal.net/terms/statistical-cognition/"
+  },
+  {
+    "slug": "strong-federation",
+    "name": "Strong Federation",
+    "date": "2025",
+    "description": "Decentralized cognitive infrastructure including local inference on hardware you control, sovereign nodes that don’t ask permission, identity-scoped networks run by peers not platforms, reversible topology with no single point of failure.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/the-three-empires/",
+        "label": "The Three Empires"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:b3e5559e-beab-4ab8-bfd8-cbd3a5f9475e",
+    "canonicalUrl": "https://www.mycal.net/terms/strong-federation/"
+  },
+  {
+    "slug": "substrate-determinism",
+    "name": "Substrate Determinism",
+    "date": "2025",
+    "description": "The principle that substrate — not innovation — now chooses who wins. Civilization reorganizes around new substrates: Stone → Bronze → Iron, Steam → Electricity → Silicon, Capital → Networks → Cognition. Each reshapes power, markets, governance, and culture.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/infrasructure-wins/",
+        "label": "Infrastructure Wins"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:167c493c-e1bb-414b-99cd-16095dd7042b",
+    "canonicalUrl": "https://www.mycal.net/terms/substrate-determinism/"
+  },
+  {
+    "slug": "substrate-parallel-routing",
+    "name": "Substrate-Parallel Routing",
+    "date": "2025",
+    "description": "NoBGP for cognition — routing architecture that enables cognitive traffic to flow through multiple independent substrate providers, preventing single-point capture. Essential infrastructure for federated cognitive networks.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/negotiated-reality/",
+        "label": "Negotiated Reality"
+      },
+      {
+        "url": "https://nobgp.com/",
+        "label": "NoBGP"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:73ef0d16-d05f-4a75-a1ce-50490f1e8be1",
+    "canonicalUrl": "https://www.mycal.net/terms/substrate-parallel-routing/"
+  },
+  {
+    "slug": "substrate-war",
+    "name": "The Substrate War",
+    "date": "2025",
+    "description": "An analytical framework examining how control of foundational infrastructure layers — compute, routing, identity, training data — determines power in the AI era. The war is fought not over content but over the substrates on which content depends.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/tag/substrate-war/",
+        "label": "The Substrate War series"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:a58f65c9-8a0b-430d-a17c-4554b40a51e1",
+    "canonicalUrl": "https://www.mycal.net/terms/substrate-war/"
+  },
+  {
+    "slug": "taste-economy",
+    "name": "Taste Economy",
+    "date": "2025",
+    "description": "An economic paradigm where curation and discernment become more valuable than generation. In an age of AI-driven creative abundance, the winners are those who can curate — the new creative superpower is not prompting but discernment.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/the-aikea-effect-the-psychology-of-loving-our-ai-creations/",
+        "label": "The AIKEA Effect"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:40443c88-41a1-4714-98fa-28c094259608",
+    "canonicalUrl": "https://www.mycal.net/terms/taste-economy/"
+  },
+  {
+    "slug": "thermodynamics-of-cognition",
+    "name": "Thermodynamics of Cognition",
+    "date": "2025",
+    "description": "The observation that all cognitive processes — in silicon or neurons — have measurable thermal signatures as energy constrained into pattern becomes prediction and understanding.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/descent-form-ascent-mind/",
+        "label": "The Descent of Form and the Ascent of Mind"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:f53fc932-6b0e-407e-9658-9a7e34d18362",
+    "canonicalUrl": "https://www.mycal.net/terms/thermodynamics-of-cognition/"
+  },
+  {
+    "slug": "three-empires",
+    "name": "The Three Empires",
+    "date": "2025",
+    "description": "Framework identifying three distinct power structures competing to define reality: political power (borders, sovereignty, law), financial power (capital, liquidity, incentives), and cognitive power (models, inference, simulation, narrative).",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/the-lords-of-zero/",
+        "label": "The Lords of Zero"
+      },
+      {
+        "url": "https://blog.mycal.net/the-three-empires/",
+        "label": "The Three Empires"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:e33b916c-6a56-49bb-9084-5524d3a06c56",
+    "canonicalUrl": "https://www.mycal.net/terms/three-empires/"
+  },
+  {
+    "slug": "tripartite-identity",
+    "name": "Tripartite Identity",
+    "date": "2025",
+    "description": "Identity architecture requiring validation from three independent sources: state (political legitimacy), market (financial participation), and peer attestation (social/cognitive validation). No single empire can unilaterally define identity.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/negotiated-reality/",
+        "label": "Negotiated Reality"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:751b382f-8c7d-469a-95e7-1821ff3a4e79",
+    "canonicalUrl": "https://www.mycal.net/terms/tripartite-identity/"
+  },
+  {
+    "slug": "useful-imprecision",
+    "name": "Useful Imprecision",
+    "date": "2026",
+    "description": "The property of transformer systems where imprecision is not a failure but a feature. NTSC failed because it couldn’t control analog noise. Transformers succeed because complexity itself becomes the signal.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/never-twice-the-same-color/",
+        "label": "Never Twice the Same Color"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:23fe6c4f-e77e-48e2-8f04-fd199f1a6b60",
+    "canonicalUrl": "https://www.mycal.net/terms/useful-imprecision/"
+  },
+  {
+    "slug": "vector-gravity",
+    "name": "Vector Gravity",
+    "date": "2026",
+    "description": "The phenomenon in which a compressed, semantically dense phrase accumulates enough activation weight within an AI context window to bend the probabilistic landscape. Not a permanent weight change but a contextual attractor — the token cluster becomes easier to reach, and the conversation bends toward it.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/when-a-phrase-becomes-gravity/",
+        "label": "When a Phrase Becomes Gravity"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:6ecbdde4-0c38-4886-9a5e-99088c253832",
+    "canonicalUrl": "https://www.mycal.net/terms/vector-gravity/"
+  }
+]
