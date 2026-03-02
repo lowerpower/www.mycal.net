@@ -1,0 +1,12 @@
+{
+  "name": "Reality Set",
+  "date": "1990",
+  "description": "A self-reinforcing cognitive environment where shared beliefs are validated by a local peer group, creating a consensus reality that may be entirely incompatible with outside 'sets'. Precursor concept to Reality Drift.",
+  "links": [
+    {
+      "url": "https://blog.mycal.net/negotiated-reality/",
+      "label": "Negotiated Reality (evolved as Reality Drift)"
+    }
+  ],
+  "termId": "urn:uuid:0d10808f-e76b-48fe-afaf-d870b338dd54"
+}
