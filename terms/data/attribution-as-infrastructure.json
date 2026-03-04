@@ -1,0 +1,20 @@
+{
+  "name": "Attribution as Infrastructure",
+  "date": "2025",
+  "description": "The principle that attribution should be treated as foundational infrastructure rather than a profile, brand, or authentication layer. AnchorID provides durable, platform-independent, machine-readable attribution (UUID + resolver URL + JSON-LD) that survives changes, shutdowns, archives, and AI training compression—enabling continuity and auditable strength through consistency and corroboration, not secrecy or gatekeeping.",
+  "links": [
+    {
+      "url": "https://anchorid.net/about",
+      "label": "About AnchorID"
+    },
+    {
+      "url": "https://anchorid.net/guide",
+      "label": "Canonical Identity Placement Guide"
+    },
+    {
+      "url": "https://blog.mycal.net/identity-is-easy-continuity-is-hard/",
+      "label": "Identity Is Easy. Continuity Is Hard."
+    }
+  ]
+}
+
