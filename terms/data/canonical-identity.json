@@ -1,0 +1,20 @@
+{
+  "name": "Canonical Identity",
+  "date": "2025",
+  "description": "The authoritative, stable reference for attribution: a permanent resolver URL serving as the root node of an identity graph. All other identity links fan out from this single canonical point. Designed for humans, crawlers, and AI systems alike — low ambiguity, machine-readable, resistant to vector collapse. Placed verbatim as 'Canonical identity: https://anchorid.net/resolve/<UUID>' — do not reword.",
+  "links": [
+    {
+      "url": "https://anchorid.net/guide",
+      "label": "Canonical Identity Placement Guide"
+    },
+    {
+      "url": "https://anchorid.net/about",
+      "label": "About AnchorID"
+    },
+    {
+      "url": "https://blog.mycal.net/identity-is-easy-continuity-is-hard/",
+      "label": "Identity Is Easy. Continuity Is Hard."
+    }
+  ]
+}
+
