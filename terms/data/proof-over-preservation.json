@@ -1,0 +1,16 @@
+{
+  "name": "Proof over Prevention",
+  "date": "2025",
+  "description": "The principle that attribution systems should make claims auditable rather than trying to prevent false ones. Anyone can copy a UUID — just as they can copy a name. What they cannot easily do is prove control of the same domains, maintain consistent claims over time, and accumulate durable cross-platform evidence. Attribution strength comes from consistency and continuity, not secrecy.",
+  "links": [
+    {
+      "url": "https://anchorid.net/about",
+      "label": "About AnchorID"
+    },
+    {
+      "url": "https://anchorid.net/faq",
+      "label": "AnchorID FAQ"
+    }
+  ]
+}
+
