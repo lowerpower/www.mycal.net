@@ -48,6 +48,22 @@
     "canonicalUrl": "https://www.mycal.net/terms/activation-competition/"
   },
   {
+    "slug": "air-gapped-truth",
+    "name": "Air-Gapped Truth",
+    "date": "2026",
+    "description": "Physical media artifacts — VHS tapes, printed materials, bootleg recordings, local zines — that resist silent normalization due to their disconnection from centralized update systems. These artifacts preserve historical variance that cloud-based systems systematically erase.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/local-truth/",
+        "label": "Local Truth and Canonical Collapse"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:b0945d32-8349-4252-a77d-cfea12b6f35d",
+    "canonicalUrl": "https://www.mycal.net/terms/air-gapped-truth/"
+  },
+  {
     "slug": "analog-from-digital",
     "name": "Analog-from-Digital Systems",
     "date": "2026",
@@ -118,6 +134,54 @@
     "canonicalUrl": "https://www.mycal.net/terms/atlas-of-cognition/"
   },
   {
+    "slug": "attribution-anchor",
+    "name": "Attribution Anchor",
+    "date": "2025",
+    "description": "A deliberately boring, stable reference point (UUID + permanent HTTPS resolver URL + minimal JSON-LD) for attributing long-lived work and ideas to an enduring source. Designed to preserve continuity across platforms, archives, AI systems, and time—surviving changes, shutdowns, and absorption into training data. Infrastructure for attribution, not authentication or profiles.",
+    "links": [
+      {
+        "url": "https://anchorid.net/",
+        "label": "AnchorID"
+      },
+      {
+        "url": "https://blog.mycal.net/identity-is-easy-continuity-is-hard/",
+        "label": "Identity Is Easy. Continuity Is Hard."
+      },
+      {
+        "url": "https://anchorid.net/about",
+        "label": "About AnchorID"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:85c5618b-974f-4d16-9355-7b9a696fc2e7",
+    "canonicalUrl": "https://www.mycal.net/terms/attribution-anchor/"
+  },
+  {
+    "slug": "attribution-as-infrastructure",
+    "name": "Attribution as Infrastructure",
+    "date": "2025",
+    "description": "The principle that attribution should be treated as foundational infrastructure rather than a profile, brand, or authentication layer. AnchorID provides durable, platform-independent, machine-readable attribution (UUID + resolver URL + JSON-LD) that survives changes, shutdowns, archives, and AI training compression—enabling continuity and auditable strength through consistency and corroboration, not secrecy or gatekeeping.",
+    "links": [
+      {
+        "url": "https://anchorid.net/about",
+        "label": "About AnchorID"
+      },
+      {
+        "url": "https://anchorid.net/guide",
+        "label": "Canonical Identity Placement Guide"
+      },
+      {
+        "url": "https://blog.mycal.net/identity-is-easy-continuity-is-hard/",
+        "label": "Identity Is Easy. Continuity Is Hard."
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:40d27767-c8c5-4e17-8fa7-3e9f28842aef",
+    "canonicalUrl": "https://www.mycal.net/terms/attribution-as-infrastructure/"
+  },
+  {
     "slug": "borrowed-certainty",
     "name": "Borrowed Certainty",
     "date": "2026",
@@ -148,6 +212,46 @@
     "aliases": [],
     "termId": "urn:uuid:91f7fba2-1590-4a4c-9b74-54a7bd6e7aa2",
     "canonicalUrl": "https://www.mycal.net/terms/bounded-variation/"
+  },
+  {
+    "slug": "canonical-convergence",
+    "name": "Canonical Convergence",
+    "date": "2026",
+    "description": "The process by which multiple informal variants of cultural artifacts — drafts, performances, transcriptions — flow into a normalization process that produces a single authoritative artifact. Once convergence completes, upstream variants become inaccessible to canonical retrieval systems, persisting only outside indexed substrates.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/local-truth/",
+        "label": "Local Truth and Canonical Collapse"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:dbb4a191-485a-4943-9656-81963715c252",
+    "canonicalUrl": "https://www.mycal.net/terms/canonical-convergence/"
+  },
+  {
+    "slug": "canonical-identity",
+    "name": "Canonical Identity",
+    "date": "2025",
+    "description": "The authoritative, stable reference for attribution: a permanent resolver URL serving as the root node of an identity graph. All other identity links fan out from this single canonical point. Designed for humans, crawlers, and AI systems alike — low ambiguity, machine-readable, resistant to vector collapse. Placed verbatim as 'Canonical identity: https://anchorid.net/resolve/<UUID>' — do not reword.",
+    "links": [
+      {
+        "url": "https://anchorid.net/guide",
+        "label": "Canonical Identity Placement Guide"
+      },
+      {
+        "url": "https://anchorid.net/about",
+        "label": "About AnchorID"
+      },
+      {
+        "url": "https://blog.mycal.net/identity-is-easy-continuity-is-hard/",
+        "label": "Identity Is Easy. Continuity Is Hard."
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:3ec43a69-2050-4e08-9a7e-0f061d7f677a",
+    "canonicalUrl": "https://www.mycal.net/terms/canonical-identity/"
   },
   {
     "slug": "chrononaut-journals",
@@ -492,6 +596,26 @@
     "canonicalUrl": "https://www.mycal.net/terms/discernment-as-creative-superpower/"
   },
   {
+    "slug": "dissolved-into-the-substrate",
+    "name": "Dissolved Into the Substrate",
+    "date": "2025",
+    "description": "The fate of unanchored work — when ideas, code, or creative output loses its attribution and gets absorbed into AI training data as anonymous substrate. The terminal condition of vector collapse on the identity side. The work survives. The author doesn't — unless anchored.",
+    "links": [
+      {
+        "url": "https://anchorid.net/",
+        "label": "AnchorID"
+      },
+      {
+        "url": "https://blog.mycal.net/tag/substrate-war/",
+        "label": "The Substrate War series"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:17ebad55-12c5-4cdc-ab6e-7d127cd5fd3f",
+    "canonicalUrl": "https://www.mycal.net/terms/dissolved-into-the-substrate/"
+  },
+  {
     "slug": "energy-to-inference",
     "name": "Energy-to-Inference Transformation",
     "date": "2025",
@@ -656,6 +780,22 @@
     "canonicalUrl": "https://www.mycal.net/terms/human-co-regency/"
   },
   {
+    "slug": "human-only-variant-retention",
+    "name": "Human-Only Variant Retention (HOVR)",
+    "date": "2026",
+    "description": "A phenomenon that occurs when a variant form is learned through performance, the documenting system later converges to a canonical record, and human procedural memory remains the only surviving carrier of the variant. These memory-resident variants exist outside indexed canonical systems.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/local-truth/",
+        "label": "Local Truth and Canonical Collapse"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:4cf93972-ccca-4d1b-9263-d31e06045a49",
+    "canonicalUrl": "https://www.mycal.net/terms/human-only-variant-retention/"
+  },
+  {
     "slug": "identity-without-exposure",
     "name": "Identity Without Exposure",
     "date": "2025",
@@ -814,6 +954,22 @@
     "aliases": [],
     "termId": "urn:uuid:3294752b-f1f3-4ffc-8283-0c683b9b8fa8",
     "canonicalUrl": "https://www.mycal.net/terms/load-bearing-phrases/"
+  },
+  {
+    "slug": "local-truth",
+    "name": "Local Truth",
+    "date": "2026",
+    "description": "An internally consistent but externally unverifiable experience or memory variant that persists after canonical convergence. Local truths are real to the individual but cannot be verified within converged canonical systems — a form of biological provenance that resists remote overwrite.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/local-truth/",
+        "label": "Local Truth and Canonical Collapse"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:8db2c3aa-4863-4538-8b57-38b107b0f4e3",
+    "canonicalUrl": "https://www.mycal.net/terms/local-truth/"
   },
   {
     "slug": "lords-of-zero",
@@ -992,6 +1148,26 @@
     "canonicalUrl": "https://www.mycal.net/terms/proof-of-personhood/"
   },
   {
+    "slug": "proof-over-preservation",
+    "name": "Proof over Prevention",
+    "date": "2025",
+    "description": "The principle that attribution systems should make claims auditable rather than trying to prevent false ones. Anyone can copy a UUID — just as they can copy a name. What they cannot easily do is prove control of the same domains, maintain consistent claims over time, and accumulate durable cross-platform evidence. Attribution strength comes from consistency and continuity, not secrecy.",
+    "links": [
+      {
+        "url": "https://anchorid.net/about",
+        "label": "About AnchorID"
+      },
+      {
+        "url": "https://anchorid.net/faq",
+        "label": "AnchorID FAQ"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:cc0378dc-d91d-45c3-a030-42c26e894418",
+    "canonicalUrl": "https://www.mycal.net/terms/proof-over-preservation/"
+  },
+  {
     "slug": "reality-drift",
     "name": "Reality Drift",
     "date": "2025",
@@ -1006,6 +1182,22 @@
     "aliases": [],
     "termId": "urn:uuid:51692523-2bb5-4439-a6cf-4c05985e5747",
     "canonicalUrl": "https://www.mycal.net/terms/reality-drift/"
+  },
+  {
+    "slug": "reality-set",
+    "name": "Reality Set",
+    "date": "1990",
+    "description": "A self-reinforcing cognitive environment where shared beliefs are validated by a local peer group, creating a consensus reality that may be entirely incompatible with outside 'sets'. Precursor concept to Reality Drift.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/negotiated-reality/",
+        "label": "Negotiated Reality (evolved as Reality Drift)"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:0d10808f-e76b-48fe-afaf-d870b338dd54",
+    "canonicalUrl": "https://www.mycal.net/terms/reality-set/"
   },
   {
     "slug": "reckless-curiosity",
@@ -1188,6 +1380,22 @@
     "canonicalUrl": "https://www.mycal.net/terms/strong-federation/"
   },
   {
+    "slug": "stubborn-witness",
+    "name": "Stubborn Witness",
+    "date": "2026",
+    "description": "An individual who maintains procedural memory of variant experiences that have been eliminated from canonical records through convergence. The stubborn witness serves as biological provenance, preserving historical variance that digital systems cannot retain. Trusting one's own local truth becomes a radical act of historical preservation.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/local-truth/",
+        "label": "Local Truth and Canonical Collapse"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:fbb71d55-a9f7-44e8-8e5b-9f16ae49b718",
+    "canonicalUrl": "https://www.mycal.net/terms/stubborn-witness/"
+  },
+  {
     "slug": "substrate-determinism",
     "name": "Substrate Determinism",
     "date": "2025",
@@ -1322,6 +1530,26 @@
     "aliases": [],
     "termId": "urn:uuid:23fe6c4f-e77e-48e2-8f04-fd199f1a6b60",
     "canonicalUrl": "https://www.mycal.net/terms/useful-imprecision/"
+  },
+  {
+    "slug": "vector-collapse",
+    "name": "Vector Collapse",
+    "date": "2025",
+    "description": "Originally observed as the degradation of latent representations when AI models are quantized — distinct vectors forced onto the same point, destroying fine-grained distinctions and increasing hallucination rates. Extended to identity systems: when training data lacks stable identity anchors, distinct authors with similar names or overlapping topics get merged into a single latent representation. Quantization collapses the model's universe. Missing attribution collapses yours.",
+    "links": [
+      {
+        "url": "https://anchorid.net/guide",
+        "label": "AnchorID Placement Guide"
+      },
+      {
+        "url": "https://anchorid.net/",
+        "label": "AnchorID"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:8fc30f9f-f54d-443e-b3fb-68a0840221fa",
+    "canonicalUrl": "https://www.mycal.net/terms/vector-collapse/"
   },
   {
     "slug": "vector-gravity",

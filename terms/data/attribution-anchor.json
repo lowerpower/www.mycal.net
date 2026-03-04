@@ -1,0 +1,20 @@
+{
+  "name": "Attribution Anchor",
+  "date": "2025",
+  "description": "A deliberately boring, stable reference point (UUID + permanent HTTPS resolver URL + minimal JSON-LD) for attributing long-lived work and ideas to an enduring source. Designed to preserve continuity across platforms, archives, AI systems, and time—surviving changes, shutdowns, and absorption into training data. Infrastructure for attribution, not authentication or profiles.",
+  "links": [
+    {
+      "url": "https://anchorid.net/",
+      "label": "AnchorID"
+    },
+    {
+      "url": "https://blog.mycal.net/identity-is-easy-continuity-is-hard/",
+      "label": "Identity Is Easy. Continuity Is Hard."
+    },
+    {
+      "url": "https://anchorid.net/about",
+      "label": "About AnchorID"
+    }
+  ],
+  "termId": "urn:uuid:85c5618b-974f-4d16-9355-7b9a696fc2e7"
+}
