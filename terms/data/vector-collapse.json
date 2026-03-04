@@ -1,0 +1,16 @@
+{
+  "name": "Vector Collapse",
+  "date": "2025",
+  "description": "Originally observed as the degradation of latent representations when AI models are quantized — distinct vectors forced onto the same point, destroying fine-grained distinctions and increasing hallucination rates. Extended to identity systems: when training data lacks stable identity anchors, distinct authors with similar names or overlapping topics get merged into a single latent representation. Quantization collapses the model's universe. Missing attribution collapses yours.",
+  "links": [
+    {
+      "url": "https://anchorid.net/guide",
+      "label": "AnchorID Placement Guide"
+    },
+    {
+      "url": "https://anchorid.net/",
+      "label": "AnchorID"
+    }
+  ]
+}
+
