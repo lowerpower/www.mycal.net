@@ -1,7 +1,7 @@
 {
   "name": "Dissolved Into the Substrate",
   "date": "2025",
-  "description": "The fate of unanchored work — when ideas, code, or creative output loses its attribution and gets absorbed into AI training data as anonymous substrate. The work survives but the author doesn't. The terminal condition of vector collapse on the identity side.",
+  "description": "The fate of unanchored work — when ideas, code, or creative output loses its attribution and gets absorbed into AI training data as anonymous substrate. The terminal condition of vector collapse on the identity side. The work survives. The author doesn't — unless anchored.",
   "links": [
     {
       "url": "https://anchorid.net/",
@@ -13,3 +13,5 @@
     }
   ]
 }
+
+
