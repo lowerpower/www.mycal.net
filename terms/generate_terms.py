@@ -333,11 +333,14 @@ def build_html_entries(terms: List[dict]) -> str:
         )
         entries.append(
             f'''      <div class="term-entry" id="{t["slug"]}">
-        <div class="term-name">{escape(t["name"])}</div>
+        <div class="term-name"><a href="/terms/{t["slug"]}/" class="term-page-link">{escape(t["name"])}</a></div>
         <div class="term-meta"><span>First used: {escape(t["date"])}</span></div>
         <p class="term-definition">{escape(t["description"])}</p>
         <div class="term-links">
 {links_html}
+        </div>
+        <div class="term-anchor-wrap">
+          <a href="/terms/{t["slug"]}/" class="term-anchor-link">Open term page ↗</a>
         </div>
       </div>'''
         )
@@ -437,6 +440,8 @@ def build_page(terms: List[dict], jsonld: str, html_entries: str, alias_map: Dic
       100% {{ background: rgba(255, 255, 255, 0.03); border-color: rgba(246, 164, 65, 0.6); }}
     }}
     .term-name {{ font-size: 1.35rem; font-weight: 700; color: #f6a441; margin-bottom: 0.25rem; }}
+    .term-page-link {{ color: inherit; text-decoration: none; }}
+    .term-page-link:hover {{ text-decoration: underline; text-underline-offset: 3px; }}
     .term-meta {{ font-size: 0.8rem; color: #777; margin-bottom: 0.75rem; }}
     .term-meta span {{ margin-right: 1rem; }}
     .term-definition {{ font-size: 1rem; color: #ccc; line-height: 1.7; margin-bottom: 0.75rem; }}
@@ -447,6 +452,9 @@ def build_page(terms: List[dict], jsonld: str, html_entries: str, alias_map: Dic
       border-radius: 6px; padding: 0.2rem 0.6rem; transition: all 0.3s ease;
     }}
     .term-link:hover {{ background: rgba(246, 164, 65, 0.15); border-color: #f6a441; }}
+    .term-anchor-wrap {{ display: flex; justify-content: flex-end; margin-top: 0.8rem; }}
+    .term-anchor-link {{ color: #999; font-size: 0.78rem; text-decoration: none; }}
+    .term-anchor-link:hover {{ color: #f6a441; text-decoration: underline; }}
     .no-results {{
       text-align: center; color: #666; font-size: 1.05rem;
       padding: 3rem 1rem; display: none;
