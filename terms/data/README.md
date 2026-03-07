@@ -42,6 +42,12 @@ This slug is used everywhere:
 | Field | Type | Description |
 |---|---|---|
 | `sameAs` | array of strings | URLs where this term is also defined (e.g., `["https://anchorid.net/"]`) |
+| `aliases` | array of strings | Old/alternate slugs that should redirect/hash-normalize to this canonical slug |
+| `termId` | string | Stable term identifier in `urn:uuid:<uuid>` format (auto-assigned by generator if missing) |
+| `temporalCoverage` | string | Optional machine-readable coverage window (example: `1980/1989`) |
+| `startDate` | string | Optional ISO start date (`YYYY-MM-DD`) |
+| `endDate` | string | Optional ISO end date (`YYYY-MM-DD`) |
+| `dateISO` | string | Optional ISO date for precise machine date (`YYYY-MM-DD`) |
 
 ### Link Objects
 
@@ -84,13 +90,20 @@ The **first link** is treated as the primary origin. The generator uses it to bu
 
 1. Create `your-term-slug.json` in this directory
 2. Run `python3 generate_terms.py` from the repo root
-3. Verify the output `terms/index.html`
-4. Commit both the JSON file and the regenerated HTML
+3. Verify generated outputs in `terms/`:
+   - `index.html`
+   - `<slug>/index.html`
+   - `terms.json`
+   - `terms.ndjson`
+   - `sitemap-terms.xml`
+4. Commit the JSON file and regenerated outputs
 
 ## Notes
 
 - The slug is derived from the filename (minus `.json`), not from any field in the file
-- The generator sorts all terms alphabetically by slug
-- The generator builds both HTML entries and the full `@graph` JSON-LD from these files
+- The generator sorts all terms case-insensitively by slug
+- Each term gets a canonical page at `/terms/<slug>/`
+- Term cards in the index link directly to canonical term pages
+- The generator builds index + term-page JSON-LD and machine exports from these files
 - Identity graph objects (Person, Organization, WebSite) are hardcoded in the generator, not in these files
 - Term count in the page intro is calculated automatically

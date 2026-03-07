@@ -33,6 +33,78 @@
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "Person",
+      "@id": "https://blog.mycal.net/about/#mycal",
+      "name": "Mike Johnson",
+      "givenName": "Michael",
+      "familyName": "Johnson",
+      "alternateName": [
+        "Mycal",
+        "Mike",
+        "マイカル",
+        "mycal"
+      ],
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "canonical-uuid",
+          "value": "urn:uuid:4ff7ed97-b78f-4ae6-9011-5af714ee241c"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "AnchorID",
+          "value": "https://anchorid.net/resolve/4ff7ed97-b78f-4ae6-9011-5af714ee241c"
+        }
+      ],
+      "url": "https://www.mycal.net/",
+      "sameAs": [
+        "https://anchorid.net/resolve/4ff7ed97-b78f-4ae6-9011-5af714ee241c",
+        "https://www.mycal.net",
+        "https://music.mycal.net",
+        "https://blog.mycal.net",
+        "https://archive.mycal.net",
+        "https://github.com/lowerpower",
+        "https://www.linkedin.com/in/mycal/",
+        "https://x.com/mycal_1"
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://blog.mycal.net/#publisher",
+      "name": "Mycal Labs",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "canonical-uuid",
+          "value": "urn:uuid:bbf7372e-87d3-4098-8e60-f4e24d027a04"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "AnchorID",
+          "value": "https://anchorid.net/resolve/bbf7372e-87d3-4098-8e60-f4e24d027a04"
+        }
+      ],
+      "url": "https://blog.mycal.net/",
+      "founder": {
+        "@id": "https://blog.mycal.net/about/#mycal"
+      },
+      "sameAs": [
+        "https://anchorid.net/resolve/bbf7372e-87d3-4098-8e60-f4e24d027a04"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.mycal.net/#website",
+      "name": "Mycal.net",
+      "url": "https://www.mycal.net/",
+      "publisher": {
+        "@id": "https://blog.mycal.net/#publisher"
+      },
+      "mainEntity": {
+        "@id": "https://blog.mycal.net/about/#mycal"
+      }
+    },
+    {
       "@type": "WebPage",
       "@id": "https://www.mycal.net/terms/forced-triangle/#webpage",
       "url": "https://www.mycal.net/terms/forced-triangle/",

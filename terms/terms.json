@@ -1,21 +1,5 @@
 [
   {
-    "slug": "Petaluma-Chicken-Scratch",
-    "name": "Petaluma Chicken Scratch",
-    "date": "2010s",
-    "description": "A cannabis strain bred in Petaluma, CA using chicken coop compost ('coop-born gold') as the growing medium — the name is literal, not metaphorical. Developed through years of backyard breeding, crossing Guava Cookie with Clearlake fire-stressed Chili Verde genetics, the strain became a local legend distributed through a gift economy rather than sold. The seeds carry the lineage forward.",
-    "links": [
-      {
-        "url": "https://archive.mycal.net/pcs/",
-        "label": "Petaluma Chicken Scratch Archive"
-      }
-    ],
-    "sameAs": [],
-    "aliases": [],
-    "termId": "urn:uuid:c9f89b33-f1f2-45ce-a8d3-a6c8bf06b01c",
-    "canonicalUrl": "https://www.mycal.net/terms/Petaluma-Chicken-Scratch/"
-  },
-  {
     "slug": "accountable-velocity",
     "name": "Accountable Velocity",
     "date": "2025",
@@ -1100,6 +1084,22 @@
     "canonicalUrl": "https://www.mycal.net/terms/patent-parallel/"
   },
   {
+    "slug": "Petaluma-Chicken-Scratch",
+    "name": "Petaluma Chicken Scratch",
+    "date": "2010s",
+    "description": "A cannabis strain bred in Petaluma, CA using chicken coop compost ('coop-born gold') as the growing medium — the name is literal, not metaphorical. Developed through years of backyard breeding, crossing Guava Cookie with Clearlake fire-stressed Chili Verde genetics, the strain became a local legend distributed through a gift economy rather than sold. The seeds carry the lineage forward.",
+    "links": [
+      {
+        "url": "https://archive.mycal.net/pcs/",
+        "label": "Petaluma Chicken Scratch Archive"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:c9f89b33-f1f2-45ce-a8d3-a6c8bf06b01c",
+    "canonicalUrl": "https://www.mycal.net/terms/Petaluma-Chicken-Scratch/"
+  },
+  {
     "slug": "post-patent-brain",
     "name": "Post-Patent Brain",
     "date": "2025",
@@ -1566,5 +1566,21 @@
     "aliases": [],
     "termId": "urn:uuid:6ecbdde4-0c38-4886-9a5e-99088c253832",
     "canonicalUrl": "https://www.mycal.net/terms/vector-gravity/"
+  },
+  {
+    "slug": "writing-for-the-tails",
+    "name": "Writing for the Tails",
+    "date": "2026",
+    "description": "The practice of writing highly specific, semantically dense content that occupies the long-tail edges of a topic, where generic coverage drops off and AI training data is thinnest. Not SEO. Not keyword stuffing. Writing where nobody else is writing, so the signal is yours.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/when-a-phrase-becomes-gravity/",
+        "label": "When a Phrase Becomes Gravity"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "termId": "urn:uuid:89b78444-ba87-403f-8db6-7c79d9a513b3",
+    "canonicalUrl": "https://www.mycal.net/terms/writing-for-the-tails/"
   }
 ]

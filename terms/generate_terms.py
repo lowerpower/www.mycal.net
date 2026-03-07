@@ -231,9 +231,8 @@ def build_defined_term_node(term: dict) -> dict:
     return node
 
 
-def build_jsonld(terms: List[dict]) -> str:
-    """Build the @graph JSON-LD structure for index.html."""
-    graph = [
+def build_identity_graph_nodes() -> List[dict]:
+    return [
         {
             "@type": "Person",
             "@id": "https://blog.mycal.net/about/#mycal",
@@ -277,7 +276,15 @@ def build_jsonld(terms: List[dict]) -> str:
             "publisher": {"@id": "https://blog.mycal.net/#publisher"},
             "mainEntity": {"@id": "https://blog.mycal.net/about/#mycal"},
         },
-        {
+    ]
+
+
+def build_jsonld(terms: List[dict]) -> str:
+    """Build the @graph JSON-LD structure for index.html."""
+    graph = build_identity_graph_nodes()
+    graph.extend(
+        [
+            {
             "@type": "WebPage",
             "@id": f"{CANONICAL_BASE_URL}#webpage",
             "url": CANONICAL_BASE_URL,
@@ -304,7 +311,8 @@ def build_jsonld(terms: List[dict]) -> str:
             "license": "https://creativecommons.org/licenses/by-sa/4.0/",
             "hasDefinedTerm": [{"@id": f"{CANONICAL_BASE_URL}#{t['slug']}"} for t in terms],
         },
-    ]
+        ]
+    )
 
     for term in terms:
         graph.append(build_defined_term_node(term))
@@ -660,8 +668,10 @@ def short_description(text: str, max_len: int = 160) -> str:
 
 
 def build_term_page_jsonld(term: dict) -> str:
-    graph = [
-        {
+    graph = build_identity_graph_nodes()
+    graph.extend(
+        [
+            {
             "@type": "WebPage",
             "@id": f"{canonical_term_url(term['slug'])}#webpage",
             "url": canonical_term_url(term["slug"]),
@@ -674,8 +684,9 @@ def build_term_page_jsonld(term: dict) -> str:
             "inLanguage": "en-US",
             "license": "https://creativecommons.org/licenses/by-sa/4.0/",
         },
-        build_defined_term_node(term),
-    ]
+            build_defined_term_node(term),
+        ]
+    )
     return json.dumps({"@context": "https://schema.org", "@graph": graph}, indent=2, ensure_ascii=False)
 
 

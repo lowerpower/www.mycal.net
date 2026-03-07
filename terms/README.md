@@ -18,32 +18,42 @@ terms/
 
 `index.html` is fully generated — all HTML, CSS, JavaScript, and JSON-LD are produced by `generate_terms.py`. Do not edit it directly.
 
-## Current Term Count: 60
-
 ## Adding a Term
 
 1. Create `your-term-slug.json` in `data/` (see `data/README.md` for format)
 2. Run `python3 generate_terms.py`
-3. Verify the output in `index.html`
-4. Commit both the new JSON file and the regenerated HTML
+3. Verify generated output:
+   - `index.html`
+   - `<slug>/index.html` (canonical term page)
+   - `terms.json`
+   - `terms.ndjson`
+   - `sitemap-terms.xml`
+4. Commit the new JSON file and regenerated outputs
 
 The generator handles everything: HTML entries, JSON-LD graph, term count in the intro text, and alphabetical ordering.
 
 ## Generator Script
 
-`generate_terms.py` reads all `data/*.json` files, sorts them alphabetically by slug (filename minus `.json`), and produces `index.html` with:
+`generate_terms.py` reads all `data/*.json` files, sorts them case-insensitively by slug (filename minus `.json`), and produces:
 
-- **HTML entries**: Term cards with name, date, description, and source links
-- **JSON-LD `@graph`**: Identity graph (Person, Organization, WebSite), WebPage, BreadcrumbList, DefinedTermSet, and one DefinedTerm per term file
+- **Index page**: `index.html`
+- **Term pages**: `<slug>/index.html` for each term
+- **Alias redirects**: `<alias>/index.html` redirecting to canonical slugs
+- **Machine exports**: `terms.json` and `terms.ndjson`
+- **Terms sitemap**: `sitemap-terms.xml`
+- **HTML entries**: Term cards with name, date, description, source links, and direct links to canonical term pages
+- **JSON-LD `@graph`**:
+  - Index page: identity graph, WebPage, BreadcrumbList, DefinedTermSet, DefinedTerm nodes
+  - Term page: identity graph + WebPage + DefinedTerm
 - **Client-side search**: Full search UI with live filtering (see below)
 - **Umami analytics**: `data-umami-event` attributes on all term links
 
 ### JSON-LD Details
 
-The `build_jsonld()` function generates a `@graph` containing:
+The generator emits:
 
-- **Static entities**: Person (Mike Johnson), Organization (Mycal Labs), WebSite (mycal.net), WebPage, BreadcrumbList
-- **Dynamic entities**: DefinedTermSet + one DefinedTerm per data file, with smart `isDefinedIn` inference from the first link URL
+- **Index page graph**: Person, Organization, WebSite, WebPage, BreadcrumbList, DefinedTermSet, plus one DefinedTerm per data file
+- **Term page graph**: Person, Organization, WebSite, WebPage, DefinedTerm
 
 The identity graph objects are hardcoded in the generator, not in the data files. They should stay in sync with blog.mycal.net:
 
@@ -63,6 +73,7 @@ The generated page includes full client-side search:
 - Clear button and "no results" message
 - Umami analytics tracking on searches (3+ chars, 500ms debounce)
 - Hash navigation (`#slug`) for direct linking to individual terms
+- Alias hash normalization (`#old-slug` rewrites to canonical slug)
 
 ## Naming Conventions
 
@@ -89,4 +100,4 @@ The generated page includes full client-side search:
 - Definitions: 1-3 sentences, descriptive prose (not dictionary-style)
 - "First used" dates: earliest known public usage (blog post, mailing list, patent filing)
 - Source links: pill-style `.term-link` elements linking to originating work
-- Alphabetical ordering throughout — no grouping or categorization
+- Case-insensitive alphabetical ordering throughout — no grouping or categorization
