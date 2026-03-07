@@ -160,7 +160,7 @@ def load_terms() -> List[dict]:
             }
         )
 
-    terms.sort(key=lambda t: t["slug"])
+    terms.sort(key=lambda t: t["slug"].lower())
     return terms
 
 
