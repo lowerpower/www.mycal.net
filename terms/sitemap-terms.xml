@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.mycal.net/terms/</loc>
-    <lastmod>2026-03-07</lastmod>
+    <lastmod>2026-03-09</lastmod>
   </url>
   <url>
     <loc>https://www.mycal.net/terms/accountable-velocity/</loc>
@@ -223,6 +223,10 @@
   <url>
     <loc>https://www.mycal.net/terms/legacy-as-pattern/</loc>
     <lastmod>2026-02-27</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mycal.net/terms/load-bearing-language/</loc>
+    <lastmod>2026-03-09</lastmod>
   </url>
   <url>
     <loc>https://www.mycal.net/terms/load-bearing-phrases/</loc>

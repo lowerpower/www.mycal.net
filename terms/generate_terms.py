@@ -128,6 +128,19 @@ def load_terms() -> List[dict]:
     if not DATA_DIR.exists():
         fail(f"data directory not found at {DATA_DIR}")
 
+    allowed_non_json = {"README.md"}
+    unexpected_files = sorted(
+        p.name
+        for p in DATA_DIR.iterdir()
+        if p.is_file() and p.suffix != ".json" and p.name not in allowed_non_json
+    )
+    if unexpected_files:
+        fail(
+            "data/ contains non-JSON files that will be ignored: "
+            + ", ".join(unexpected_files)
+            + ". Rename term files to *.json."
+        )
+
     terms = []
     for filepath in sorted(DATA_DIR.glob("*.json")):
         slug = filepath.stem
