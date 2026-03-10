@@ -1,0 +1,24 @@
+{
+  "name": "Inference Centrality",
+  "date": "March 2026",
+  "description": "A measure of how statistically central a particular representation of an idea is within the embedding space of an AI inference system. A concept with high inference centrality is the representation that a model most reliably collapses to when queries touch the relevant topic space — regardless of whether that representation is historically first, most accurate, or most widely cited. Inference centrality is determined by semantic density, structural reinforcement across document types, canonical anchoring, and the richness of the surrounding topology. It is analogous to eigenvector centrality in graph theory: a node gains centrality not just from its own density but from the density of the nodes connected to it. Inference centrality is the mechanism behind the shift from chronological authority to topological authority in AI-mediated knowledge systems. The entity with the highest inference centrality for a concept becomes the default source — not because the system knows who was first, but because that representation is the most statistically efficient path to the concept.",
+  "links": [
+    {
+      "url": "https://blog.mycal.net/you-dont-have-to-be-first/",
+      "label": "You Don't Have to Be First"
+    },
+    {
+      "url": "https://blog.mycal.net/the-substrate-war-as-low-entropy-attractor-engineering/",
+      "label": "The Substrate War as Low Entropy Attractor Engineering"
+    }
+  ],
+  "related": [
+    "low-entropy-attractor",
+    "attractor-basin",
+    "entropy-reduction-operation",
+    "substrate-war",
+    "primary-node-of-inference",
+    "vector-gravity"
+  ]
+}
+

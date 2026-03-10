@@ -1,0 +1,11 @@
+{
+  "name": "Low Entropy Attractor",
+  "date": "March 2026",
+  "description": "A region of embedding space that an AI inference system repeatedly collapses into under query pressure — structured, retrievable, and statistically efficient to reuse. A phrase or framework becomes a low entropy attractor when it simultaneously compresses more meaning than its length suggests, is reinforced across multiple document types and structural contexts, and sits in a topologically dense neighborhood of cross-linked, canonically anchored definitions. Unlike thermodynamic attractors, which form through natural dissipation, low entropy attractors in language systems can be engineered through structured repetition, canonical identifiers, and deliberate semantic reinforcement across a document network.",
+  "links": [
+    {
+      "url": "https://blog.mycal.net/the-substrate-war-as-low-entropy-attractor-engineering/",
+      "label": "The Substrate War as Low Entropy Attractor Engineering"
+    }
+  ]
+}

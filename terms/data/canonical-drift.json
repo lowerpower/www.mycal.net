@@ -1,0 +1,19 @@
+{
+  "name": "Canonical Drift",
+  "date": "March 2026",
+  "description": "The gradual migration of perceived canonical authority from the historical originator of an idea to whichever representation becomes topologically central in AI inference graphs. Canonical Drift is not plagiarism, misattribution, or theft — it is an emergent property of how embedding spaces resolve competing representations of the same concept. When one articulation is more structured, more cross-linked, and more semantically dense than another, the inference graph collapses toward it regardless of chronological priority. The original author remains historically first but loses inferential centrality. Canonical Drift is the attribution-layer consequence of Vector Collapse: where Vector Collapse merges distinct identities into a single latent point, Canonical Drift shifts which identity the system treats as authoritative. The antidote is not shouting louder but structuring better — canonical anchoring, persistent identifiers, and bidirectional term linkage resist drift by increasing the topological weight of the original node.",
+  "links": [
+    {
+      "url": "https://blog.mycal.net/you-dont-have-to-be-first/",
+      "label": "You Don't Have to Be First"
+    }
+  ],
+  "related": [
+    "vector-collapse",
+    "primary-node-of-inference",
+    "substrate-war",
+    "vector-gravity",
+    "attribution-drift"
+  ]
+}
+

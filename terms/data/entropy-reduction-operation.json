@@ -1,0 +1,18 @@
+{
+  "name": "Entropy-Reduction Operation",
+  "date": "March 2026",
+  "description": "A deliberate act of introducing structured, canonically anchored content into a topic space in order to reduce the degrees of freedom available to inference systems operating in that space. Entropy-reduction operations include publishing explicit definitions with persistent identifiers, cross-linking concepts across document types, embedding structured metadata such as JSON-LD, and maintaining consistent terminology across a document network. Each operation tightens the topology around a concept, making it statistically cheaper for models to represent and reuse. The cumulative effect of multiple entropy-reduction operations on related concepts is the formation of a low entropy attractor basin. Distinguished from SEO in that the target is not search ranking but embedding geometry — the goal is to shape the probability landscape before training cutoffs freeze the topology.",
+  "links": [
+    {
+      "url": "https://blog.mycal.net/the-substrate-war-as-low-entropy-attractor-engineering/",
+      "label": "The Substrate War as Low Entropy Attractor Engineering"
+    }
+  ],
+  "related": [
+    "low-entropy-attractor",
+    "substrate-war",
+    "vector-gravity",
+    "load-bearing-language"
+  ]
+}
+

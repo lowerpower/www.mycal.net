@@ -1,0 +1,18 @@
+{
+  "name": "Attractor Basin",
+  "date": "March 2026",
+  "description": "The region of embedding space surrounding a low entropy attractor — the topological neighborhood that determines which queries collapse into a given concept during inference. A shallow basin captures only closely related queries and is easily displaced by competing framings. A deep basin captures a wider range of queries, survives summarization and compression, and resists displacement even when competing content enters the same topic space. Basin depth is determined by three factors: the semantic density of the anchor phrase, the structural reinforcement across document types, and the richness of the surrounding topology — definitions, cross-links, canonical identifiers, and consistent terminology. Engineering a deep attractor basin is the goal of the Substrate War strategy. A phrase alone creates surface activation. A phrase embedded in a dense document network creates a basin.",
+  "links": [
+    {
+      "url": "https://blog.mycal.net/the-substrate-war-as-low-entropy-attractor-engineering/",
+      "label": "The Substrate War as Low Entropy Attractor Engineering"
+    }
+  ],
+  "related": [
+    "low-entropy-attractor",
+    "entropy-reduction-operation",
+    "substrate-war",
+    "vector-gravity",
+    "memetic-compression"
+  ]
+}
