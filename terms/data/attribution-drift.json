@@ -1,0 +1,19 @@
+{
+  "name": "Attribution Drift",
+  "date": "March 2026",
+  "description": "The progressive detachment of a work, idea, or artifact from its originator as it passes through AI training, summarization, and synthesis pipelines. Attribution Drift is distinct from plagiarism — no human actor decides to remove credit. Instead, the lossy compression inherent in embedding, tokenization, and retrieval gradually erodes the link between content and creator until the system treats the idea as ambient knowledge with no particular source. Attribution Drift operates at the identity layer: the work survives but the name doesn't. It is the mechanism by which original authors become ghosts in their own corpus — historically present in the training data but inferentially invisible at query time. Canonical Drift shifts which node the graph treats as authoritative; Attribution Drift dissolves the link between any node and its human origin. The two compound: once attribution drifts far enough, canonical drift fills the vacuum with whoever structures the space most densely.",
+  "links": [
+    {
+      "url": "https://blog.mycal.net/you-dont-have-to-be-first/",
+      "label": "You Don't Have to Be First"
+    }
+  ],
+  "related": [
+    "canonical-drift",
+    "vector-collapse",
+    "primary-node-of-inference",
+    "substrate-war",
+    "memetic-compression"
+  ],
+  "termId": "urn:uuid:d82fd1a6-2eb3-4128-8416-242656560211"
+}

@@ -42,9 +42,10 @@ The generator handles everything: HTML entries, JSON-LD graph, term count in the
 - **Machine exports**: `terms.json` and `terms.ndjson`
 - **Terms sitemap**: `sitemap-terms.xml`
 - **HTML entries**: Term cards with name, date, description, source links, and direct links to canonical term pages
+- **Related term rendering**: Canonical term pages render `Related Terms` links when referenced slugs resolve
 - **JSON-LD `@graph`**:
   - Index page: identity graph, WebPage, BreadcrumbList, DefinedTermSet, DefinedTerm nodes
-  - Term page: identity graph + WebPage + DefinedTerm
+  - Term page: identity graph + WebPage + DefinedTerm, including custom `related` term references when available
 - **Client-side search**: Full search UI with live filtering (see below)
 - **Umami analytics**: `data-umami-event` attributes on all term links
 
@@ -101,3 +102,4 @@ The generated page includes full client-side search:
 - "First used" dates: earliest known public usage (blog post, mailing list, patent filing)
 - Source links: pill-style `.term-link` elements linking to originating work
 - Case-insensitive alphabetical ordering throughout — no grouping or categorization
+- `related` slugs are canonicalized through aliases for HTML, exports, and term-page JSON-LD; unresolved related slugs warn during generation

@@ -43,6 +43,7 @@ This slug is used everywhere:
 |---|---|---|
 | `sameAs` | array of strings | URLs where this term is also defined (e.g., `["https://anchorid.net/"]`) |
 | `aliases` | array of strings | Old/alternate slugs that should redirect/hash-normalize to this canonical slug |
+| `related` | array of strings | Related term slugs; aliases are canonicalized, unknown slugs warn and stay export-only until the term exists |
 | `termId` | string | Stable term identifier in `urn:uuid:<uuid>` format (auto-assigned by generator if missing) |
 | `temporalCoverage` | string | Optional machine-readable coverage window (example: `1980/1989`) |
 | `startDate` | string | Optional ISO start date (`YYYY-MM-DD`) |
@@ -104,6 +105,7 @@ The **first link** is treated as the primary origin. The generator uses it to bu
 - The generator sorts all terms case-insensitively by slug
 - Each term gets a canonical page at `/terms/<slug>/`
 - Term cards in the index link directly to canonical term pages
+- Canonical term pages render a `Related Terms` section when related slugs resolve to existing terms
 - The generator builds index + term-page JSON-LD and machine exports from these files
 - Identity graph objects (Person, Organization, WebSite) are hardcoded in the generator, not in these files
 - Term count in the page intro is calculated automatically

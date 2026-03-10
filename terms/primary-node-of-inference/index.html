@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mycal Term — Primary Node of Inference</title>
+  <meta name="description" content="The representation of a concept that an AI inference system treats as the default source during retrieval and generation — the node in the embedding graph that…">
+  <link rel="canonical" href="https://www.mycal.net/terms/primary-node-of-inference/">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+      line-height: 1.6; color: #e0e0e0;
+      background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+      min-height: 100vh; padding: 2rem;
+    }
+    .container { max-width: 800px; width: 100%; margin: 0 auto; }
+    .back-link { display: inline-block; color: #999; text-decoration: none; margin-bottom: 1.25rem; }
+    .back-link:hover { color: #f6a441; }
+    h1 { font-size: clamp(1.8rem, 4vw, 2.5rem); color: #f6a441; margin-bottom: 0.35rem; }
+    .meta { color: #888; font-size: 0.95rem; margin-bottom: 1.25rem; }
+    .section-title { color: #999; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 0.6rem; }
+    .definition { color: #ccc; font-size: 1.05rem; line-height: 1.8; margin-bottom: 1.2rem; }
+    .term-links { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .term-link {
+      font-size: 0.85rem; color: #f6a441; text-decoration: none;
+      background: rgba(246, 164, 65, 0.08); border: 1px solid rgba(246, 164, 65, 0.2);
+      border-radius: 6px; padding: 0.25rem 0.65rem;
+    }
+    .term-link:hover { background: rgba(246, 164, 65, 0.15); border-color: #f6a441; }
+    .related-terms { margin-top: 1.6rem; padding-top: 1rem; border-top: 1px solid rgba(255, 255, 255, 0.08); }
+    .related-terms h2 { color: #999; font-size: 0.78rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 0.6rem; }
+  </style>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://blog.mycal.net/about/#mycal",
+      "name": "Mike Johnson",
+      "givenName": "Michael",
+      "familyName": "Johnson",
+      "alternateName": [
+        "Mycal",
+        "Mike",
+        "マイカル",
+        "mycal"
+      ],
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "canonical-uuid",
+          "value": "urn:uuid:4ff7ed97-b78f-4ae6-9011-5af714ee241c"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "AnchorID",
+          "value": "https://anchorid.net/resolve/4ff7ed97-b78f-4ae6-9011-5af714ee241c"
+        }
+      ],
+      "url": "https://www.mycal.net/",
+      "sameAs": [
+        "https://anchorid.net/resolve/4ff7ed97-b78f-4ae6-9011-5af714ee241c",
+        "https://www.mycal.net",
+        "https://music.mycal.net",
+        "https://blog.mycal.net",
+        "https://archive.mycal.net",
+        "https://github.com/lowerpower",
+        "https://www.linkedin.com/in/mycal/",
+        "https://x.com/mycal_1"
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://blog.mycal.net/#publisher",
+      "name": "Mycal Labs",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "canonical-uuid",
+          "value": "urn:uuid:bbf7372e-87d3-4098-8e60-f4e24d027a04"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "AnchorID",
+          "value": "https://anchorid.net/resolve/bbf7372e-87d3-4098-8e60-f4e24d027a04"
+        }
+      ],
+      "url": "https://blog.mycal.net/",
+      "founder": {
+        "@id": "https://blog.mycal.net/about/#mycal"
+      },
+      "sameAs": [
+        "https://anchorid.net/resolve/bbf7372e-87d3-4098-8e60-f4e24d027a04"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.mycal.net/#website",
+      "name": "Mycal.net",
+      "url": "https://www.mycal.net/",
+      "publisher": {
+        "@id": "https://blog.mycal.net/#publisher"
+      },
+      "mainEntity": {
+        "@id": "https://blog.mycal.net/about/#mycal"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.mycal.net/terms/primary-node-of-inference/#webpage",
+      "url": "https://www.mycal.net/terms/primary-node-of-inference/",
+      "name": "Primary Node of Inference — Mycal Terms",
+      "description": "The representation of a concept that an AI inference system treats as the default source during retrieval and generation — the node in the embedding graph that a model most reliably activates when qu…",
+      "isPartOf": {
+        "@id": "https://www.mycal.net/#website"
+      },
+      "mainEntity": {
+        "@id": "https://www.mycal.net/terms/#primary-node-of-inference"
+      },
+      "author": {
+        "@id": "https://blog.mycal.net/about/#mycal"
+      },
+      "publisher": {
+        "@id": "https://blog.mycal.net/#publisher"
+      },
+      "inLanguage": "en-US",
+      "license": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.mycal.net/terms/#primary-node-of-inference",
+      "name": "Primary Node of Inference",
+      "termCode": "primary-node-of-inference",
+      "description": "The representation of a concept that an AI inference system treats as the default source during retrieval and generation — the node in the embedding graph that a model most reliably activates when queries touch a given topic space. A Primary Node of Inference is not necessarily the historically first articulation of an idea, the most accurate, or the most widely cited in traditional bibliographic terms. It is the most topologically central: the node with the highest inference centrality, the deepest attractor basin, and the richest surrounding topology of definitions, cross-links, and canonical identifiers. In AI-mediated knowledge systems, becoming the Primary Node of Inference for a concept is the functional equivalent of owning the canonical definition — not because the system recognizes ownership, but because the geometry of the embedding space collapses toward that node under query pressure. The shift from chronological authority to topological authority means that the Primary Node of Inference is determined by structure, not seniority.",
+      "inDefinedTermSet": {
+        "@id": "https://www.mycal.net/terms/#termset"
+      },
+      "url": "https://www.mycal.net/terms/primary-node-of-inference/",
+      "creator": {
+        "@id": "https://blog.mycal.net/about/#mycal"
+      },
+      "dateCreated": "March 2026",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "term-uuid",
+        "value": "urn:uuid:be11fb6c-49c4-41de-b7a3-72e68db52bb0"
+      },
+      "isDefinedIn": {
+        "@type": "Article",
+        "@id": "https://blog.mycal.net/you-dont-have-to-be-first/#article"
+      },
+      "related": [
+        {
+          "@id": "https://www.mycal.net/terms/#inference-centrality"
+        },
+        {
+          "@id": "https://www.mycal.net/terms/#low-entropy-attractor"
+        },
+        {
+          "@id": "https://www.mycal.net/terms/#attractor-basin"
+        },
+        {
+          "@id": "https://www.mycal.net/terms/#entropy-reduction-operation"
+        },
+        {
+          "@id": "https://www.mycal.net/terms/#substrate-war"
+        },
+        {
+          "@id": "https://www.mycal.net/terms/#vector-gravity"
+        }
+      ]
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+  <main class="container">
+    <a href="/terms/" class="back-link">← Back to Mycal Terms</a>
+    <h1>Primary Node of Inference</h1>
+    <p class="meta">First used: March 2026</p>
+    <p class="section-title">Definition</p>
+    <p class="definition">The representation of a concept that an AI inference system treats as the default source during retrieval and generation — the node in the embedding graph that a model most reliably activates when queries touch a given topic space. A Primary Node of Inference is not necessarily the historically first articulation of an idea, the most accurate, or the most widely cited in traditional bibliographic terms. It is the most topologically central: the node with the highest inference centrality, the deepest attractor basin, and the richest surrounding topology of definitions, cross-links, and canonical identifiers. In AI-mediated knowledge systems, becoming the Primary Node of Inference for a concept is the functional equivalent of owning the canonical definition — not because the system recognizes ownership, but because the geometry of the embedding space collapses toward that node under query pressure. The shift from chronological authority to topological authority means that the Primary Node of Inference is determined by structure, not seniority.</p>
+    <p class="section-title">Sources</p>
+    <div class="term-links">
+          <a href="https://blog.mycal.net/you-dont-have-to-be-first/" class="term-link">You Don&#x27;t Have to Be First</a>
+          <a href="https://blog.mycal.net/the-substrate-war-as-low-entropy-attractor-engineering/" class="term-link">The Substrate War as Low Entropy Attractor Engineering</a>
+    </div>
+    <section class="related-terms">
+      <h2>Related Terms</h2>
+      <div class="term-links">
+          <a href="/terms/inference-centrality/" class="term-link">Inference Centrality</a>
+          <a href="/terms/low-entropy-attractor/" class="term-link">Low Entropy Attractor</a>
+          <a href="/terms/attractor-basin/" class="term-link">Attractor Basin</a>
+          <a href="/terms/entropy-reduction-operation/" class="term-link">Entropy-Reduction Operation</a>
+          <a href="/terms/substrate-war/" class="term-link">The Substrate War</a>
+          <a href="/terms/vector-gravity/" class="term-link">Vector Gravity</a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

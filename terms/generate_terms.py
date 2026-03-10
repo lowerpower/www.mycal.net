@@ -84,6 +84,10 @@ def validate_term_types(data: dict, filename: str) -> None:
         if not isinstance(data["aliases"], list) or not all(isinstance(a, str) and a.strip() for a in data["aliases"]):
             fail(f"{filename} field 'aliases' must be an array of non-empty strings")
 
+    if "related" in data:
+        if not isinstance(data["related"], list) or not all(isinstance(r, str) and r.strip() for r in data["related"]):
+            fail(f"{filename} field 'related' must be an array of non-empty strings")
+
     if "termId" in data and (not isinstance(data["termId"], str) or not TERM_ID_RE.match(data["termId"])):
         fail(f"{filename} field 'termId' must match urn:uuid:<uuid-v4-like-format>")
 
@@ -164,6 +168,7 @@ def load_terms() -> List[dict]:
                 "links": [{"url": l["url"], "label": l["label"]} for l in data["links"]],
                 "sameAs": data.get("sameAs", []),
                 "aliases": data.get("aliases", []),
+                "related": data.get("related", []),
                 "termId": term_id,
                 "temporalCoverage": data.get("temporalCoverage"),
                 "startDate": data.get("startDate"),
@@ -191,6 +196,28 @@ def build_alias_map(terms: List[dict]) -> Dict[str, str]:
             alias_map[alias] = t["slug"]
 
     return alias_map
+
+
+def build_slug_lookup(terms: List[dict], alias_map: Dict[str, str]) -> Dict[str, str]:
+    slug_lookup = {t["slug"]: t["slug"] for t in terms}
+    slug_lookup.update(alias_map)
+    return slug_lookup
+
+
+def warn(message: str) -> None:
+    print(f"Warning: {message}", file=sys.stderr)
+
+
+def resolve_related_terms(terms: List[dict], slug_lookup: Dict[str, str]) -> None:
+    for term in terms:
+        resolved_related = []
+        for raw_slug in term["related"]:
+            canonical_slug = slug_lookup.get(raw_slug)
+            if canonical_slug:
+                resolved_related.append(canonical_slug)
+            else:
+                warn(f"{term['slug']}.json has unresolved related term '{raw_slug}'")
+        term["resolvedRelated"] = resolved_related
 
 
 def apply_machine_dates(node: dict, term: dict) -> None:
@@ -239,6 +266,8 @@ def build_defined_term_node(term: dict) -> dict:
 
     if term["sameAs"]:
         node["sameAs"] = term["sameAs"]
+    if term["resolvedRelated"]:
+        node["related"] = [{"@id": f"{CANONICAL_BASE_URL}#{slug}"} for slug in term["resolvedRelated"]]
 
     apply_machine_dates(node, term)
     return node
@@ -366,6 +395,29 @@ def build_html_entries(terms: List[dict]) -> str:
       </div>'''
         )
     return "\n\n".join(entries)
+
+
+def build_related_links(term: dict, terms_by_slug: Dict[str, dict]) -> str:
+    if not term["resolvedRelated"]:
+        return ""
+
+    links_html = "\n".join(
+        [
+            f'          <a href="/terms/{slug}/" class="term-link">{escape(terms_by_slug[slug]["name"])}</a>'
+            for slug in term["resolvedRelated"]
+            if slug in terms_by_slug
+        ]
+    )
+    if not links_html:
+        return ""
+
+    return f'''
+    <section class="related-terms">
+      <h2>Related Terms</h2>
+      <div class="term-links">
+{links_html}
+      </div>
+    </section>'''
 
 
 def build_page(terms: List[dict], jsonld: str, html_entries: str, alias_map: Dict[str, str]) -> str:
@@ -703,13 +755,14 @@ def build_term_page_jsonld(term: dict) -> str:
     return json.dumps({"@context": "https://schema.org", "@graph": graph}, indent=2, ensure_ascii=False)
 
 
-def build_term_page(term: dict) -> str:
+def build_term_page(term: dict, terms_by_slug: Dict[str, dict]) -> str:
     term_url = canonical_term_url(term["slug"])
     description = short_description(term["description"], 160)
     links_html = "\n".join(
         [f'          <a href="{escape(link["url"])}" class="term-link">{escape(link["label"])}</a>' for link in term["links"]]
     )
     jsonld = build_term_page_jsonld(term)
+    related_html = build_related_links(term, terms_by_slug)
 
     return f'''<!DOCTYPE html>
 <html lang="en">
@@ -732,6 +785,7 @@ def build_term_page(term: dict) -> str:
     .back-link:hover {{ color: #f6a441; }}
     h1 {{ font-size: clamp(1.8rem, 4vw, 2.5rem); color: #f6a441; margin-bottom: 0.35rem; }}
     .meta {{ color: #888; font-size: 0.95rem; margin-bottom: 1.25rem; }}
+    .section-title {{ color: #999; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 0.6rem; }}
     .definition {{ color: #ccc; font-size: 1.05rem; line-height: 1.8; margin-bottom: 1.2rem; }}
     .term-links {{ display: flex; flex-wrap: wrap; gap: 0.5rem; }}
     .term-link {{
@@ -740,6 +794,8 @@ def build_term_page(term: dict) -> str:
       border-radius: 6px; padding: 0.25rem 0.65rem;
     }}
     .term-link:hover {{ background: rgba(246, 164, 65, 0.15); border-color: #f6a441; }}
+    .related-terms {{ margin-top: 1.6rem; padding-top: 1rem; border-top: 1px solid rgba(255, 255, 255, 0.08); }}
+    .related-terms h2 {{ color: #999; font-size: 0.78rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 0.6rem; }}
   </style>
   <script type="application/ld+json">
 {jsonld}
@@ -750,10 +806,12 @@ def build_term_page(term: dict) -> str:
     <a href="/terms/" class="back-link">← Back to Mycal Terms</a>
     <h1>{escape(term["name"])}</h1>
     <p class="meta">First used: {escape(term["date"])}</p>
+    <p class="section-title">Definition</p>
     <p class="definition">{escape(term["description"])}</p>
+    <p class="section-title">Sources</p>
     <div class="term-links">
 {links_html}
-    </div>
+    </div>{related_html}
   </main>
 </body>
 </html>'''
@@ -785,9 +843,10 @@ def write_file(path: Path, contents: str) -> None:
 
 
 def write_term_pages(terms: List[dict]) -> None:
+    terms_by_slug = {term["slug"]: term for term in terms}
     for term in terms:
         out = SCRIPT_DIR / term["slug"] / "index.html"
-        write_file(out, build_term_page(term))
+        write_file(out, build_term_page(term, terms_by_slug))
 
 
 def write_alias_redirects(alias_map: Dict[str, str]) -> None:
@@ -796,7 +855,7 @@ def write_alias_redirects(alias_map: Dict[str, str]) -> None:
         write_file(out, build_alias_redirect_page(alias, canonical_slug))
 
 
-def export_terms(terms: List[dict]) -> None:
+def export_terms(terms: List[dict], slug_lookup: Dict[str, str]) -> None:
     objects = []
     for term in terms:
         obj = {
@@ -807,6 +866,7 @@ def export_terms(terms: List[dict]) -> None:
             "links": term["links"],
             "sameAs": term["sameAs"],
             "aliases": term["aliases"],
+            "related": [slug_lookup.get(slug, slug) for slug in term["related"]],
             "termId": term["termId"],
             "canonicalUrl": canonical_term_url(term["slug"]),
         }
@@ -855,6 +915,8 @@ def main() -> None:
         fail("no term files found in data/")
 
     alias_map = build_alias_map(terms)
+    slug_lookup = build_slug_lookup(terms, alias_map)
+    resolve_related_terms(terms, slug_lookup)
     jsonld = build_jsonld(terms)
     html_entries = build_html_entries(terms)
     page = build_page(terms, jsonld, html_entries, alias_map)
@@ -862,7 +924,7 @@ def main() -> None:
     write_file(OUTPUT_FILE, page)
     write_term_pages(terms)
     write_alias_redirects(alias_map)
-    export_terms(terms)
+    export_terms(terms, slug_lookup)
     write_sitemap_terms(terms)
 
     print(f"Generated {len(terms)} terms -> {OUTPUT_FILE}")
