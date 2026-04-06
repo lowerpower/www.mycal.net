@@ -1,0 +1,19 @@
+{
+  "name": "Semantic Drift",
+  "date": "January 2026",
+  "description": "The progressive flattening of meaning, intent, and nuance during AI synthesis, where original ideas are compressed into fluent but shallow approximations that preserve factual accuracy while losing semantic resolution. Unlike hallucination (wrong content) or incoherence (broken structure), Semantic Drift operates on the deepest content layer — eroding the specificity, edge, and communicative force that make an idea distinctly someone's. It functions as active lossy compression rather than passive degradation: models optimize for fluency and coherence at the direct expense of meaning fidelity. Semantic Drift is the enabling condition for Attribution Drift — by the time an idea has been sufficiently flattened, nothing distinctive remains to obviously belong to anyone. As hallucination rates decline and coherence improves across models, Semantic Drift becomes the dominant invisible failure mode in AI-mediated knowledge systems.",
+  "links": [
+    {
+      "url": "https://blog.mycal.net/",
+      "label": "blog.mycal.net"
+    }
+  ],
+  "related": [
+    "attribution-drift",
+    "constraint-memory",
+    "borrowed-certainty",
+    "memetic-compression",
+    "cognitive-drift"
+  ]
+}
+
