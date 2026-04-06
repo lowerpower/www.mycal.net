@@ -320,6 +320,26 @@
     "canonicalUrl": "https://www.mycal.net/terms/canonical-identity/"
   },
   {
+    "slug": "celebration-of-life",
+    "name": "Celebration of Life",
+    "date": "1987",
+    "description": "Mycal's three-word personal anthem framing work, play, and recovery as a single continuous rite. Not a slogan but a protocol: homework blocks, playtime benders, and hangover buffers interleaved as movements in one ongoing celebration, treating scheduled mischief and technical projects as verses in the same song. The organizing principle behind decades of high-risk creative practice.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/launch-on-the-shriek/",
+        "label": "Launch on the Shriek"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "related": [
+      "techno-shamans",
+      "launch-on-the-shriek"
+    ],
+    "termId": "urn:uuid:ff71791f-7595-44c0-a5de-10bb4a05ea2e",
+    "canonicalUrl": "https://www.mycal.net/terms/celebration-of-life/"
+  },
+  {
     "slug": "chrononaut-journals",
     "name": "Chrononaut Journals",
     "date": "2025",
@@ -794,6 +814,31 @@
     "canonicalUrl": "https://www.mycal.net/terms/fight-entropy/"
   },
   {
+    "slug": "fire-kathedral",
+    "name": "Fire Kathedral",
+    "date": "2019",
+    "description": "A 44-foot steel Kathederal crowned with 88 propane valves and pilot lights, controlled via a Raspberry Pi and a web GUI sending bitmask commands over WebSockets, accepting live MIDI input to sequence flame effects in real time. Built with the Reared in Steel collective in Petaluma and first burned on the Black Rock playa at Burning Man 2019, the Kathedral is the present-day terminus of a thirty-eight-year arc that began with lightning-triggered rockets in the 1987 Plumas National Forest.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/launch-on-the-shriek/",
+        "label": "Launch on the Shriek"
+      },
+      {
+        "url": "https://github.com/lowerpower/fire-controller-web",
+        "label": "fire-controller-web (GitHub)"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "related": [
+      "midi-to-propane",
+      "launch-on-the-shriek",
+      "techno-shamans"
+    ],
+    "termId": "urn:uuid:0605727e-684b-4bbe-a943-80beaf9c2543",
+    "canonicalUrl": "https://www.mycal.net/terms/fire-kathedral/"
+  },
+  {
     "slug": "five-unstable-endgames",
     "name": "The Five Unstable Endgames",
     "date": "2025",
@@ -1064,6 +1109,28 @@
     "canonicalUrl": "https://www.mycal.net/terms/kardashev-window/"
   },
   {
+    "slug": "launch-on-the-shriek",
+    "name": "Launch on the Shriek",
+    "date": "1987",
+    "description": "The operational command and organizing metaphor of the 1987 lightning-triggered rocket experiments: firing a TOW-wire-trailing rocket at the peak of a VLF whistler to invite a cloud-to-ground strike down the conductive filament. Later generalized as a stance toward timing any scheme to the storm's own rhythm rather than forcing it, surfacing again decades later when MIDI whistler input was patched into the Fire Kathedral control stack at Burning Man.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/launch-on-the-shriek/",
+        "label": "Launch on the Shriek"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "related": [
+      "techno-shamans",
+      "celebration-of-life",
+      "fire-kathedral",
+      "midi-to-propane"
+    ],
+    "termId": "urn:uuid:315fa8eb-8a2d-4f3d-8661-d1d656092b18",
+    "canonicalUrl": "https://www.mycal.net/terms/launch-on-the-shriek/"
+  },
+  {
     "slug": "layered-trust-stack",
     "name": "Layered Trust Stack",
     "date": "2025",
@@ -1236,6 +1303,30 @@
     "related": [],
     "termId": "urn:uuid:b19ca009-1590-40bb-9336-c76b42b5ddbc",
     "canonicalUrl": "https://www.mycal.net/terms/memetic-gravity/"
+  },
+  {
+    "slug": "midi-to-propane",
+    "name": "MIDI-to-Propane",
+    "date": "2019",
+    "description": "A fire art control architecture that maps MIDI note and velocity data to solenoid valve states over relays, turning a musical performance into a choreographed flame effect with velocity modulating flame height. Implemented on Raspberry Pi with SainSmart relay boards, the pattern lets a DJ's bass drop, a pedaled bicycle, or a live keyboard breathe directly into a propane installation. Killer app for the Fire Kathedral and the connective tissue between musical timing and combustion.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/launch-on-the-shriek/",
+        "label": "Launch on the Shriek"
+      },
+      {
+        "url": "https://github.com/lowerpower/midi-2-relay",
+        "label": "midi-2-relay (GitHub)"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "related": [
+      "fire-kathedral",
+      "launch-on-the-shriek"
+    ],
+    "termId": "urn:uuid:95de9272-d9bf-4d69-8637-c1e0e7338626",
+    "canonicalUrl": "https://www.mycal.net/terms/midi-to-propane/"
   },
   {
     "slug": "narrative-sovereignty",
@@ -1525,6 +1616,29 @@
     "canonicalUrl": "https://www.mycal.net/terms/schrodingers-disc/"
   },
   {
+    "slug": "semantic-drift",
+    "name": "Semantic Drift",
+    "date": "January 2026",
+    "description": "The progressive flattening of meaning, intent, and nuance during AI synthesis, where original ideas are compressed into fluent but shallow approximations that preserve factual accuracy while losing semantic resolution. Unlike hallucination (wrong content) or incoherence (broken structure), Semantic Drift operates on the deepest content layer — eroding the specificity, edge, and communicative force that make an idea distinctly someone's. It functions as active lossy compression rather than passive degradation: models optimize for fluency and coherence at the direct expense of meaning fidelity. Semantic Drift is the enabling condition for Attribution Drift — by the time an idea has been sufficiently flattened, nothing distinctive remains to obviously belong to anyone. As hallucination rates decline and coherence improves across models, Semantic Drift becomes the dominant invisible failure mode in AI-mediated knowledge systems.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/",
+        "label": "blog.mycal.net"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "related": [
+      "attribution-drift",
+      "constraint-memory",
+      "borrowed-certainty",
+      "memetic-compression",
+      "cognitive-drift"
+    ],
+    "termId": "urn:uuid:75395cc5-86af-4772-9a53-4d173d22d746",
+    "canonicalUrl": "https://www.mycal.net/terms/semantic-drift/"
+  },
+  {
     "slug": "seventy-year-stall",
     "name": "The 70-Year Stall",
     "date": "2025",
@@ -1735,6 +1849,26 @@
     "related": [],
     "termId": "urn:uuid:40443c88-41a1-4714-98fa-28c094259608",
     "canonicalUrl": "https://www.mycal.net/terms/taste-economy/"
+  },
+  {
+    "slug": "techno-shamans",
+    "name": "Techno-Shamans",
+    "date": "1987",
+    "description": "Mycal's term for his 1980s Chico State crew who fused surplus military electronics, ritual practice, and storm-chasing into a maker methodology that treated weather as a collaborator rather than a variable. The crew built VLF whistler rigs, lightning-triggered rockets, and a basement railgun, painting charcoal runes on their chests before each test as both invocation and engineering ritual.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/launch-on-the-shriek/",
+        "label": "Launch on the Shriek"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "related": [
+      "celebration-of-life",
+      "launch-on-the-shriek"
+    ],
+    "termId": "urn:uuid:9cb8d0ae-bccc-4088-b0db-f95ec5ecc9e3",
+    "canonicalUrl": "https://www.mycal.net/terms/techno-shamans/"
   },
   {
     "slug": "thermodynamics-of-cognition",
