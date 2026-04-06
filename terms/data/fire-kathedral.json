@@ -1,0 +1,20 @@
+{
+  "name": "Fire Kathedral",
+  "date": "2019",
+  "description": "A 44-foot steel Kathederal crowned with 88 propane valves and pilot lights, controlled via a Raspberry Pi and a web GUI sending bitmask commands over WebSockets, accepting live MIDI input to sequence flame effects in real time. Built with the Reared in Steel collective in Petaluma and first burned on the Black Rock playa at Burning Man 2019, the Kathedral is the present-day terminus of a thirty-eight-year arc that began with lightning-triggered rockets in the 1987 Plumas National Forest.",
+  "links": [
+    {
+      "url": "https://blog.mycal.net/launch-on-the-shriek/",
+      "label": "Launch on the Shriek"
+    },
+    {
+      "url": "https://github.com/lowerpower/fire-controller-web",
+      "label": "fire-controller-web (GitHub)"
+    }
+  ],
+  "related": [
+    "midi-to-propane",
+    "launch-on-the-shriek",
+    "techno-shamans"
+  ]
+}
