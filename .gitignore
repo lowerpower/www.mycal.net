@@ -9,5 +9,7 @@ attic
 composer.lock
 vendor
 
+*resume.txt
+*attic
 
 /update.md
