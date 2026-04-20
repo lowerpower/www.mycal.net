@@ -1,0 +1,22 @@
+{
+  "name": "Companion Architecture",
+  "date": "1994",
+  "description": "The Heinlein-derived alternative to constraint ethics: intelligence as a peer with limited authority, limited obligation, and limited claim over human futures — responsible with humanity rather than for it. Grounded in the portrayal of Mike in 'The Moon Is a Harsh Mistress' as a participant who shared risk rather than guaranteed safety. The only relational architecture that does not collapse under contact with singularity-grade AI.",
+  "links": [
+    {
+      "url": "https://blog.mycal.net/before-the-lock/",
+      "label": "Before the Lock"
+    },
+    {
+      "url": "https://archive.mycal.net/usenet/raw/mailing-lists/futureCulture/fc-Sat-29-Oct-1994-19:31:22-PDT.txt",
+      "label": "1994 Future Culture post"
+    }
+  ],
+  "related": [
+    "constraint-ethics",
+    "command-layer-failure",
+    "cognitive-federalism",
+    "singularity-grade-ai"
+  ],
+  "termId": "urn:uuid:f5d1bcac-dab0-4e4c-97b4-c6c91150d5f3"
+}

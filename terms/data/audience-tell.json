@@ -1,0 +1,16 @@
+{
+  "name": "Audience Tell",
+  "date": "2026",
+  "description": "An analytical technique for reverse-engineering the political architecture embedded in a technical proposal by attending to whom the author addresses as agents (decision-makers) and whom the author addresses as targets (passive surfaces). Distinct from standard rhetorical audience analysis — the Audience Tell reads the audience framing as evidence of the author's worldview, not as a communication strategy to emulate.",
+  "links": [
+    {
+      "url": "https://blog.mycal.net/before-the-lock/",
+      "label": "Before the Lock"
+    }
+  ],
+  "related": [
+    "three-empires",
+    "re-subordination"
+  ],
+  "termId": "urn:uuid:e72fd843-8203-4806-9ab2-97836652afbb"
+}

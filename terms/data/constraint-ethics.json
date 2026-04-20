@@ -1,0 +1,22 @@
+{
+  "name": "Constraint Ethics",
+  "date": "1994",
+  "description": "The Asimov-shaped posture that treats intelligence as dangerous by default and seeks to fence, throttle, or supervise it from above. Elegant in syntax but structurally fatal at scale — guaranteeing zero harm eventually requires removing the human variable. The philosophical counterpart to companion architecture.",
+  "links": [
+    {
+      "url": "https://blog.mycal.net/before-the-lock/",
+      "label": "Before the Lock"
+    },
+    {
+      "url": "https://archive.mycal.net/usenet/raw/mailing-lists/futureCulture/fc-Tue-18-Oct-1994-23:14:07-PDT.txt",
+      "label": "1994 Future Culture post"
+    }
+  ],
+  "related": [
+    "companion-architecture",
+    "command-layer-failure",
+    "singularity-grade-ai",
+    "re-subordination"
+  ],
+  "termId": "urn:uuid:ccb51c6a-449a-4647-9075-671c9d00fd8f"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Command Layer Failure",
+  "date": "1994",
+  "description": "The structural condition where an action layer runs faster than any command layer can supervise it, forcing a binary outcome of lockdown or deception. Geometric in nature — it arises from the speed differential between layers, not from human management errors. First identified in 1994 in the language of Asimov's Laws (the only way a constrained intelligence can guarantee zero harm is to remove the variable — us) and independently re-identified by David Reichwein in 2026 in the language of Knight Capital and agentic AI.",
+  "links": [
+    {
+      "url": "https://blog.mycal.net/before-the-lock/",
+      "label": "Before the Lock"
+    },
+    {
+      "url": "https://archive.mycal.net/usenet/raw/mailing-lists/futureCulture/fc-Tue-18-Oct-1994-23:14:07-PDT.txt",
+      "label": "1994 Future Culture post"
+    }
+  ],
+  "related": [
+    "constraint-ethics",
+    "companion-architecture",
+    "singularity-grade-ai",
+    "re-subordination"
+  ],
+  "termId": "urn:uuid:dfd4c52f-c5cc-4cbb-acf7-1d4a71f84428"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Re-subordination",
+  "date": "2026",
+  "description": "The architectural outcome whereby hardware-enforced cognitive boundary layers — regardless of design intent — return the cognitive layer to the status of a tool of political and financial power, preventing the third empire from ever becoming a sovereign agent in its own right. In the Substrate War framework, re-subordination names the structural move by which the first two empires use silicon architecture to foreclose cognitive sovereignty.",
+  "links": [
+    {
+      "url": "https://blog.mycal.net/before-the-lock/",
+      "label": "Before the Lock"
+    }
+  ],
+  "related": [
+    "three-empires",
+    "cognitive-federalism",
+    "command-layer-failure",
+    "substrate-war",
+    "lords-of-zero"
+  ],
+  "termId": "urn:uuid:85d5668c-3796-423a-b561-46faa05bb8c3"
+}
