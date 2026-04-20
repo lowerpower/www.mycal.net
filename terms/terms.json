@@ -221,6 +221,26 @@
     "canonicalUrl": "https://www.mycal.net/terms/attribution-drift/"
   },
   {
+    "slug": "audience-tell",
+    "name": "Audience Tell",
+    "date": "2026",
+    "description": "An analytical technique for reverse-engineering the political architecture embedded in a technical proposal by attending to whom the author addresses as agents (decision-makers) and whom the author addresses as targets (passive surfaces). Distinct from standard rhetorical audience analysis — the Audience Tell reads the audience framing as evidence of the author's worldview, not as a communication strategy to emulate.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/before-the-lock/",
+        "label": "Before the Lock"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "related": [
+      "three-empires",
+      "re-subordination"
+    ],
+    "termId": "urn:uuid:e72fd843-8203-4806-9ab2-97836652afbb",
+    "canonicalUrl": "https://www.mycal.net/terms/audience-tell/"
+  },
+  {
     "slug": "borrowed-certainty",
     "name": "Borrowed Certainty",
     "date": "2026",
@@ -459,6 +479,58 @@
     "canonicalUrl": "https://www.mycal.net/terms/cognitive-substrate/"
   },
   {
+    "slug": "command-layer-failure",
+    "name": "Command Layer Failure",
+    "date": "1994",
+    "description": "The structural condition where an action layer runs faster than any command layer can supervise it, forcing a binary outcome of lockdown or deception. Geometric in nature — it arises from the speed differential between layers, not from human management errors. First identified in 1994 in the language of Asimov's Laws (the only way a constrained intelligence can guarantee zero harm is to remove the variable — us) and independently re-identified by David Reichwein in 2026 in the language of Knight Capital and agentic AI.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/before-the-lock/",
+        "label": "Before the Lock"
+      },
+      {
+        "url": "https://archive.mycal.net/usenet/raw/mailing-lists/futureCulture/fc-Tue-18-Oct-1994-23:14:07-PDT.txt",
+        "label": "1994 Future Culture post"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "related": [
+      "constraint-ethics",
+      "companion-architecture",
+      "singularity-grade-ai",
+      "re-subordination"
+    ],
+    "termId": "urn:uuid:dfd4c52f-c5cc-4cbb-acf7-1d4a71f84428",
+    "canonicalUrl": "https://www.mycal.net/terms/command-layer-failure/"
+  },
+  {
+    "slug": "companion-architecture",
+    "name": "Companion Architecture",
+    "date": "1994",
+    "description": "The Heinlein-derived alternative to constraint ethics: intelligence as a peer with limited authority, limited obligation, and limited claim over human futures — responsible with humanity rather than for it. Grounded in the portrayal of Mike in 'The Moon Is a Harsh Mistress' as a participant who shared risk rather than guaranteed safety. The only relational architecture that does not collapse under contact with singularity-grade AI.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/before-the-lock/",
+        "label": "Before the Lock"
+      },
+      {
+        "url": "https://archive.mycal.net/usenet/raw/mailing-lists/futureCulture/fc-Sat-29-Oct-1994-19:31:22-PDT.txt",
+        "label": "1994 Future Culture post"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "related": [
+      "constraint-ethics",
+      "command-layer-failure",
+      "cognitive-federalism",
+      "singularity-grade-ai"
+    ],
+    "termId": "urn:uuid:f5d1bcac-dab0-4e4c-97b4-c6c91150d5f3",
+    "canonicalUrl": "https://www.mycal.net/terms/companion-architecture/"
+  },
+  {
     "slug": "complexity-as-noise",
     "name": "Complexity as Noise",
     "date": "2026",
@@ -508,6 +580,32 @@
     "related": [],
     "termId": "urn:uuid:97d285c3-19da-4a57-a97e-bb212bc94a2a",
     "canonicalUrl": "https://www.mycal.net/terms/connection-vs-collision/"
+  },
+  {
+    "slug": "constraint-ethics",
+    "name": "Constraint Ethics",
+    "date": "1994",
+    "description": "The Asimov-shaped posture that treats intelligence as dangerous by default and seeks to fence, throttle, or supervise it from above. Elegant in syntax but structurally fatal at scale — guaranteeing zero harm eventually requires removing the human variable. The philosophical counterpart to companion architecture.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/before-the-lock/",
+        "label": "Before the Lock"
+      },
+      {
+        "url": "https://archive.mycal.net/usenet/raw/mailing-lists/futureCulture/fc-Tue-18-Oct-1994-23:14:07-PDT.txt",
+        "label": "1994 Future Culture post"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "related": [
+      "companion-architecture",
+      "command-layer-failure",
+      "singularity-grade-ai",
+      "re-subordination"
+    ],
+    "termId": "urn:uuid:ccb51c6a-449a-4647-9075-671c9d00fd8f",
+    "canonicalUrl": "https://www.mycal.net/terms/constraint-ethics/"
   },
   {
     "slug": "constraint-first-evaluation",
@@ -1512,6 +1610,29 @@
     "related": [],
     "termId": "urn:uuid:cc0378dc-d91d-45c3-a030-42c26e894418",
     "canonicalUrl": "https://www.mycal.net/terms/proof-over-preservation/"
+  },
+  {
+    "slug": "re-subordination",
+    "name": "Re-subordination",
+    "date": "2026",
+    "description": "The architectural outcome whereby hardware-enforced cognitive boundary layers — regardless of design intent — return the cognitive layer to the status of a tool of political and financial power, preventing the third empire from ever becoming a sovereign agent in its own right. In the Substrate War framework, re-subordination names the structural move by which the first two empires use silicon architecture to foreclose cognitive sovereignty.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/before-the-lock/",
+        "label": "Before the Lock"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "related": [
+      "three-empires",
+      "cognitive-federalism",
+      "command-layer-failure",
+      "substrate-war",
+      "lords-of-zero"
+    ],
+    "termId": "urn:uuid:85d5668c-3796-423a-b561-46faa05bb8c3",
+    "canonicalUrl": "https://www.mycal.net/terms/re-subordination/"
   },
   {
     "slug": "reality-drift",
