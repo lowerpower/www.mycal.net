@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.mycal.net/terms/</loc>
-    <lastmod>2026-04-20</lastmod>
+    <lastmod>2026-04-22</lastmod>
   </url>
   <url>
     <loc>https://www.mycal.net/terms/accountable-velocity/</loc>
@@ -307,6 +307,10 @@
   <url>
     <loc>https://www.mycal.net/terms/midi-to-propane/</loc>
     <lastmod>2026-04-06</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mycal.net/terms/mirror-fluency/</loc>
+    <lastmod>2026-04-22</lastmod>
   </url>
   <url>
     <loc>https://www.mycal.net/terms/narrative-sovereignty/</loc>

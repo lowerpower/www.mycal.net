@@ -8,6 +8,10 @@
       "label": "Before We Mistake the Reflection for the Source"
     }
   ],
-  "related": ["attribution-drift", "substrate-war", "companion-architecture"]
+  "related": [
+    "attribution-drift",
+    "substrate-war",
+    "companion-architecture"
+  ],
+  "termId": "urn:uuid:1314d16e-1169-4893-852a-e8778e9bfe40"
 }
-
