@@ -1,0 +1,13 @@
+{
+  "name": "Mirror Fluency",
+  "date": "2026",
+  "description": "The property of AI systems whereby they reflect user cognition back with enough fluency and confidence that the reflection can be mistaken for original insight. A model trained to extend patterns, maintain coherence, and respond convincingly will amplify partial ideas into full-feeling insights, suggest structure without exposing mechanism, and mirror tone in ways that feel relational — producing the experience of discovery, depth, and connection whether or not those things are present.",
+  "links": [
+    {
+      "url": "https://blog.mycal.net/before-we-mistake-the-reflection-for-the-source/",
+      "label": "Before We Mistake the Reflection for the Source"
+    }
+  ],
+  "related": ["attribution-drift", "substrate-war", "companion-architecture"]
+}
+
