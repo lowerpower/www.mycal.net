@@ -1,0 +1,22 @@
+{
+  "name": "Local Cognition Factory",
+  "date": "2026",
+  "description": "A residential-scale vertical stack running Sunlight to Photovoltaic conversion to Inverter to Compute to Inference. Demonstrates that the full energy-to-cognition pipeline of the substrate war can fit on a single property, with locally generated kilowatt-hours paying directly for the tokens produced by local language models.",
+  "links": [
+    {
+      "url": "https://blog.mycal.net/the-kwh-token-3/",
+      "label": "The kWh Token"
+    },
+    {
+      "url": "https://blog.mycal.net/before-the-window-closed/",
+      "label": "Before the Window Closed"
+    }
+  ],
+  "related": [
+    "kwh-token",
+    "energy-to-inference",
+    "substrate-war",
+    "federated-agency"
+  ],
+  "termId": "urn:uuid:3a1d458b-2fdc-44ef-ac0b-46087e48e010"
+}

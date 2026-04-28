@@ -1,0 +1,17 @@
+{
+  "name": "Honest Inflation",
+  "date": "2026",
+  "description": "Monetary expansion that occurs only when productive capacity actually grows. In a kWh-denominated economy, new tokens enter circulation only when new energy is generated, so inflation becomes a direct signal that civilization's ability to do work has expanded rather than a tax on stored labor imposed by institutions disconnected from productive capacity.",
+  "links": [
+    {
+      "url": "https://blog.mycal.net/the-kwh-token-3/",
+      "label": "The kWh Token"
+    }
+  ],
+  "related": [
+    "kwh-token",
+    "kardashev-window",
+    "lords-of-zero"
+  ],
+  "termId": "urn:uuid:b1073fd4-6baf-4bb7-8c7a-ba866e410149"
+}

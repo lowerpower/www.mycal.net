@@ -1,0 +1,19 @@
+{
+  "name": "Calorie Ladder",
+  "date": "2026",
+  "description": "The recurring civilizational pattern of escaping energy ceilings by climbing to a new substrate. Muscle to steam, steam to electricity, electricity to computation, compute to cognition. Each rung consumes dramatically more energy than the last and rebuilds the Malthusian wall at a higher altitude, raising both the ceiling and the floor of what civilization can sustain.",
+  "links": [
+    {
+      "url": "https://blog.mycal.net/the-kwh-token-3/",
+      "label": "The kWh Token"
+    }
+  ],
+  "related": [
+    "cost-of-ascent",
+    "kwh-token",
+    "substrate-war",
+    "kardashev-window",
+    "seventy-year-stall"
+  ],
+  "termId": "urn:uuid:3d8ef052-d889-4353-a1b6-9f9046f5bd8e"
+}

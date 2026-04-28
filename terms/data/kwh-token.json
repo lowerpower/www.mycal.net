@@ -1,0 +1,23 @@
+{
+  "name": "kWh Token",
+  "date": "2026",
+  "description": "An energy-denominated monetary primitive in which the kilowatt-hour serves as the universal token of potential work. Money supply grows only when energy is actually produced, tying nominal expansion directly to a civilization's capacity for computation, manufacturing, transportation, and cognition. Proposed as a structural defense against the markup-on-permission gap that current AI economics depends on.",
+  "links": [
+    {
+      "url": "https://blog.mycal.net/the-kwh-token-3/",
+      "label": "The kWh Token"
+    }
+  ],
+  "related": [
+    "substrate-war",
+    "lords-of-zero",
+    "cost-of-ascent",
+    "honest-inflation",
+    "energy-to-inference",
+    "thermodynamics-of-cognition",
+    "calorie-ladder",
+    "local-cognition-factory",
+    "kardashev-window"
+  ],
+  "termId": "urn:uuid:bb13cb06-83f7-495f-88b9-0864e0214f13"
+}

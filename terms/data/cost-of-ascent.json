@@ -1,0 +1,19 @@
+{
+  "name": "Cost of Ascent",
+  "date": "2026",
+  "description": "The thermodynamic price paid at every step of climbing the ladder from energy to computation to inference to meaning. Measured in joules, dissipated as heat, drawn from grids that have to be physically built. The Cost of Ascent is what makes the kilowatt-hour the honest token: it is the unit that makes the price of climbing from matter toward mind legible.",
+  "links": [
+    {
+      "url": "https://blog.mycal.net/the-kwh-token-3/",
+      "label": "The kWh Token"
+    }
+  ],
+  "related": [
+    "atlas-of-cognition",
+    "kwh-token",
+    "energy-to-inference",
+    "thermodynamics-of-cognition",
+    "calorie-ladder"
+  ],
+  "termId": "urn:uuid:2a18077e-45a4-4dbf-8084-829c55987e46"
+}
