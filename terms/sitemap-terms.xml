@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.mycal.net/terms/</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-04-28</lastmod>
   </url>
   <url>
     <loc>https://www.mycal.net/terms/accountable-velocity/</loc>
@@ -59,6 +59,10 @@
   <url>
     <loc>https://www.mycal.net/terms/bounded-variation/</loc>
     <lastmod>2026-02-27</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mycal.net/terms/calorie-ladder/</loc>
+    <lastmod>2026-04-28</lastmod>
   </url>
   <url>
     <loc>https://www.mycal.net/terms/canonical-convergence/</loc>
@@ -145,6 +149,10 @@
     <lastmod>2026-02-27</lastmod>
   </url>
   <url>
+    <loc>https://www.mycal.net/terms/cost-of-ascent/</loc>
+    <lastmod>2026-04-28</lastmod>
+  </url>
+  <url>
     <loc>https://www.mycal.net/terms/creative-abundance-without-curation/</loc>
     <lastmod>2026-02-27</lastmod>
   </url>
@@ -221,6 +229,10 @@
     <lastmod>2026-02-27</lastmod>
   </url>
   <url>
+    <loc>https://www.mycal.net/terms/honest-inflation/</loc>
+    <lastmod>2026-04-28</lastmod>
+  </url>
+  <url>
     <loc>https://www.mycal.net/terms/human-co-regency/</loc>
     <lastmod>2026-02-27</lastmod>
   </url>
@@ -261,6 +273,10 @@
     <lastmod>2026-02-27</lastmod>
   </url>
   <url>
+    <loc>https://www.mycal.net/terms/kwh-token/</loc>
+    <lastmod>2026-04-28</lastmod>
+  </url>
+  <url>
     <loc>https://www.mycal.net/terms/launch-on-the-shriek/</loc>
     <lastmod>2026-04-06</lastmod>
   </url>
@@ -279,6 +295,10 @@
   <url>
     <loc>https://www.mycal.net/terms/load-bearing-phrases/</loc>
     <lastmod>2026-02-27</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mycal.net/terms/local-cognition-factory/</loc>
+    <lastmod>2026-04-28</lastmod>
   </url>
   <url>
     <loc>https://www.mycal.net/terms/local-truth/</loc>

@@ -275,6 +275,29 @@
     "canonicalUrl": "https://www.mycal.net/terms/bounded-variation/"
   },
   {
+    "slug": "calorie-ladder",
+    "name": "Calorie Ladder",
+    "date": "2026",
+    "description": "The recurring civilizational pattern of escaping energy ceilings by climbing to a new substrate. Muscle to steam, steam to electricity, electricity to computation, compute to cognition. Each rung consumes dramatically more energy than the last and rebuilds the Malthusian wall at a higher altitude, raising both the ceiling and the floor of what civilization can sustain.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/the-kwh-token-3/",
+        "label": "The kWh Token"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "related": [
+      "cost-of-ascent",
+      "kwh-token",
+      "substrate-war",
+      "kardashev-window",
+      "seventy-year-stall"
+    ],
+    "termId": "urn:uuid:3d8ef052-d889-4353-a1b6-9f9046f5bd8e",
+    "canonicalUrl": "https://www.mycal.net/terms/calorie-ladder/"
+  },
+  {
     "slug": "canonical-convergence",
     "name": "Canonical Convergence",
     "date": "2026",
@@ -676,6 +699,29 @@
     "canonicalUrl": "https://www.mycal.net/terms/conversational-attractors/"
   },
   {
+    "slug": "cost-of-ascent",
+    "name": "Cost of Ascent",
+    "date": "2026",
+    "description": "The thermodynamic price paid at every step of climbing the ladder from energy to computation to inference to meaning. Measured in joules, dissipated as heat, drawn from grids that have to be physically built. The Cost of Ascent is what makes the kilowatt-hour the honest token: it is the unit that makes the price of climbing from matter toward mind legible.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/the-kwh-token-3/",
+        "label": "The kWh Token"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "related": [
+      "atlas-of-cognition",
+      "kwh-token",
+      "energy-to-inference",
+      "thermodynamics-of-cognition",
+      "calorie-ladder"
+    ],
+    "termId": "urn:uuid:2a18077e-45a4-4dbf-8084-829c55987e46",
+    "canonicalUrl": "https://www.mycal.net/terms/cost-of-ascent/"
+  },
+  {
     "slug": "creative-abundance-without-curation",
     "name": "Creative Abundance Without Curation",
     "date": "2025",
@@ -1022,6 +1068,27 @@
     "canonicalUrl": "https://www.mycal.net/terms/ghost-footprints-of-curiosity/"
   },
   {
+    "slug": "honest-inflation",
+    "name": "Honest Inflation",
+    "date": "2026",
+    "description": "Monetary expansion that occurs only when productive capacity actually grows. In a kWh-denominated economy, new tokens enter circulation only when new energy is generated, so inflation becomes a direct signal that civilization's ability to do work has expanded rather than a tax on stored labor imposed by institutions disconnected from productive capacity.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/the-kwh-token-3/",
+        "label": "The kWh Token"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "related": [
+      "kwh-token",
+      "kardashev-window",
+      "lords-of-zero"
+    ],
+    "termId": "urn:uuid:b1073fd4-6baf-4bb7-8c7a-ba866e410149",
+    "canonicalUrl": "https://www.mycal.net/terms/honest-inflation/"
+  },
+  {
     "slug": "human-co-regency",
     "name": "Human Co-Regency",
     "date": "2025",
@@ -1207,6 +1274,33 @@
     "canonicalUrl": "https://www.mycal.net/terms/kardashev-window/"
   },
   {
+    "slug": "kwh-token",
+    "name": "kWh Token",
+    "date": "2026",
+    "description": "An energy-denominated monetary primitive in which the kilowatt-hour serves as the universal token of potential work. Money supply grows only when energy is actually produced, tying nominal expansion directly to a civilization's capacity for computation, manufacturing, transportation, and cognition. Proposed as a structural defense against the markup-on-permission gap that current AI economics depends on.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/the-kwh-token-3/",
+        "label": "The kWh Token"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "related": [
+      "substrate-war",
+      "lords-of-zero",
+      "cost-of-ascent",
+      "honest-inflation",
+      "energy-to-inference",
+      "thermodynamics-of-cognition",
+      "calorie-ladder",
+      "local-cognition-factory",
+      "kardashev-window"
+    ],
+    "termId": "urn:uuid:bb13cb06-83f7-495f-88b9-0864e0214f13",
+    "canonicalUrl": "https://www.mycal.net/terms/kwh-token/"
+  },
+  {
     "slug": "launch-on-the-shriek",
     "name": "Launch on the Shriek",
     "date": "1987",
@@ -1299,6 +1393,32 @@
     "related": [],
     "termId": "urn:uuid:3294752b-f1f3-4ffc-8283-0c683b9b8fa8",
     "canonicalUrl": "https://www.mycal.net/terms/load-bearing-phrases/"
+  },
+  {
+    "slug": "local-cognition-factory",
+    "name": "Local Cognition Factory",
+    "date": "2026",
+    "description": "A residential-scale vertical stack running Sunlight to Photovoltaic conversion to Inverter to Compute to Inference. Demonstrates that the full energy-to-cognition pipeline of the substrate war can fit on a single property, with locally generated kilowatt-hours paying directly for the tokens produced by local language models.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/the-kwh-token-3/",
+        "label": "The kWh Token"
+      },
+      {
+        "url": "https://blog.mycal.net/before-the-window-closed/",
+        "label": "Before the Window Closed"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "related": [
+      "kwh-token",
+      "energy-to-inference",
+      "substrate-war",
+      "federated-agency"
+    ],
+    "termId": "urn:uuid:3a1d458b-2fdc-44ef-ac0b-46087e48e010",
+    "canonicalUrl": "https://www.mycal.net/terms/local-cognition-factory/"
   },
   {
     "slug": "local-truth",
