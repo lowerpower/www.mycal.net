@@ -8,5 +8,9 @@
       "label": "The Substrate War series"
     }
   ],
+  "related": [
+    "kwh-token",
+    "local-cognition-factory"
+  ],
   "termId": "urn:uuid:a58f65c9-8a0b-430d-a17c-4554b40a51e1"
 }

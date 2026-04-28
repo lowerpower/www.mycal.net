@@ -8,5 +8,11 @@
       "label": "The Descent of Form and the Ascent of Mind"
     }
   ],
+  "related": [
+    "cost-of-ascent",
+    "energy-to-inference",
+    "statistical-cognition",
+    "thermodynamics-of-cognition"
+  ],
   "termId": "urn:uuid:2f56d401-dc7f-4f5b-9132-a1401ec05f8f"
 }

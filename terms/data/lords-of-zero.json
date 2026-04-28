@@ -8,5 +8,9 @@
       "label": "The Lords of Zero"
     }
   ],
+  "related": [
+    "kwh-token",
+    "honest-inflation"
+  ],
   "termId": "urn:uuid:fa7f90a5-4c1e-4b49-98a5-a22ce962f60b"
 }
