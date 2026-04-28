@@ -120,7 +120,12 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "cost-of-ascent",
+      "energy-to-inference",
+      "statistical-cognition",
+      "thermodynamics-of-cognition"
+    ],
     "termId": "urn:uuid:2f56d401-dc7f-4f5b-9132-a1401ec05f8f",
     "canonicalUrl": "https://www.mycal.net/terms/atlas-of-cognition/"
   },
@@ -880,7 +885,13 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "kwh-token",
+      "cost-of-ascent",
+      "local-cognition-factory",
+      "atlas-of-cognition",
+      "thermodynamics-of-cognition"
+    ],
     "termId": "urn:uuid:82c3a107-295b-49d7-9eeb-4fd6aa034dc6",
     "canonicalUrl": "https://www.mycal.net/terms/energy-to-inference/"
   },
@@ -936,7 +947,9 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "local-cognition-factory"
+    ],
     "termId": "urn:uuid:cc4680c2-438b-42e0-8cc5-81b819d70558",
     "canonicalUrl": "https://www.mycal.net/terms/federated-agency/"
   },
@@ -1269,7 +1282,13 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "kwh-token",
+      "honest-inflation",
+      "calorie-ladder",
+      "seventy-year-stall",
+      "lords-of-zero"
+    ],
     "termId": "urn:uuid:8ff736d4-93ff-4944-8470-2ff9ea1b0cf7",
     "canonicalUrl": "https://www.mycal.net/terms/kardashev-window/"
   },
@@ -1450,7 +1469,10 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "kwh-token",
+      "honest-inflation"
+    ],
     "termId": "urn:uuid:fa7f90a5-4c1e-4b49-98a5-a22ce962f60b",
     "canonicalUrl": "https://www.mycal.net/terms/lords-of-zero/"
   },
@@ -2091,7 +2113,10 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "kwh-token",
+      "local-cognition-factory"
+    ],
     "termId": "urn:uuid:a58f65c9-8a0b-430d-a17c-4554b40a51e1",
     "canonicalUrl": "https://www.mycal.net/terms/substrate-war/"
   },
@@ -2145,7 +2170,12 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "kwh-token",
+      "cost-of-ascent",
+      "atlas-of-cognition",
+      "energy-to-inference"
+    ],
     "termId": "urn:uuid:f53fc932-6b0e-407e-9658-9a7e34d18362",
     "canonicalUrl": "https://www.mycal.net/terms/thermodynamics-of-cognition/"
   },
