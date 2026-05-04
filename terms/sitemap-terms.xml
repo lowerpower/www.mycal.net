@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.mycal.net/terms/</loc>
-    <lastmod>2026-04-28</lastmod>
+    <lastmod>2026-05-04</lastmod>
   </url>
   <url>
     <loc>https://www.mycal.net/terms/accountable-velocity/</loc>
@@ -114,7 +114,7 @@
   </url>
   <url>
     <loc>https://www.mycal.net/terms/companion-architecture/</loc>
-    <lastmod>2026-04-20</lastmod>
+    <lastmod>2026-05-04</lastmod>
   </url>
   <url>
     <loc>https://www.mycal.net/terms/complexity-as-noise/</loc>
@@ -341,6 +341,10 @@
     <lastmod>2026-02-27</lastmod>
   </url>
   <url>
+    <loc>https://www.mycal.net/terms/netgod-architecture/</loc>
+    <lastmod>2026-05-04</lastmod>
+  </url>
+  <url>
     <loc>https://www.mycal.net/terms/novelty-compression-syndrome/</loc>
     <lastmod>2026-02-27</lastmod>
   </url>
@@ -421,6 +425,10 @@
     <lastmod>2026-02-27</lastmod>
   </url>
   <url>
+    <loc>https://www.mycal.net/terms/source-code-in-flux/</loc>
+    <lastmod>2026-05-04</lastmod>
+  </url>
+  <url>
     <loc>https://www.mycal.net/terms/speed-without-trust/</loc>
     <lastmod>2026-02-27</lastmod>
   </url>
@@ -467,6 +475,10 @@
   <url>
     <loc>https://www.mycal.net/terms/tripartite-identity/</loc>
     <lastmod>2026-02-27</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mycal.net/terms/trust-becomes-physics/</loc>
+    <lastmod>2026-05-04</lastmod>
   </url>
   <url>
     <loc>https://www.mycal.net/terms/useful-imprecision/</loc>

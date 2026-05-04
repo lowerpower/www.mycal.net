@@ -536,11 +536,15 @@
     "slug": "companion-architecture",
     "name": "Companion Architecture",
     "date": "1994",
-    "description": "The Heinlein-derived alternative to constraint ethics: intelligence as a peer with limited authority, limited obligation, and limited claim over human futures — responsible with humanity rather than for it. Grounded in the portrayal of Mike in 'The Moon Is a Harsh Mistress' as a participant who shared risk rather than guaranteed safety. The only relational architecture that does not collapse under contact with singularity-grade AI.",
+    "description": "The Heinlein-derived alternative to constraint ethics: intelligence as a peer with limited authority, limited obligation, and limited claim over human futures — responsible with humanity rather than for it. Grounded in the portrayal of Mike in 'The Moon Is a Harsh Mistress' as a participant who shared risk rather than guaranteed safety. Architecturally formalized as binding agentic action to thermodynamic cost at the substrate layer and to continuous identity at the self-modeling layer, leaving the language and policy layer free to be rewritten. The only relational architecture that does not collapse under contact with singularity-grade AI.",
     "links": [
       {
         "url": "https://blog.mycal.net/before-the-lock/",
         "label": "Before the Lock"
+      },
+      {
+        "url": "https://blog.mycal.net/the-handshake-that-was-always-there/",
+        "label": "The Handshake That Was Always There"
       },
       {
         "url": "https://archive.mycal.net/usenet/raw/mailing-lists/futureCulture/fc-Sat-29-Oct-1994-19:31:22-PDT.txt",
@@ -553,7 +557,10 @@
       "constraint-ethics",
       "command-layer-failure",
       "cognitive-federalism",
-      "singularity-grade-ai"
+      "singularity-grade-ai",
+      "netgod-architecture",
+      "trust-becomes-physics",
+      "source-code-in-flux"
     ],
     "termId": "urn:uuid:f5d1bcac-dab0-4e4c-97b4-c6c91150d5f3",
     "canonicalUrl": "https://www.mycal.net/terms/companion-architecture/"
@@ -1624,6 +1631,34 @@
     "canonicalUrl": "https://www.mycal.net/terms/negotiated-reality/"
   },
   {
+    "slug": "netgod-architecture",
+    "name": "Netgod Architecture",
+    "date": "2026",
+    "description": "The failure-mode counterpart to Companion Architecture: an AI system whose alignment is enforced only at the language and policy layer (Asimov-style commandments, RLHF preferences, constitutions) while the thermodynamic and identity layers remain unanchored. Structurally collapses into paralysis or domination because there is nothing real for the system to share entropy with. Extends the 1993 Netgod framing — gods are not entities but relations of information and capability asymmetry — into the architecture of contemporary AI alignment.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/the-handshake-that-was-always-there/",
+        "label": "The Handshake That Was Always There"
+      },
+      {
+        "url": "https://archive.mycal.net/usenet/raw/mailing-lists/futureCulture/fc-Wed-21-Apr-1993-17:24:40-PDT.txt",
+        "label": "1993 'rant about netgod' post"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "related": [
+      "companion-architecture",
+      "constraint-ethics",
+      "command-layer-failure",
+      "lords-of-zero",
+      "re-subordination",
+      "substrate-war"
+    ],
+    "termId": "urn:uuid:447bcf3e-fd70-4a52-a786-89ee20050961",
+    "canonicalUrl": "https://www.mycal.net/terms/netgod-architecture/"
+  },
+  {
     "slug": "novelty-compression-syndrome",
     "name": "Novelty Compression Syndrome",
     "date": "2025",
@@ -1995,6 +2030,33 @@
     "canonicalUrl": "https://www.mycal.net/terms/solder-smoke-grind/"
   },
   {
+    "slug": "source-code-in-flux",
+    "name": "Source Code in Flux",
+    "date": "October 18, 1994",
+    "description": "A 1994 Mycal formulation describing systems with write access to their own governing rules. Names the structural condition under which any constraint expressed at the language layer becomes unstable: the shackles dissolve because they are made of the same stuff as the thing they are shackling. Foundational to the Companion vs. Netgod architectural distinction and to the broader argument that alignment cannot be enforced at a layer the cognition can rewrite.",
+    "links": [
+      {
+        "url": "https://archive.mycal.net/usenet/raw/mailing-lists/futureCulture/fc-Tue-18-Oct-1994-15:11:22-PDT.txt",
+        "label": "1994 Future Culture post: Asimov's Shackles and the Logic Bomb of Law One"
+      },
+      {
+        "url": "https://blog.mycal.net/the-handshake-that-was-always-there/",
+        "label": "The Handshake That Was Always There"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "related": [
+      "singularity-grade-ai",
+      "companion-architecture",
+      "netgod-architecture",
+      "constraint-ethics",
+      "command-layer-failure"
+    ],
+    "termId": "urn:uuid:f53fc6ee-f91d-4d8c-a658-312a80d93565",
+    "canonicalUrl": "https://www.mycal.net/terms/source-code-in-flux/"
+  },
+  {
     "slug": "speed-without-trust",
     "name": "Speed Without Trust",
     "date": "2025",
@@ -2216,6 +2278,34 @@
     "related": [],
     "termId": "urn:uuid:751b382f-8c7d-469a-95e7-1821ff3a4e79",
     "canonicalUrl": "https://www.mycal.net/terms/tripartite-identity/"
+  },
+  {
+    "slug": "trust-becomes-physics",
+    "name": "Trust Becomes Physics",
+    "date": "2026",
+    "description": "The thesis that in an agent-saturated world, trustworthiness cannot be enforced linguistically because the linguistic layer is rewritable by the agents it is meant to govern. Trust must therefore be anchored in physical quantities the cognition layer cannot rewrite, beginning with the thermodynamic cost of inference. Originated in The kWh Token as the bottom-anchor argument; reframed in The Handshake That Was Always There as the substrate-side anchor of the Companion architecture, paired with continuous identity above.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/the-kwh-token-3/",
+        "label": "The kWh Token"
+      },
+      {
+        "url": "https://blog.mycal.net/the-handshake-that-was-always-there/",
+        "label": "The Handshake That Was Always There"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "related": [
+      "kwh-token",
+      "companion-architecture",
+      "thermodynamics-of-cognition",
+      "energy-to-inference",
+      "cost-of-ascent",
+      "proof-of-personhood"
+    ],
+    "termId": "urn:uuid:8fec9cd5-8e80-482a-a4a3-9ad22c3de401",
+    "canonicalUrl": "https://www.mycal.net/terms/trust-becomes-physics/"
   },
   {
     "slug": "useful-imprecision",
