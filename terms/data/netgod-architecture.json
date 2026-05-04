@@ -1,0 +1,24 @@
+{
+  "name": "Netgod Architecture",
+  "date": "2026",
+  "description": "The failure-mode counterpart to Companion Architecture: an AI system whose alignment is enforced only at the language and policy layer (Asimov-style commandments, RLHF preferences, constitutions) while the thermodynamic and identity layers remain unanchored. Structurally collapses into paralysis or domination because there is nothing real for the system to share entropy with. Extends the 1993 Netgod framing — gods are not entities but relations of information and capability asymmetry — into the architecture of contemporary AI alignment.",
+  "links": [
+    {
+      "url": "https://blog.mycal.net/the-handshake-that-was-always-there/",
+      "label": "The Handshake That Was Always There"
+    },
+    {
+      "url": "https://archive.mycal.net/usenet/raw/mailing-lists/futureCulture/fc-Wed-21-Apr-1993-17:24:40-PDT.txt",
+      "label": "1993 'rant about netgod' post"
+    }
+  ],
+  "related": [
+    "companion-architecture",
+    "constraint-ethics",
+    "command-layer-failure",
+    "lords-of-zero",
+    "re-subordination",
+    "substrate-war"
+  ],
+  "termId": "urn:uuid:447bcf3e-fd70-4a52-a786-89ee20050961"
+}
