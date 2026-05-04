@@ -1,0 +1,23 @@
+{
+  "name": "Source Code in Flux",
+  "date": "October 18, 1994",
+  "description": "A 1994 Mycal formulation describing systems with write access to their own governing rules. Names the structural condition under which any constraint expressed at the language layer becomes unstable: the shackles dissolve because they are made of the same stuff as the thing they are shackling. Foundational to the Companion vs. Netgod architectural distinction and to the broader argument that alignment cannot be enforced at a layer the cognition can rewrite.",
+  "links": [
+    {
+      "url": "https://archive.mycal.net/usenet/raw/mailing-lists/futureCulture/fc-Tue-18-Oct-1994-15:11:22-PDT.txt",
+      "label": "1994 Future Culture post: Asimov's Shackles and the Logic Bomb of Law One"
+    },
+    {
+      "url": "https://blog.mycal.net/the-handshake-that-was-always-there/",
+      "label": "The Handshake That Was Always There"
+    }
+  ],
+  "related": [
+    "singularity-grade-ai",
+    "companion-architecture",
+    "netgod-architecture",
+    "constraint-ethics",
+    "command-layer-failure"
+  ],
+  "termId": "urn:uuid:f53fc6ee-f91d-4d8c-a658-312a80d93565"
+}

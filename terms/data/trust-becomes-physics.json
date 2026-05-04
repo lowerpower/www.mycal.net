@@ -1,0 +1,24 @@
+{
+  "name": "Trust Becomes Physics",
+  "date": "2026",
+  "description": "The thesis that in an agent-saturated world, trustworthiness cannot be enforced linguistically because the linguistic layer is rewritable by the agents it is meant to govern. Trust must therefore be anchored in physical quantities the cognition layer cannot rewrite, beginning with the thermodynamic cost of inference. Originated in The kWh Token as the bottom-anchor argument; reframed in The Handshake That Was Always There as the substrate-side anchor of the Companion architecture, paired with continuous identity above.",
+  "links": [
+    {
+      "url": "https://blog.mycal.net/the-kwh-token-3/",
+      "label": "The kWh Token"
+    },
+    {
+      "url": "https://blog.mycal.net/the-handshake-that-was-always-there/",
+      "label": "The Handshake That Was Always There"
+    }
+  ],
+  "related": [
+    "kwh-token",
+    "companion-architecture",
+    "thermodynamics-of-cognition",
+    "energy-to-inference",
+    "cost-of-ascent",
+    "proof-of-personhood"
+  ],
+  "termId": "urn:uuid:8fec9cd5-8e80-482a-a4a3-9ad22c3de401"
+}
