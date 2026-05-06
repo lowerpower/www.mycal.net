@@ -1,0 +1,19 @@
+{
+  "name": "Proof of Personhood at Human Scale",
+  "date": "May 2026",
+  "description": "The everyday-life counterpart to cryptographic proof-of-personhood. For ordinary people, proving identity does not require biometrics, blockchain, or government identity systems. A known person can prove they are real by passing a pre-agreed challenge through a known channel. Identity is established through network, channels, and shared procedures rather than voice, caller ID, or scraped personal details. The protocol layer where families and small companies actually live.",
+  "links": [
+    {
+      "url": "https://blog.mycal.net/voice-clone-scams/",
+      "label": "Voice Clone Scams and Real-Life Proof of Personhood"
+    }
+  ],
+  "related": [
+    "proof-of-personhood",
+    "proof-of-continuity",
+    "identity-without-exposure",
+    "family-isoprep-lite",
+    "layered-trust-stack"
+  ],
+  "termId": "urn:uuid:9c7b1158-f27d-443c-beb3-b6244fc78022"
+}
