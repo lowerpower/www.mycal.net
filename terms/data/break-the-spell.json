@@ -1,0 +1,18 @@
+{
+  "name": "Break the Spell",
+  "date": "May 2026",
+  "description": "The act of interrupting a social-engineering attack by re-establishing contact with the target's network. The scammer's script depends on isolation; once another trusted person enters the loop, the spell breaks and the script fails. The smallest viable defense is often a single sentence to a coworker — not the secret itself, just enough thread for someone else to pull. Also the title of the companion audio piece for the originating essay.",
+  "links": [
+    {
+      "url": "https://blog.mycal.net/voice-clone-scams/",
+      "label": "Voice Clone Scams and Real-Life Proof of Personhood"
+    }
+  ],
+  "related": [
+    "isolation-attack",
+    "callback-rule",
+    "family-isoprep-lite",
+    "proof-of-personhood-at-human-scale"
+  ],
+  "termId": "urn:uuid:6c72bd36-7faa-42bc-a049-c974837cec19"
+}

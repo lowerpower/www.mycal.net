@@ -1,0 +1,18 @@
+{
+  "name": "Callback Rule",
+  "date": "May 2026",
+  "description": "A pre-agreed defensive procedure: hang up on any high-pressure request and call the person back using a number already known and saved, never a number provided during the call. Extends to refusing to switch apps, click links, or trust caller ID. The callback rule breaks the communication bubble the attacker depends on. If the supposed person does not answer, the next trusted contact is called, until verification arrives through a channel the attacker did not choose.",
+  "links": [
+    {
+      "url": "https://blog.mycal.net/voice-clone-scams/",
+      "label": "Voice Clone Scams and Real-Life Proof of Personhood"
+    }
+  ],
+  "related": [
+    "family-isoprep-lite",
+    "break-the-spell",
+    "isolation-attack",
+    "proof-of-personhood-at-human-scale"
+  ],
+  "termId": "urn:uuid:9430a73f-5874-4f8f-8d96-5d9efb6b3544"
+}
