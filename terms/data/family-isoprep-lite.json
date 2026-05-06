@@ -1,0 +1,19 @@
+{
+  "name": "Family ISOPREP-Lite",
+  "date": "May 2026",
+  "description": "A pre-agreed, one-page household plan for proving identity during high-pressure phone calls, whether the framing is fear, generosity, or urgency. Built around four parts: a family verification phrase, a callback rule, a no-money-under-pressure rule, and an emergency contact tree. Named after the military ISOPREP isolated-personnel report procedure but reduced to a household-scale artifact that fits on a single page and can be rehearsed under stress.",
+  "links": [
+    {
+      "url": "https://blog.mycal.net/voice-clone-scams/",
+      "label": "Voice Clone Scams and Real-Life Proof of Personhood"
+    }
+  ],
+  "related": [
+    "proof-of-personhood-at-human-scale",
+    "callback-rule",
+    "break-the-spell",
+    "isolation-attack",
+    "layered-trust-stack"
+  ],
+  "termId": "urn:uuid:3e5a2828-64a3-427d-9063-ec25ee73731d"
+}
