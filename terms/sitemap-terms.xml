@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.mycal.net/terms/</loc>
-    <lastmod>2026-05-04</lastmod>
+    <lastmod>2026-05-06</lastmod>
   </url>
   <url>
     <loc>https://www.mycal.net/terms/accountable-velocity/</loc>
@@ -59,6 +59,14 @@
   <url>
     <loc>https://www.mycal.net/terms/bounded-variation/</loc>
     <lastmod>2026-02-27</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mycal.net/terms/break-the-spell/</loc>
+    <lastmod>2026-05-06</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mycal.net/terms/callback-rule/</loc>
+    <lastmod>2026-05-06</lastmod>
   </url>
   <url>
     <loc>https://www.mycal.net/terms/calorie-ladder/</loc>
@@ -197,6 +205,10 @@
     <lastmod>2026-02-27</lastmod>
   </url>
   <url>
+    <loc>https://www.mycal.net/terms/family-isoprep-lite/</loc>
+    <lastmod>2026-05-06</lastmod>
+  </url>
+  <url>
     <loc>https://www.mycal.net/terms/federated-agency/</loc>
     <lastmod>2026-04-28</lastmod>
   </url>
@@ -259,6 +271,10 @@
   <url>
     <loc>https://www.mycal.net/terms/intent-layer/</loc>
     <lastmod>2026-02-27</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mycal.net/terms/isolation-attack/</loc>
+    <lastmod>2026-05-06</lastmod>
   </url>
   <url>
     <loc>https://www.mycal.net/terms/j-space/</loc>
@@ -371,6 +387,10 @@
   <url>
     <loc>https://www.mycal.net/terms/proof-of-personhood/</loc>
     <lastmod>2026-02-27</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mycal.net/terms/proof-of-personhood-at-human-scale/</loc>
+    <lastmod>2026-05-06</lastmod>
   </url>
   <url>
     <loc>https://www.mycal.net/terms/proof-over-preservation/</loc>

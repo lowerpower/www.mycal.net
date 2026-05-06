@@ -280,6 +280,50 @@
     "canonicalUrl": "https://www.mycal.net/terms/bounded-variation/"
   },
   {
+    "slug": "break-the-spell",
+    "name": "Break the Spell",
+    "date": "May 2026",
+    "description": "The act of interrupting a social-engineering attack by re-establishing contact with the target's network. The scammer's script depends on isolation; once another trusted person enters the loop, the spell breaks and the script fails. The smallest viable defense is often a single sentence to a coworker — not the secret itself, just enough thread for someone else to pull. Also the title of the companion audio piece for the originating essay.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/voice-clone-scams/",
+        "label": "Voice Clone Scams and Real-Life Proof of Personhood"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "related": [
+      "isolation-attack",
+      "callback-rule",
+      "family-isoprep-lite",
+      "proof-of-personhood-at-human-scale"
+    ],
+    "termId": "urn:uuid:6c72bd36-7faa-42bc-a049-c974837cec19",
+    "canonicalUrl": "https://www.mycal.net/terms/break-the-spell/"
+  },
+  {
+    "slug": "callback-rule",
+    "name": "Callback Rule",
+    "date": "May 2026",
+    "description": "A pre-agreed defensive procedure: hang up on any high-pressure request and call the person back using a number already known and saved, never a number provided during the call. Extends to refusing to switch apps, click links, or trust caller ID. The callback rule breaks the communication bubble the attacker depends on. If the supposed person does not answer, the next trusted contact is called, until verification arrives through a channel the attacker did not choose.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/voice-clone-scams/",
+        "label": "Voice Clone Scams and Real-Life Proof of Personhood"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "related": [
+      "family-isoprep-lite",
+      "break-the-spell",
+      "isolation-attack",
+      "proof-of-personhood-at-human-scale"
+    ],
+    "termId": "urn:uuid:9430a73f-5874-4f8f-8d96-5d9efb6b3544",
+    "canonicalUrl": "https://www.mycal.net/terms/callback-rule/"
+  },
+  {
     "slug": "calorie-ladder",
     "name": "Calorie Ladder",
     "date": "2026",
@@ -942,6 +986,29 @@
     "canonicalUrl": "https://www.mycal.net/terms/existential-horror-of-prior-art/"
   },
   {
+    "slug": "family-isoprep-lite",
+    "name": "Family ISOPREP-Lite",
+    "date": "May 2026",
+    "description": "A pre-agreed, one-page household plan for proving identity during high-pressure phone calls, whether the framing is fear, generosity, or urgency. Built around four parts: a family verification phrase, a callback rule, a no-money-under-pressure rule, and an emergency contact tree. Named after the military ISOPREP isolated-personnel report procedure but reduced to a household-scale artifact that fits on a single page and can be rehearsed under stress.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/voice-clone-scams/",
+        "label": "Voice Clone Scams and Real-Life Proof of Personhood"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "related": [
+      "proof-of-personhood-at-human-scale",
+      "callback-rule",
+      "break-the-spell",
+      "isolation-attack",
+      "layered-trust-stack"
+    ],
+    "termId": "urn:uuid:3e5a2828-64a3-427d-9063-ec25ee73731d",
+    "canonicalUrl": "https://www.mycal.net/terms/family-isoprep-lite/"
+  },
+  {
     "slug": "federated-agency",
     "name": "Federated Agency",
     "date": "2025",
@@ -1241,6 +1308,28 @@
     "related": [],
     "termId": "urn:uuid:95159fe6-eaf0-48c7-804f-ceb927fd38f4",
     "canonicalUrl": "https://www.mycal.net/terms/intent-layer/"
+  },
+  {
+    "slug": "isolation-attack",
+    "name": "Isolation Attack",
+    "date": "May 2026",
+    "description": "A class of social-engineering attack whose load-bearing component is cutting the target off from their normal network long enough to complete the script. Authority, urgency, specificity, and emotional framing — the surface ingredients — only function on a target who is alone with the call. The voice clone is a tool. The script is the weapon. Isolation is what loads it. The defense is to refuse the cutoff before it begins.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/voice-clone-scams/",
+        "label": "Voice Clone Scams and Real-Life Proof of Personhood"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "related": [
+      "break-the-spell",
+      "callback-rule",
+      "family-isoprep-lite",
+      "proof-of-personhood-at-human-scale"
+    ],
+    "termId": "urn:uuid:031b4ee7-9375-4953-9c79-327e77400771",
+    "canonicalUrl": "https://www.mycal.net/terms/isolation-attack/"
   },
   {
     "slug": "j-space",
@@ -1787,6 +1876,29 @@
     "related": [],
     "termId": "urn:uuid:0fe79224-5380-4bc3-91ac-e218a6918c37",
     "canonicalUrl": "https://www.mycal.net/terms/proof-of-personhood/"
+  },
+  {
+    "slug": "proof-of-personhood-at-human-scale",
+    "name": "Proof of Personhood at Human Scale",
+    "date": "May 2026",
+    "description": "The everyday-life counterpart to cryptographic proof-of-personhood. For ordinary people, proving identity does not require biometrics, blockchain, or government identity systems. A known person can prove they are real by passing a pre-agreed challenge through a known channel. Identity is established through network, channels, and shared procedures rather than voice, caller ID, or scraped personal details. The protocol layer where families and small companies actually live.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/voice-clone-scams/",
+        "label": "Voice Clone Scams and Real-Life Proof of Personhood"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "related": [
+      "proof-of-personhood",
+      "proof-of-continuity",
+      "identity-without-exposure",
+      "family-isoprep-lite",
+      "layered-trust-stack"
+    ],
+    "termId": "urn:uuid:9c7b1158-f27d-443c-beb3-b6244fc78022",
+    "canonicalUrl": "https://www.mycal.net/terms/proof-of-personhood-at-human-scale/"
   },
   {
     "slug": "proof-over-preservation",
