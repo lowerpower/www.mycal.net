@@ -1,0 +1,18 @@
+{
+  "name": "Isolation Attack",
+  "date": "May 2026",
+  "description": "A class of social-engineering attack whose load-bearing component is cutting the target off from their normal network long enough to complete the script. Authority, urgency, specificity, and emotional framing — the surface ingredients — only function on a target who is alone with the call. The voice clone is a tool. The script is the weapon. Isolation is what loads it. The defense is to refuse the cutoff before it begins.",
+  "links": [
+    {
+      "url": "https://blog.mycal.net/voice-clone-scams/",
+      "label": "Voice Clone Scams and Real-Life Proof of Personhood"
+    }
+  ],
+  "related": [
+    "break-the-spell",
+    "callback-rule",
+    "family-isoprep-lite",
+    "proof-of-personhood-at-human-scale"
+  ],
+  "termId": "urn:uuid:031b4ee7-9375-4953-9c79-327e77400771"
+}
