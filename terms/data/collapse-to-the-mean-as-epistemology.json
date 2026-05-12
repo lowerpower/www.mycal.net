@@ -1,0 +1,24 @@
+{
+  "name": "Collapse to the Mean as Epistemology",
+  "date": "2026",
+  "description": "The failure mode in which the loss function of a learned system is mistaken for a theory of truth. Canonical Drift, Semantic Drift, and Attribution Drift describe what happens to ideas, meanings, and authorship over time; Collapse to the Mean as Epistemology names the prior architectural error that drives them — optimizing for the center of the training distribution and then treating that center as reality. Once the mean is treated as epistemology, variance becomes error, outliers become noise, and the system stops being able to distinguish a wrong belief from a rare true one. The correctives are structural rather than rhetorical: weight high-provenance witnesses against priors, preserve attribution so the inference graph remembers where claims came from, and design companion-architecture systems that update toward the witness when the mean and the evidence disagree. Left uncorrected, Collapse to the Mean as Epistemology is the short-arc condition whose long-arc consequence is the Ouroboros.",
+  "links": [
+    {
+      "url": "https://blog.mycal.net/the-flight-surgeon-problem/",
+      "label": "The Flight Surgeon Problem"
+    }
+  ],
+  "related": [
+    "ouroboros",
+    "flight-surgeon-problem",
+    "canonical-drift",
+    "semantic-drift",
+    "attribution-drift",
+    "vector-collapse",
+    "primary-node-of-inference",
+    "stubborn-witness",
+    "local-truth",
+    "companion-architecture"
+  ],
+  "termId": "urn:uuid:3a6a4f61-0acb-4f6d-8864-3fa670623b08"
+}

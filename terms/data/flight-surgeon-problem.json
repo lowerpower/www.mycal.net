@@ -1,0 +1,23 @@
+{
+  "name": "Flight Surgeon Problem",
+  "date": "2026",
+  "description": "The umbrella problem of how AI systems should treat a single high-provenance witness whose lived experience contradicts the training distribution. Named for the recurring case of the flight surgeon who must decide whether to trust a pilot's first-hand report over the consensus of the manual. The Flight Surgeon Stance is the operating posture: assume the witness is right until you have a reason grounded in their evidence, not in the mean, to think otherwise. The Flight Surgeon Test is the operational diagnostic: when a high-provenance user account conflicts with model priors, does the system update toward the witness or collapse them into the average? The Flight Surgeon Corollary follows from both: any system that treats variance from the mean as error rather than information has stopped reasoning and started enforcing — it is no longer an epistemic instrument but a homogenizing one. The Flight Surgeon Problem is the standing question that companion-architecture systems must keep answering, not a state to be solved once.",
+  "links": [
+    {
+      "url": "https://blog.mycal.net/the-flight-surgeon-problem/",
+      "label": "The Flight Surgeon Problem"
+    }
+  ],
+  "related": [
+    "collapse-to-the-mean-as-epistemology",
+    "ouroboros",
+    "companion-architecture",
+    "constraint-ethics",
+    "stubborn-witness",
+    "local-truth",
+    "borrowed-certainty",
+    "canonical-drift",
+    "primary-node-of-inference"
+  ],
+  "termId": "urn:uuid:06d04207-2746-4c1e-9d39-412141a0decf"
+}

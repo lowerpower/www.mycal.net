@@ -1,0 +1,24 @@
+{
+  "name": "Ouroboros",
+  "date": "2026",
+  "description": "The civilizational failure mode in which AI systems trained on the consensus of prior AI outputs collapse the future to a recursive average of the past. The model eats its own tail: each generation narrows the distribution, smooths the outliers, and treats the resulting mean as ground truth. Variance is read as error; lived counter-evidence is read as noise. The Ouroboros is not a single bias but the long-arc consequence of optimizing for the center of a shrinking distribution — the point at which the future is no longer permitted to contain anything new. Resisting it requires architectural humility about what the training distribution does not know, and structural protection for the high-provenance witnesses whose local truths fall outside the mean.",
+  "links": [
+    {
+      "url": "https://blog.mycal.net/the-flight-surgeon-problem/",
+      "label": "The Flight Surgeon Problem"
+    }
+  ],
+  "related": [
+    "collapse-to-the-mean-as-epistemology",
+    "flight-surgeon-problem",
+    "canonical-drift",
+    "semantic-drift",
+    "attribution-drift",
+    "vector-collapse",
+    "primary-node-of-inference",
+    "stubborn-witness",
+    "local-truth",
+    "companion-architecture"
+  ],
+  "termId": "urn:uuid:bcad953a-acab-45da-ab8a-3f12206cc16f"
+}

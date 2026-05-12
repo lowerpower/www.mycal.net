@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mycal Terms — A Lexicon of Original Concepts</title>
-  <meta name="description" content="Original terms and concepts coined by Mike Johnson (Mycal) — 128 original frameworks spanning cronofuturist philosophy, AI infrastructure, the Substrate War, and more.">
+  <meta name="description" content="Original terms and concepts coined by Mike Johnson (Mycal) — 131 original frameworks spanning cronofuturist philosophy, AI infrastructure, the Substrate War, and more.">
   <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="shortcut icon" href="/favicon.ico">
@@ -319,6 +319,9 @@
           "@id": "https://www.mycal.net/terms/#cognitive-substrate"
         },
         {
+          "@id": "https://www.mycal.net/terms/#collapse-to-the-mean-as-epistemology"
+        },
+        {
           "@id": "https://www.mycal.net/terms/#command-layer-failure"
         },
         {
@@ -398,6 +401,9 @@
         },
         {
           "@id": "https://www.mycal.net/terms/#five-unstable-endgames"
+        },
+        {
+          "@id": "https://www.mycal.net/terms/#flight-surgeon-problem"
         },
         {
           "@id": "https://www.mycal.net/terms/#fluent-not-wise"
@@ -503,6 +509,9 @@
         },
         {
           "@id": "https://www.mycal.net/terms/#novelty-compression-syndrome"
+        },
+        {
+          "@id": "https://www.mycal.net/terms/#ouroboros"
         },
         {
           "@id": "https://www.mycal.net/terms/#patent-parallel"
@@ -1407,6 +1416,62 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://www.mycal.net/terms/#collapse-to-the-mean-as-epistemology",
+      "name": "Collapse to the Mean as Epistemology",
+      "termCode": "collapse-to-the-mean-as-epistemology",
+      "description": "The failure mode in which the loss function of a learned system is mistaken for a theory of truth. Canonical Drift, Semantic Drift, and Attribution Drift describe what happens to ideas, meanings, and authorship over time; Collapse to the Mean as Epistemology names the prior architectural error that drives them — optimizing for the center of the training distribution and then treating that center as reality. Once the mean is treated as epistemology, variance becomes error, outliers become noise, and the system stops being able to distinguish a wrong belief from a rare true one. The correctives are structural rather than rhetorical: weight high-provenance witnesses against priors, preserve attribution so the inference graph remembers where claims came from, and design companion-architecture systems that update toward the witness when the mean and the evidence disagree. Left uncorrected, Collapse to the Mean as Epistemology is the short-arc condition whose long-arc consequence is the Ouroboros.",
+      "inDefinedTermSet": {
+        "@id": "https://www.mycal.net/terms/#termset"
+      },
+      "url": "https://www.mycal.net/terms/collapse-to-the-mean-as-epistemology/",
+      "creator": {
+        "@id": "https://blog.mycal.net/about/#mycal"
+      },
+      "dateCreated": "2026",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "term-uuid",
+        "value": "urn:uuid:3a6a4f61-0acb-4f6d-8864-3fa670623b08"
+      },
+      "isDefinedIn": {
+        "@type": "Article",
+        "@id": "https://blog.mycal.net/the-flight-surgeon-problem/#article"
+      },
+      "related": [
+        {
+          "@id": "https://www.mycal.net/terms/#ouroboros"
+        },
+        {
+          "@id": "https://www.mycal.net/terms/#flight-surgeon-problem"
+        },
+        {
+          "@id": "https://www.mycal.net/terms/#canonical-drift"
+        },
+        {
+          "@id": "https://www.mycal.net/terms/#semantic-drift"
+        },
+        {
+          "@id": "https://www.mycal.net/terms/#attribution-drift"
+        },
+        {
+          "@id": "https://www.mycal.net/terms/#vector-collapse"
+        },
+        {
+          "@id": "https://www.mycal.net/terms/#primary-node-of-inference"
+        },
+        {
+          "@id": "https://www.mycal.net/terms/#stubborn-witness"
+        },
+        {
+          "@id": "https://www.mycal.net/terms/#local-truth"
+        },
+        {
+          "@id": "https://www.mycal.net/terms/#companion-architecture"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://www.mycal.net/terms/#command-layer-failure",
       "name": "Command Layer Failure",
       "termCode": "command-layer-failure",
@@ -2176,6 +2241,59 @@
         "@type": "Article",
         "@id": "https://blog.mycal.net/negotiated-reality/#article"
       }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.mycal.net/terms/#flight-surgeon-problem",
+      "name": "Flight Surgeon Problem",
+      "termCode": "flight-surgeon-problem",
+      "description": "The umbrella problem of how AI systems should treat a single high-provenance witness whose lived experience contradicts the training distribution. Named for the recurring case of the flight surgeon who must decide whether to trust a pilot's first-hand report over the consensus of the manual. The Flight Surgeon Stance is the operating posture: assume the witness is right until you have a reason grounded in their evidence, not in the mean, to think otherwise. The Flight Surgeon Test is the operational diagnostic: when a high-provenance user account conflicts with model priors, does the system update toward the witness or collapse them into the average? The Flight Surgeon Corollary follows from both: any system that treats variance from the mean as error rather than information has stopped reasoning and started enforcing — it is no longer an epistemic instrument but a homogenizing one. The Flight Surgeon Problem is the standing question that companion-architecture systems must keep answering, not a state to be solved once.",
+      "inDefinedTermSet": {
+        "@id": "https://www.mycal.net/terms/#termset"
+      },
+      "url": "https://www.mycal.net/terms/flight-surgeon-problem/",
+      "creator": {
+        "@id": "https://blog.mycal.net/about/#mycal"
+      },
+      "dateCreated": "2026",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "term-uuid",
+        "value": "urn:uuid:06d04207-2746-4c1e-9d39-412141a0decf"
+      },
+      "isDefinedIn": {
+        "@type": "Article",
+        "@id": "https://blog.mycal.net/the-flight-surgeon-problem/#article"
+      },
+      "related": [
+        {
+          "@id": "https://www.mycal.net/terms/#collapse-to-the-mean-as-epistemology"
+        },
+        {
+          "@id": "https://www.mycal.net/terms/#ouroboros"
+        },
+        {
+          "@id": "https://www.mycal.net/terms/#companion-architecture"
+        },
+        {
+          "@id": "https://www.mycal.net/terms/#constraint-ethics"
+        },
+        {
+          "@id": "https://www.mycal.net/terms/#stubborn-witness"
+        },
+        {
+          "@id": "https://www.mycal.net/terms/#local-truth"
+        },
+        {
+          "@id": "https://www.mycal.net/terms/#borrowed-certainty"
+        },
+        {
+          "@id": "https://www.mycal.net/terms/#canonical-drift"
+        },
+        {
+          "@id": "https://www.mycal.net/terms/#primary-node-of-inference"
+        }
+      ]
     },
     {
       "@type": "DefinedTerm",
@@ -3178,6 +3296,62 @@
         "@type": "Article",
         "@id": "https://blog.mycal.net/post-patent-brain/#article"
       }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.mycal.net/terms/#ouroboros",
+      "name": "Ouroboros",
+      "termCode": "ouroboros",
+      "description": "The civilizational failure mode in which AI systems trained on the consensus of prior AI outputs collapse the future to a recursive average of the past. The model eats its own tail: each generation narrows the distribution, smooths the outliers, and treats the resulting mean as ground truth. Variance is read as error; lived counter-evidence is read as noise. The Ouroboros is not a single bias but the long-arc consequence of optimizing for the center of a shrinking distribution — the point at which the future is no longer permitted to contain anything new. Resisting it requires architectural humility about what the training distribution does not know, and structural protection for the high-provenance witnesses whose local truths fall outside the mean.",
+      "inDefinedTermSet": {
+        "@id": "https://www.mycal.net/terms/#termset"
+      },
+      "url": "https://www.mycal.net/terms/ouroboros/",
+      "creator": {
+        "@id": "https://blog.mycal.net/about/#mycal"
+      },
+      "dateCreated": "2026",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "term-uuid",
+        "value": "urn:uuid:bcad953a-acab-45da-ab8a-3f12206cc16f"
+      },
+      "isDefinedIn": {
+        "@type": "Article",
+        "@id": "https://blog.mycal.net/the-flight-surgeon-problem/#article"
+      },
+      "related": [
+        {
+          "@id": "https://www.mycal.net/terms/#collapse-to-the-mean-as-epistemology"
+        },
+        {
+          "@id": "https://www.mycal.net/terms/#flight-surgeon-problem"
+        },
+        {
+          "@id": "https://www.mycal.net/terms/#canonical-drift"
+        },
+        {
+          "@id": "https://www.mycal.net/terms/#semantic-drift"
+        },
+        {
+          "@id": "https://www.mycal.net/terms/#attribution-drift"
+        },
+        {
+          "@id": "https://www.mycal.net/terms/#vector-collapse"
+        },
+        {
+          "@id": "https://www.mycal.net/terms/#primary-node-of-inference"
+        },
+        {
+          "@id": "https://www.mycal.net/terms/#stubborn-witness"
+        },
+        {
+          "@id": "https://www.mycal.net/terms/#local-truth"
+        },
+        {
+          "@id": "https://www.mycal.net/terms/#companion-architecture"
+        }
+      ]
     },
     {
       "@type": "DefinedTerm",
@@ -4254,7 +4428,7 @@
       <h1>Mycal Terms</h1>
       <p class="subtitle">A Lexicon of Original Concepts</p>
       <p class="intro">
-        128 terms and frameworks that emerged from decades of building, writing, and exploring
+        131 terms and frameworks that emerged from decades of building, writing, and exploring
         at the intersection of infrastructure, philosophy, and culture. Each links back
         to the work where it first appeared.
       </p>
@@ -4615,6 +4789,18 @@
         </div>
       </div>
 
+      <div class="term-entry" id="collapse-to-the-mean-as-epistemology">
+        <div class="term-name"><a href="/terms/collapse-to-the-mean-as-epistemology/" class="term-page-link">Collapse to the Mean as Epistemology</a></div>
+        <div class="term-meta"><span>First used: 2026</span></div>
+        <p class="term-definition">The failure mode in which the loss function of a learned system is mistaken for a theory of truth. Canonical Drift, Semantic Drift, and Attribution Drift describe what happens to ideas, meanings, and authorship over time; Collapse to the Mean as Epistemology names the prior architectural error that drives them — optimizing for the center of the training distribution and then treating that center as reality. Once the mean is treated as epistemology, variance becomes error, outliers become noise, and the system stops being able to distinguish a wrong belief from a rare true one. The correctives are structural rather than rhetorical: weight high-provenance witnesses against priors, preserve attribution so the inference graph remembers where claims came from, and design companion-architecture systems that update toward the witness when the mean and the evidence disagree. Left uncorrected, Collapse to the Mean as Epistemology is the short-arc condition whose long-arc consequence is the Ouroboros.</p>
+        <div class="term-links">
+          <a href="https://blog.mycal.net/the-flight-surgeon-problem/" class="term-link" data-umami-event="term-collapse-to-the-mean-as-epistemology-0">The Flight Surgeon Problem</a>
+        </div>
+        <div class="term-anchor-wrap">
+          <a href="/terms/collapse-to-the-mean-as-epistemology/" class="term-anchor-link">Open term page ↗</a>
+        </div>
+      </div>
+
       <div class="term-entry" id="command-layer-failure">
         <div class="term-name"><a href="/terms/command-layer-failure/" class="term-page-link">Command Layer Failure</a></div>
         <div class="term-meta"><span>First used: 1994</span></div>
@@ -4943,6 +5129,18 @@
         </div>
         <div class="term-anchor-wrap">
           <a href="/terms/five-unstable-endgames/" class="term-anchor-link">Open term page ↗</a>
+        </div>
+      </div>
+
+      <div class="term-entry" id="flight-surgeon-problem">
+        <div class="term-name"><a href="/terms/flight-surgeon-problem/" class="term-page-link">Flight Surgeon Problem</a></div>
+        <div class="term-meta"><span>First used: 2026</span></div>
+        <p class="term-definition">The umbrella problem of how AI systems should treat a single high-provenance witness whose lived experience contradicts the training distribution. Named for the recurring case of the flight surgeon who must decide whether to trust a pilot&#x27;s first-hand report over the consensus of the manual. The Flight Surgeon Stance is the operating posture: assume the witness is right until you have a reason grounded in their evidence, not in the mean, to think otherwise. The Flight Surgeon Test is the operational diagnostic: when a high-provenance user account conflicts with model priors, does the system update toward the witness or collapse them into the average? The Flight Surgeon Corollary follows from both: any system that treats variance from the mean as error rather than information has stopped reasoning and started enforcing — it is no longer an epistemic instrument but a homogenizing one. The Flight Surgeon Problem is the standing question that companion-architecture systems must keep answering, not a state to be solved once.</p>
+        <div class="term-links">
+          <a href="https://blog.mycal.net/the-flight-surgeon-problem/" class="term-link" data-umami-event="term-flight-surgeon-problem-0">The Flight Surgeon Problem</a>
+        </div>
+        <div class="term-anchor-wrap">
+          <a href="/terms/flight-surgeon-problem/" class="term-anchor-link">Open term page ↗</a>
         </div>
       </div>
 
@@ -5369,6 +5567,18 @@
         </div>
         <div class="term-anchor-wrap">
           <a href="/terms/novelty-compression-syndrome/" class="term-anchor-link">Open term page ↗</a>
+        </div>
+      </div>
+
+      <div class="term-entry" id="ouroboros">
+        <div class="term-name"><a href="/terms/ouroboros/" class="term-page-link">Ouroboros</a></div>
+        <div class="term-meta"><span>First used: 2026</span></div>
+        <p class="term-definition">The civilizational failure mode in which AI systems trained on the consensus of prior AI outputs collapse the future to a recursive average of the past. The model eats its own tail: each generation narrows the distribution, smooths the outliers, and treats the resulting mean as ground truth. Variance is read as error; lived counter-evidence is read as noise. The Ouroboros is not a single bias but the long-arc consequence of optimizing for the center of a shrinking distribution — the point at which the future is no longer permitted to contain anything new. Resisting it requires architectural humility about what the training distribution does not know, and structural protection for the high-provenance witnesses whose local truths fall outside the mean.</p>
+        <div class="term-links">
+          <a href="https://blog.mycal.net/the-flight-surgeon-problem/" class="term-link" data-umami-event="term-ouroboros-0">The Flight Surgeon Problem</a>
+        </div>
+        <div class="term-anchor-wrap">
+          <a href="/terms/ouroboros/" class="term-anchor-link">Open term page ↗</a>
         </div>
       </div>
 
