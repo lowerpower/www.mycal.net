@@ -18,7 +18,8 @@
     "primary-node-of-inference",
     "stubborn-witness",
     "local-truth",
-    "companion-architecture"
+    "companion-architecture",
+    "high-provenance-witness"
   ],
   "termId": "urn:uuid:bcad953a-acab-45da-ab8a-3f12206cc16f"
 }

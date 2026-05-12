@@ -1,0 +1,26 @@
+{
+  "name": "High-Provenance Witness",
+  "date": "2026",
+  "description": "A user account that passes a four-part diagnostic test designed for Flight Surgeon architectures: continuity (the witness was present across the relevant span and can place the claim in a chain of remembered context), mechanism (they can describe how the thing happened, not only that it happened), constraint (their account holds details that would be costly or impossible to fabricate after the fact), and a scar (a durable, checkable mark — physical, documentary, procedural, or relational — that anchors the testimony to the world outside the telling). An account that satisfies all four is high-provenance and should be weighted against model priors rather than collapsed into them. The contrast cases are explicit: an anonymous claim fails continuity and scar; a confident retelling supplies surface fluency without mechanism or constraint. High-Provenance Witness is the human, testimonial counterpart to Proof of Continuity's cryptographic guarantee — one secures digital identity over time, the other secures lived experience against the mean. Companion-architecture systems that take the test seriously treat the witness as evidence; systems that ignore it default to Collapse to the Mean as Epistemology.",
+  "links": [
+    {
+      "url": "https://blog.mycal.net/the-flight-surgeon-problem/",
+      "label": "The Flight Surgeon Problem"
+    }
+  ],
+  "related": [
+    "flight-surgeon-problem",
+    "stubborn-witness",
+    "local-truth",
+    "proof-of-continuity",
+    "proof-of-personhood",
+    "companion-architecture",
+    "constraint-ethics",
+    "attribution-as-infrastructure",
+    "collapse-to-the-mean-as-epistemology",
+    "ouroboros",
+    "borrowed-certainty",
+    "canonical-drift"
+  ],
+  "termId": "urn:uuid:32b2f5c1-0103-4e5b-839b-687737e0e871"
+}
