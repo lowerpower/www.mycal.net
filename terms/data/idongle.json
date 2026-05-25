@@ -1,0 +1,21 @@
+{
+  "name": "iDongle",
+  "date": "1999",
+  "description": "A compact serial adapter dongle designed at iReady Corporation enabling internet connectivity for embedded and consumer devices via iReady's silicon TCP stack. The iDongle connected a Nintendo Game Boy to PHS mobile internet networks in 1999, enabling what may be the first internet-enabled gaming handheld. Part of the iReady iJack ecosystem of serial internet appliances.",
+  "links": [
+    {
+      "url": "https://archive.mycal.net/projects/gameboy/",
+      "label": "World's First Internet Game Boy — Project Page"
+    },
+    {
+      "url": "https://archive.mycal.net/projects/itam/",
+      "label": "iJack Protocol and Internet Appliances"
+    }
+  ],
+  "related": [
+    "phs-mobile-gaming",
+    "serial-internet-architecture"
+  ],
+  "temporalCoverage": "1999/2002",
+  "termId": "urn:uuid:89a43a1c-643e-4cef-a95d-e38dabbcbae4"
+}

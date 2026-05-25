@@ -1,0 +1,17 @@
+{
+  "name": "KSUC Radio",
+  "date": "1986",
+  "description": "Pirate FM radio station operated at CSU Chico from 1986 to 1987 by Mike Johnson (Mycal). Ran a 10-watt transmitter with full student programming. Operated before the micropower radio movement, before the Ramsey FM-10 kit, and before Free Radio Berkeley — making it one of the earliest documented unlicensed FM stations of the modern era.",
+  "links": [
+    {
+      "url": "https://archive.mycal.net/projects/KSUC/",
+      "label": "KSUC — Project Page"
+    }
+  ],
+  "related": [
+    "micropower-radio",
+    "pirate-radio"
+  ],
+  "temporalCoverage": "1986/1987",
+  "termId": "urn:uuid:d77ef871-0ace-40e4-bbcd-4d156f952a3a"
+}

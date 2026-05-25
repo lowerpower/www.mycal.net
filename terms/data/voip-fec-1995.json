@@ -1,0 +1,17 @@
+{
+  "name": "VoIP with FEC (1995)",
+  "date": "1995",
+  "description": "Voice over IP transmission with Forward Error Correction implemented in the Micom V/IP hardware product (1995). One of the first, possibly the first, commercial VoIP hardware implementations. Used UDP voice packets with FEC to handle packet loss over unreliable networks, with DSP processing on an ISA card. Compatible with DOS and NetWare environments.",
+  "links": [
+    {
+      "url": "https://archive.mycal.net/projects/Micom_VIP/",
+      "label": "Micom V/IP — Project Page"
+    }
+  ],
+  "related": [
+    "frame-relay-voip-1995",
+    "dos-netware-compat-1995"
+  ],
+  "temporalCoverage": "1995/1996",
+  "termId": "urn:uuid:e1ecb65d-bc65-4978-b789-4b67ae609e14"
+}

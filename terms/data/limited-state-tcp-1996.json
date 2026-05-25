@@ -1,0 +1,18 @@
+{
+  "name": "Limited-State TCP (1996)",
+  "date": "1996",
+  "description": "A hardware TCP state machine implemented in Xilinx FPGA at iReady Corporation in 1996 using hand-wrapped connections. Maintained only the minimal state necessary for TCP protocol compliance while offloading most state management to hardware registers — distinct from fully stateless TCP in that it retains enough state for reliable delivery, but far less than a conventional software TCP stack. Predecessor to iReady's silicon TCP product line, acquired by NVIDIA in 2001.",
+  "links": [
+    {
+      "url": "https://archive.mycal.net/projects/silicon_tcp/",
+      "label": "TCP/IP in Silicon — Project Page"
+    }
+  ],
+  "related": [
+    "stateless-tcp-server",
+    "stateless-tcp-1996",
+    "hardware-tcp-buffers-1996"
+  ],
+  "temporalCoverage": "1996/2001",
+  "termId": "urn:uuid:d7ca8337-6448-4d6e-9499-d56dcaf6eb45"
+}

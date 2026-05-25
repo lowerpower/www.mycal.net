@@ -1344,6 +1344,31 @@
     "canonicalUrl": "https://www.mycal.net/terms/identity-without-exposure/"
   },
   {
+    "slug": "idongle",
+    "name": "iDongle",
+    "date": "1999",
+    "description": "A compact serial adapter dongle designed at iReady Corporation enabling internet connectivity for embedded and consumer devices via iReady's silicon TCP stack. The iDongle connected a Nintendo Game Boy to PHS mobile internet networks in 1999, enabling what may be the first internet-enabled gaming handheld. Part of the iReady iJack ecosystem of serial internet appliances.",
+    "links": [
+      {
+        "url": "https://archive.mycal.net/projects/gameboy/",
+        "label": "World's First Internet Game Boy — Project Page"
+      },
+      {
+        "url": "https://archive.mycal.net/projects/itam/",
+        "label": "iJack Protocol and Internet Appliances"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "related": [
+      "phs-mobile-gaming",
+      "serial-internet-architecture"
+    ],
+    "termId": "urn:uuid:89a43a1c-643e-4cef-a95d-e38dabbcbae4",
+    "canonicalUrl": "https://www.mycal.net/terms/idongle/",
+    "temporalCoverage": "1999/2002"
+  },
+  {
     "slug": "inference-centrality",
     "name": "Inference Centrality",
     "date": "March 2026",
@@ -1502,6 +1527,27 @@
     "canonicalUrl": "https://www.mycal.net/terms/kardashev-window/"
   },
   {
+    "slug": "ksuc-radio",
+    "name": "KSUC Radio",
+    "date": "1986",
+    "description": "Pirate FM radio station operated at CSU Chico from 1986 to 1987 by Mike Johnson (Mycal). Ran a 10-watt transmitter with full student programming. Operated before the micropower radio movement, before the Ramsey FM-10 kit, and before Free Radio Berkeley — making it one of the earliest documented unlicensed FM stations of the modern era.",
+    "links": [
+      {
+        "url": "https://archive.mycal.net/projects/KSUC/",
+        "label": "KSUC — Project Page"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "related": [
+      "micropower-radio",
+      "pirate-radio"
+    ],
+    "termId": "urn:uuid:d77ef871-0ace-40e4-bbcd-4d156f952a3a",
+    "canonicalUrl": "https://www.mycal.net/terms/ksuc-radio/",
+    "temporalCoverage": "1986/1987"
+  },
+  {
     "slug": "kwh-token",
     "name": "kWh Token",
     "date": "2026",
@@ -1583,6 +1629,28 @@
     "related": [],
     "termId": "urn:uuid:905e9e0c-65af-40fa-bcff-532dcf5ea1e2",
     "canonicalUrl": "https://www.mycal.net/terms/legacy-as-pattern/"
+  },
+  {
+    "slug": "limited-state-tcp-1996",
+    "name": "Limited-State TCP (1996)",
+    "date": "1996",
+    "description": "A hardware TCP state machine implemented in Xilinx FPGA at iReady Corporation in 1996 using hand-wrapped connections. Maintained only the minimal state necessary for TCP protocol compliance while offloading most state management to hardware registers — distinct from fully stateless TCP in that it retains enough state for reliable delivery, but far less than a conventional software TCP stack. Predecessor to iReady's silicon TCP product line, acquired by NVIDIA in 2001.",
+    "links": [
+      {
+        "url": "https://archive.mycal.net/projects/silicon_tcp/",
+        "label": "TCP/IP in Silicon — Project Page"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "related": [
+      "stateless-tcp-server",
+      "stateless-tcp-1996",
+      "hardware-tcp-buffers-1996"
+    ],
+    "termId": "urn:uuid:d7ca8337-6448-4d6e-9499-d56dcaf6eb45",
+    "canonicalUrl": "https://www.mycal.net/terms/limited-state-tcp-1996/",
+    "temporalCoverage": "1996/2001"
   },
   {
     "slug": "load-bearing-language",
@@ -2722,6 +2790,27 @@
     "related": [],
     "termId": "urn:uuid:6ecbdde4-0c38-4886-9a5e-99088c253832",
     "canonicalUrl": "https://www.mycal.net/terms/vector-gravity/"
+  },
+  {
+    "slug": "voip-fec-1995",
+    "name": "VoIP with FEC (1995)",
+    "date": "1995",
+    "description": "Voice over IP transmission with Forward Error Correction implemented in the Micom V/IP hardware product (1995). One of the first, possibly the first, commercial VoIP hardware implementations. Used UDP voice packets with FEC to handle packet loss over unreliable networks, with DSP processing on an ISA card. Compatible with DOS and NetWare environments.",
+    "links": [
+      {
+        "url": "https://archive.mycal.net/projects/Micom_VIP/",
+        "label": "Micom V/IP — Project Page"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "related": [
+      "frame-relay-voip-1995",
+      "dos-netware-compat-1995"
+    ],
+    "termId": "urn:uuid:e1ecb65d-bc65-4978-b789-4b67ae609e14",
+    "canonicalUrl": "https://www.mycal.net/terms/voip-fec-1995/",
+    "temporalCoverage": "1995/1996"
   },
   {
     "slug": "writing-for-the-tails",
