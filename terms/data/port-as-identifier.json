@@ -17,6 +17,6 @@
     "stateless-tcp-server",
     "sequence-as-offset"
   ],
-  "temporalCoverage": "1995/1996"
+  "temporalCoverage": "1995/1996",
+  "termId": "urn:uuid:ab722e44-0dd4-46be-a6d8-abac36f3301e"
 }
-

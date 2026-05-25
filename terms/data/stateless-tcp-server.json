@@ -18,6 +18,6 @@
     "port-as-identifier",
     "sequence-as-offset"
   ],
-  "temporalCoverage": "1995/1996"
+  "temporalCoverage": "1995/1996",
+  "termId": "urn:uuid:ea6e2d2c-23cd-429d-ace9-e646cdd7ae4e"
 }
-

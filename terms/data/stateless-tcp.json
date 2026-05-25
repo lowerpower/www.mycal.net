@@ -1,4 +1,3 @@
-
 {
   "name": "Stateless TCP",
   "date": "1995",
@@ -19,6 +18,6 @@
     "port-as-identifier",
     "sequence-as-offset"
   ],
-  "temporalCoverage": "1995/1996"
+  "temporalCoverage": "1995/1996",
+  "termId": "urn:uuid:679fea4c-b1f7-414c-9936-02f26a25d73d"
 }
-
