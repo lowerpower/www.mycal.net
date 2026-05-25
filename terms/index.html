@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mycal Terms — A Lexicon of Original Concepts</title>
-  <meta name="description" content="Original terms and concepts coined by Mike Johnson (Mycal) — 132 original frameworks spanning cronofuturist philosophy, AI infrastructure, the Substrate War, and more.">
+  <meta name="description" content="Original terms and concepts coined by Mike Johnson (Mycal) — 137 original frameworks spanning cronofuturist philosophy, AI infrastructure, the Substrate War, and more.">
   <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="shortcut icon" href="/favicon.ico">
@@ -236,6 +236,9 @@
       "hasDefinedTerm": [
         {
           "@id": "https://www.mycal.net/terms/#accountable-velocity"
+        },
+        {
+          "@id": "https://www.mycal.net/terms/#ack-as-request"
         },
         {
           "@id": "https://www.mycal.net/terms/#activation-competition"
@@ -523,6 +526,9 @@
           "@id": "https://www.mycal.net/terms/#Petaluma-Chicken-Scratch"
         },
         {
+          "@id": "https://www.mycal.net/terms/#port-as-identifier"
+        },
+        {
           "@id": "https://www.mycal.net/terms/#post-patent-brain"
         },
         {
@@ -565,6 +571,9 @@
           "@id": "https://www.mycal.net/terms/#semantic-drift"
         },
         {
+          "@id": "https://www.mycal.net/terms/#sequence-as-offset"
+        },
+        {
           "@id": "https://www.mycal.net/terms/#seventy-year-stall"
         },
         {
@@ -581,6 +590,12 @@
         },
         {
           "@id": "https://www.mycal.net/terms/#speed-without-trust"
+        },
+        {
+          "@id": "https://www.mycal.net/terms/#stateless-tcp"
+        },
+        {
+          "@id": "https://www.mycal.net/terms/#stateless-tcp-server"
         },
         {
           "@id": "https://www.mycal.net/terms/#statistical-cognition"
@@ -655,6 +670,42 @@
         "@type": "Article",
         "@id": "https://blog.mycal.net/proof-of-personhood/#article"
       }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.mycal.net/terms/#ack-as-request",
+      "name": "ACK-as-Request",
+      "termCode": "ack-as-request",
+      "description": "The semantic inversion at the core of Stateless TCP: treating the TCP acknowledgement not as a control signal confirming receipt, but as the request itself. An incoming ACK with a given sequence number implicitly requests the next block of data, allowing the server to respond without maintaining any record of where the client \"is\" in the stream.",
+      "inDefinedTermSet": {
+        "@id": "https://www.mycal.net/terms/#termset"
+      },
+      "url": "https://www.mycal.net/terms/ack-as-request/",
+      "creator": {
+        "@id": "https://blog.mycal.net/about/#mycal"
+      },
+      "dateCreated": "1995",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "term-uuid",
+        "value": "urn:uuid:d9e01c55-743c-4342-8b74-b44d9bbab097"
+      },
+      "isDefinedIn": {
+        "@type": "DiscussionForumPosting",
+        "@id": "https://archive.mycal.net/projects/stateless_tcp/"
+      },
+      "related": [
+        {
+          "@id": "https://www.mycal.net/terms/#stateless-tcp"
+        },
+        {
+          "@id": "https://www.mycal.net/terms/#stateless-tcp-server"
+        },
+        {
+          "@id": "https://www.mycal.net/terms/#sequence-as-offset"
+        }
+      ],
+      "temporalCoverage": "1995/1996"
     },
     {
       "@type": "DefinedTerm",
@@ -3477,6 +3528,42 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://www.mycal.net/terms/#port-as-identifier",
+      "name": "Port-as-Identifier",
+      "termCode": "port-as-identifier",
+      "description": "In Stateless TCP, the TCP destination port is repurposed from a service demultiplexer into a content identifier: each port number maps directly to a file or object the server can return. A \"link\" becomes a new connection to a different port, replacing URL-based addressing with port-based addressing for a constrained class of static-content workloads.",
+      "inDefinedTermSet": {
+        "@id": "https://www.mycal.net/terms/#termset"
+      },
+      "url": "https://www.mycal.net/terms/port-as-identifier/",
+      "creator": {
+        "@id": "https://blog.mycal.net/about/#mycal"
+      },
+      "dateCreated": "1995",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "term-uuid",
+        "value": "urn:uuid:ab722e44-0dd4-46be-a6d8-abac36f3301e"
+      },
+      "isDefinedIn": {
+        "@type": "DiscussionForumPosting",
+        "@id": "https://archive.mycal.net/projects/stateless_tcp/"
+      },
+      "related": [
+        {
+          "@id": "https://www.mycal.net/terms/#stateless-tcp"
+        },
+        {
+          "@id": "https://www.mycal.net/terms/#stateless-tcp-server"
+        },
+        {
+          "@id": "https://www.mycal.net/terms/#sequence-as-offset"
+        }
+      ],
+      "temporalCoverage": "1995/1996"
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://www.mycal.net/terms/#post-patent-brain",
       "name": "Post-Patent Brain",
       "termCode": "post-patent-brain",
@@ -3880,6 +3967,45 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://www.mycal.net/terms/#sequence-as-offset",
+      "name": "Sequence-as-Offset",
+      "termCode": "sequence-as-offset",
+      "description": "In Stateless TCP, the TCP sequence number is repurposed from a stream-position marker into a direct content offset: `offset = seq_number * BLOCK_SIZE`. The server reads a fixed-size block from the addressed file at that offset and sends it as TCP data, without maintaining any record of which blocks the client has already received.",
+      "inDefinedTermSet": {
+        "@id": "https://www.mycal.net/terms/#termset"
+      },
+      "url": "https://www.mycal.net/terms/sequence-as-offset/",
+      "creator": {
+        "@id": "https://blog.mycal.net/about/#mycal"
+      },
+      "dateCreated": "1995",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "term-uuid",
+        "value": "urn:uuid:6c9785ac-5037-4b62-97ea-09b399099b1b"
+      },
+      "isDefinedIn": {
+        "@type": "DiscussionForumPosting",
+        "@id": "https://archive.mycal.net/projects/stateless_tcp/"
+      },
+      "related": [
+        {
+          "@id": "https://www.mycal.net/terms/#stateless-tcp"
+        },
+        {
+          "@id": "https://www.mycal.net/terms/#stateless-tcp-server"
+        },
+        {
+          "@id": "https://www.mycal.net/terms/#ack-as-request"
+        },
+        {
+          "@id": "https://www.mycal.net/terms/#port-as-identifier"
+        }
+      ],
+      "temporalCoverage": "1995/1996"
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://www.mycal.net/terms/#seventy-year-stall",
       "name": "The 70-Year Stall",
       "termCode": "seventy-year-stall",
@@ -4038,6 +4164,84 @@
         "@type": "Article",
         "@id": "https://blog.mycal.net/proof-of-personhood/#article"
       }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.mycal.net/terms/#stateless-tcp",
+      "name": "Stateless TCP",
+      "termCode": "stateless-tcp",
+      "description": "A TCP-like server architecture that maintains no per-connection state. Each incoming packet is handled independently from its on-the-wire parameters (ports, sequence numbers, acknowledgement numbers), with no connection tables, no per-client memory, and no open-file state. Coined in a December 1995 engineering notebook and posed as a thought experiment for handling extreme web-server load without state exhaustion.",
+      "inDefinedTermSet": {
+        "@id": "https://www.mycal.net/terms/#termset"
+      },
+      "url": "https://www.mycal.net/terms/stateless-tcp/",
+      "creator": {
+        "@id": "https://blog.mycal.net/about/#mycal"
+      },
+      "dateCreated": "1995",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "term-uuid",
+        "value": "urn:uuid:679fea4c-b1f7-414c-9936-02f26a25d73d"
+      },
+      "isDefinedIn": {
+        "@type": "DiscussionForumPosting",
+        "@id": "https://archive.mycal.net/projects/stateless_tcp/"
+      },
+      "related": [
+        {
+          "@id": "https://www.mycal.net/terms/#stateless-tcp-server"
+        },
+        {
+          "@id": "https://www.mycal.net/terms/#ack-as-request"
+        },
+        {
+          "@id": "https://www.mycal.net/terms/#port-as-identifier"
+        },
+        {
+          "@id": "https://www.mycal.net/terms/#sequence-as-offset"
+        }
+      ],
+      "temporalCoverage": "1995/1996"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.mycal.net/terms/#stateless-tcp-server",
+      "name": "Stateless TCP Server",
+      "termCode": "stateless-tcp-server",
+      "description": "The concrete server realization of Stateless TCP: a web server whose request handling derives entirely from incoming packet fields, with no socket, connection, or session state retained between packets. Theoretically scales to an arbitrary number of clients, limited only by available bandwidth, at the cost of features that require server-side memory (congestion control, fairness, retransmission tracking).",
+      "inDefinedTermSet": {
+        "@id": "https://www.mycal.net/terms/#termset"
+      },
+      "url": "https://www.mycal.net/terms/stateless-tcp-server/",
+      "creator": {
+        "@id": "https://blog.mycal.net/about/#mycal"
+      },
+      "dateCreated": "1995",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "term-uuid",
+        "value": "urn:uuid:ea6e2d2c-23cd-429d-ace9-e646cdd7ae4e"
+      },
+      "isDefinedIn": {
+        "@type": "DiscussionForumPosting",
+        "@id": "https://archive.mycal.net/projects/stateless_tcp/"
+      },
+      "related": [
+        {
+          "@id": "https://www.mycal.net/terms/#stateless-tcp"
+        },
+        {
+          "@id": "https://www.mycal.net/terms/#ack-as-request"
+        },
+        {
+          "@id": "https://www.mycal.net/terms/#port-as-identifier"
+        },
+        {
+          "@id": "https://www.mycal.net/terms/#sequence-as-offset"
+        }
+      ],
+      "temporalCoverage": "1995/1996"
     },
     {
       "@type": "DefinedTerm",
@@ -4502,7 +4706,7 @@
       <h1>Mycal Terms</h1>
       <p class="subtitle">A Lexicon of Original Concepts</p>
       <p class="intro">
-        132 terms and frameworks that emerged from decades of building, writing, and exploring
+        137 terms and frameworks that emerged from decades of building, writing, and exploring
         at the intersection of infrastructure, philosophy, and culture. Each links back
         to the work where it first appeared.
       </p>
@@ -4529,6 +4733,19 @@
         </div>
         <div class="term-anchor-wrap">
           <a href="/terms/accountable-velocity/" class="term-anchor-link">Open term page ↗</a>
+        </div>
+      </div>
+
+      <div class="term-entry" id="ack-as-request">
+        <div class="term-name"><a href="/terms/ack-as-request/" class="term-page-link">ACK-as-Request</a></div>
+        <div class="term-meta"><span>First used: 1995</span></div>
+        <p class="term-definition">The semantic inversion at the core of Stateless TCP: treating the TCP acknowledgement not as a control signal confirming receipt, but as the request itself. An incoming ACK with a given sequence number implicitly requests the next block of data, allowing the server to respond without maintaining any record of where the client &quot;is&quot; in the stream.</p>
+        <div class="term-links">
+          <a href="https://archive.mycal.net/projects/stateless_tcp/" class="term-link" data-umami-event="term-ack-as-request-0">Stateless TCP — Project Page</a>
+          <a href="https://archive.mycal.net/projects/stateless_tcp/statless-tcp-ocr.html" class="term-link" data-umami-event="term-ack-as-request-1">Notebook OCR Transcript (1995-1996)</a>
+        </div>
+        <div class="term-anchor-wrap">
+          <a href="/terms/ack-as-request/" class="term-anchor-link">Open term page ↗</a>
         </div>
       </div>
 
@@ -5692,6 +5909,19 @@
         </div>
       </div>
 
+      <div class="term-entry" id="port-as-identifier">
+        <div class="term-name"><a href="/terms/port-as-identifier/" class="term-page-link">Port-as-Identifier</a></div>
+        <div class="term-meta"><span>First used: 1995</span></div>
+        <p class="term-definition">In Stateless TCP, the TCP destination port is repurposed from a service demultiplexer into a content identifier: each port number maps directly to a file or object the server can return. A &quot;link&quot; becomes a new connection to a different port, replacing URL-based addressing with port-based addressing for a constrained class of static-content workloads.</p>
+        <div class="term-links">
+          <a href="https://archive.mycal.net/projects/stateless_tcp/" class="term-link" data-umami-event="term-port-as-identifier-0">Stateless TCP — Project Page</a>
+          <a href="https://archive.mycal.net/projects/stateless_tcp/statless-tcp-ocr.html" class="term-link" data-umami-event="term-port-as-identifier-1">Notebook OCR Transcript (1995-1996)</a>
+        </div>
+        <div class="term-anchor-wrap">
+          <a href="/terms/port-as-identifier/" class="term-anchor-link">Open term page ↗</a>
+        </div>
+      </div>
+
       <div class="term-entry" id="post-patent-brain">
         <div class="term-name"><a href="/terms/post-patent-brain/" class="term-page-link">Post-Patent Brain</a></div>
         <div class="term-meta"><span>First used: 2025</span></div>
@@ -5862,6 +6092,19 @@
         </div>
       </div>
 
+      <div class="term-entry" id="sequence-as-offset">
+        <div class="term-name"><a href="/terms/sequence-as-offset/" class="term-page-link">Sequence-as-Offset</a></div>
+        <div class="term-meta"><span>First used: 1995</span></div>
+        <p class="term-definition">In Stateless TCP, the TCP sequence number is repurposed from a stream-position marker into a direct content offset: `offset = seq_number * BLOCK_SIZE`. The server reads a fixed-size block from the addressed file at that offset and sends it as TCP data, without maintaining any record of which blocks the client has already received.</p>
+        <div class="term-links">
+          <a href="https://archive.mycal.net/projects/stateless_tcp/" class="term-link" data-umami-event="term-sequence-as-offset-0">Stateless TCP — Project Page</a>
+          <a href="https://archive.mycal.net/projects/stateless_tcp/statless-tcp-ocr.html" class="term-link" data-umami-event="term-sequence-as-offset-1">Notebook OCR Transcript (1995-1996)</a>
+        </div>
+        <div class="term-anchor-wrap">
+          <a href="/terms/sequence-as-offset/" class="term-anchor-link">Open term page ↗</a>
+        </div>
+      </div>
+
       <div class="term-entry" id="seventy-year-stall">
         <div class="term-name"><a href="/terms/seventy-year-stall/" class="term-page-link">The 70-Year Stall</a></div>
         <div class="term-meta"><span>First used: 2025</span></div>
@@ -5933,6 +6176,32 @@
         </div>
         <div class="term-anchor-wrap">
           <a href="/terms/speed-without-trust/" class="term-anchor-link">Open term page ↗</a>
+        </div>
+      </div>
+
+      <div class="term-entry" id="stateless-tcp">
+        <div class="term-name"><a href="/terms/stateless-tcp/" class="term-page-link">Stateless TCP</a></div>
+        <div class="term-meta"><span>First used: 1995</span></div>
+        <p class="term-definition">A TCP-like server architecture that maintains no per-connection state. Each incoming packet is handled independently from its on-the-wire parameters (ports, sequence numbers, acknowledgement numbers), with no connection tables, no per-client memory, and no open-file state. Coined in a December 1995 engineering notebook and posed as a thought experiment for handling extreme web-server load without state exhaustion.</p>
+        <div class="term-links">
+          <a href="https://archive.mycal.net/projects/stateless_tcp/" class="term-link" data-umami-event="term-stateless-tcp-0">Stateless TCP — Project Page</a>
+          <a href="https://archive.mycal.net/projects/stateless_tcp/statless-tcp-ocr.html" class="term-link" data-umami-event="term-stateless-tcp-1">Notebook OCR Transcript (1995-1996)</a>
+        </div>
+        <div class="term-anchor-wrap">
+          <a href="/terms/stateless-tcp/" class="term-anchor-link">Open term page ↗</a>
+        </div>
+      </div>
+
+      <div class="term-entry" id="stateless-tcp-server">
+        <div class="term-name"><a href="/terms/stateless-tcp-server/" class="term-page-link">Stateless TCP Server</a></div>
+        <div class="term-meta"><span>First used: 1995</span></div>
+        <p class="term-definition">The concrete server realization of Stateless TCP: a web server whose request handling derives entirely from incoming packet fields, with no socket, connection, or session state retained between packets. Theoretically scales to an arbitrary number of clients, limited only by available bandwidth, at the cost of features that require server-side memory (congestion control, fairness, retransmission tracking).</p>
+        <div class="term-links">
+          <a href="https://archive.mycal.net/projects/stateless_tcp/" class="term-link" data-umami-event="term-stateless-tcp-server-0">Stateless TCP — Project Page</a>
+          <a href="https://archive.mycal.net/projects/stateless_tcp/statless-tcp-ocr.html" class="term-link" data-umami-event="term-stateless-tcp-server-1">Notebook OCR Transcript (1995-1996)</a>
+        </div>
+        <div class="term-anchor-wrap">
+          <a href="/terms/stateless-tcp-server/" class="term-anchor-link">Open term page ↗</a>
         </div>
       </div>
 

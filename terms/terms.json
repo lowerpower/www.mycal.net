@@ -17,6 +17,32 @@
     "canonicalUrl": "https://www.mycal.net/terms/accountable-velocity/"
   },
   {
+    "slug": "ack-as-request",
+    "name": "ACK-as-Request",
+    "date": "1995",
+    "description": "The semantic inversion at the core of Stateless TCP: treating the TCP acknowledgement not as a control signal confirming receipt, but as the request itself. An incoming ACK with a given sequence number implicitly requests the next block of data, allowing the server to respond without maintaining any record of where the client \"is\" in the stream.",
+    "links": [
+      {
+        "url": "https://archive.mycal.net/projects/stateless_tcp/",
+        "label": "Stateless TCP — Project Page"
+      },
+      {
+        "url": "https://archive.mycal.net/projects/stateless_tcp/statless-tcp-ocr.html",
+        "label": "Notebook OCR Transcript (1995-1996)"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "related": [
+      "stateless-tcp",
+      "stateless-tcp-server",
+      "sequence-as-offset"
+    ],
+    "termId": "urn:uuid:d9e01c55-743c-4342-8b74-b44d9bbab097",
+    "canonicalUrl": "https://www.mycal.net/terms/ack-as-request/",
+    "temporalCoverage": "1995/1996"
+  },
+  {
     "slug": "activation-competition",
     "name": "Activation Competition",
     "date": "2026",
@@ -1915,6 +1941,32 @@
     "canonicalUrl": "https://www.mycal.net/terms/Petaluma-Chicken-Scratch/"
   },
   {
+    "slug": "port-as-identifier",
+    "name": "Port-as-Identifier",
+    "date": "1995",
+    "description": "In Stateless TCP, the TCP destination port is repurposed from a service demultiplexer into a content identifier: each port number maps directly to a file or object the server can return. A \"link\" becomes a new connection to a different port, replacing URL-based addressing with port-based addressing for a constrained class of static-content workloads.",
+    "links": [
+      {
+        "url": "https://archive.mycal.net/projects/stateless_tcp/",
+        "label": "Stateless TCP — Project Page"
+      },
+      {
+        "url": "https://archive.mycal.net/projects/stateless_tcp/statless-tcp-ocr.html",
+        "label": "Notebook OCR Transcript (1995-1996)"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "related": [
+      "stateless-tcp",
+      "stateless-tcp-server",
+      "sequence-as-offset"
+    ],
+    "termId": "urn:uuid:ab722e44-0dd4-46be-a6d8-abac36f3301e",
+    "canonicalUrl": "https://www.mycal.net/terms/port-as-identifier/",
+    "temporalCoverage": "1995/1996"
+  },
+  {
     "slug": "post-patent-brain",
     "name": "Post-Patent Brain",
     "date": "2025",
@@ -2186,6 +2238,33 @@
     "canonicalUrl": "https://www.mycal.net/terms/semantic-drift/"
   },
   {
+    "slug": "sequence-as-offset",
+    "name": "Sequence-as-Offset",
+    "date": "1995",
+    "description": "In Stateless TCP, the TCP sequence number is repurposed from a stream-position marker into a direct content offset: `offset = seq_number * BLOCK_SIZE`. The server reads a fixed-size block from the addressed file at that offset and sends it as TCP data, without maintaining any record of which blocks the client has already received.",
+    "links": [
+      {
+        "url": "https://archive.mycal.net/projects/stateless_tcp/",
+        "label": "Stateless TCP — Project Page"
+      },
+      {
+        "url": "https://archive.mycal.net/projects/stateless_tcp/statless-tcp-ocr.html",
+        "label": "Notebook OCR Transcript (1995-1996)"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "related": [
+      "stateless-tcp",
+      "stateless-tcp-server",
+      "ack-as-request",
+      "port-as-identifier"
+    ],
+    "termId": "urn:uuid:6c9785ac-5037-4b62-97ea-09b399099b1b",
+    "canonicalUrl": "https://www.mycal.net/terms/sequence-as-offset/",
+    "temporalCoverage": "1995/1996"
+  },
+  {
     "slug": "seventy-year-stall",
     "name": "The 70-Year Stall",
     "date": "2025",
@@ -2300,6 +2379,60 @@
     "related": [],
     "termId": "urn:uuid:157c2952-8cb1-433f-8ad3-4bb19fcb9624",
     "canonicalUrl": "https://www.mycal.net/terms/speed-without-trust/"
+  },
+  {
+    "slug": "stateless-tcp",
+    "name": "Stateless TCP",
+    "date": "1995",
+    "description": "A TCP-like server architecture that maintains no per-connection state. Each incoming packet is handled independently from its on-the-wire parameters (ports, sequence numbers, acknowledgement numbers), with no connection tables, no per-client memory, and no open-file state. Coined in a December 1995 engineering notebook and posed as a thought experiment for handling extreme web-server load without state exhaustion.",
+    "links": [
+      {
+        "url": "https://archive.mycal.net/projects/stateless_tcp/",
+        "label": "Stateless TCP — Project Page"
+      },
+      {
+        "url": "https://archive.mycal.net/projects/stateless_tcp/statless-tcp-ocr.html",
+        "label": "Notebook OCR Transcript (1995-1996)"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "related": [
+      "stateless-tcp-server",
+      "ack-as-request",
+      "port-as-identifier",
+      "sequence-as-offset"
+    ],
+    "termId": "urn:uuid:679fea4c-b1f7-414c-9936-02f26a25d73d",
+    "canonicalUrl": "https://www.mycal.net/terms/stateless-tcp/",
+    "temporalCoverage": "1995/1996"
+  },
+  {
+    "slug": "stateless-tcp-server",
+    "name": "Stateless TCP Server",
+    "date": "1995",
+    "description": "The concrete server realization of Stateless TCP: a web server whose request handling derives entirely from incoming packet fields, with no socket, connection, or session state retained between packets. Theoretically scales to an arbitrary number of clients, limited only by available bandwidth, at the cost of features that require server-side memory (congestion control, fairness, retransmission tracking).",
+    "links": [
+      {
+        "url": "https://archive.mycal.net/projects/stateless_tcp/",
+        "label": "Stateless TCP — Project Page"
+      },
+      {
+        "url": "https://archive.mycal.net/projects/stateless_tcp/statless-tcp-ocr.html",
+        "label": "Notebook OCR Transcript (1995-1996)"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "related": [
+      "stateless-tcp",
+      "ack-as-request",
+      "port-as-identifier",
+      "sequence-as-offset"
+    ],
+    "termId": "urn:uuid:ea6e2d2c-23cd-429d-ace9-e646cdd7ae4e",
+    "canonicalUrl": "https://www.mycal.net/terms/stateless-tcp-server/",
+    "temporalCoverage": "1995/1996"
   },
   {
     "slug": "statistical-cognition",
