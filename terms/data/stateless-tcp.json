@@ -1,0 +1,24 @@
+
+{
+  "name": "Stateless TCP",
+  "date": "1995",
+  "description": "A TCP-like server architecture that maintains no per-connection state. Each incoming packet is handled independently from its on-the-wire parameters (ports, sequence numbers, acknowledgement numbers), with no connection tables, no per-client memory, and no open-file state. Coined in a December 1995 engineering notebook and posed as a thought experiment for handling extreme web-server load without state exhaustion.",
+  "links": [
+    {
+      "url": "https://archive.mycal.net/projects/stateless_tcp/",
+      "label": "Stateless TCP — Project Page"
+    },
+    {
+      "url": "https://archive.mycal.net/projects/stateless_tcp/statless-tcp-ocr.html",
+      "label": "Notebook OCR Transcript (1995-1996)"
+    }
+  ],
+  "related": [
+    "stateless-tcp-server",
+    "ack-as-request",
+    "port-as-identifier",
+    "sequence-as-offset"
+  ],
+  "temporalCoverage": "1995/1996"
+}
+

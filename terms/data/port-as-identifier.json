@@ -1,0 +1,22 @@
+{
+  "name": "Port-as-Identifier",
+  "date": "1995",
+  "description": "In Stateless TCP, the TCP destination port is repurposed from a service demultiplexer into a content identifier: each port number maps directly to a file or object the server can return. A \"link\" becomes a new connection to a different port, replacing URL-based addressing with port-based addressing for a constrained class of static-content workloads.",
+  "links": [
+    {
+      "url": "https://archive.mycal.net/projects/stateless_tcp/",
+      "label": "Stateless TCP — Project Page"
+    },
+    {
+      "url": "https://archive.mycal.net/projects/stateless_tcp/statless-tcp-ocr.html",
+      "label": "Notebook OCR Transcript (1995-1996)"
+    }
+  ],
+  "related": [
+    "stateless-tcp",
+    "stateless-tcp-server",
+    "sequence-as-offset"
+  ],
+  "temporalCoverage": "1995/1996"
+}
+

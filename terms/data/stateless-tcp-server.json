@@ -1,0 +1,23 @@
+{
+  "name": "Stateless TCP Server",
+  "date": "1995",
+  "description": "The concrete server realization of Stateless TCP: a web server whose request handling derives entirely from incoming packet fields, with no socket, connection, or session state retained between packets. Theoretically scales to an arbitrary number of clients, limited only by available bandwidth, at the cost of features that require server-side memory (congestion control, fairness, retransmission tracking).",
+  "links": [
+    {
+      "url": "https://archive.mycal.net/projects/stateless_tcp/",
+      "label": "Stateless TCP — Project Page"
+    },
+    {
+      "url": "https://archive.mycal.net/projects/stateless_tcp/statless-tcp-ocr.html",
+      "label": "Notebook OCR Transcript (1995-1996)"
+    }
+  ],
+  "related": [
+    "stateless-tcp",
+    "ack-as-request",
+    "port-as-identifier",
+    "sequence-as-offset"
+  ],
+  "temporalCoverage": "1995/1996"
+}
+

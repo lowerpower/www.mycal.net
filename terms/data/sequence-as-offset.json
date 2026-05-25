@@ -1,0 +1,23 @@
+{
+  "name": "Sequence-as-Offset",
+  "date": "1995",
+  "description": "In Stateless TCP, the TCP sequence number is repurposed from a stream-position marker into a direct content offset: `offset = seq_number * BLOCK_SIZE`. The server reads a fixed-size block from the addressed file at that offset and sends it as TCP data, without maintaining any record of which blocks the client has already received.",
+  "links": [
+    {
+      "url": "https://archive.mycal.net/projects/stateless_tcp/",
+      "label": "Stateless TCP — Project Page"
+    },
+    {
+      "url": "https://archive.mycal.net/projects/stateless_tcp/statless-tcp-ocr.html",
+      "label": "Notebook OCR Transcript (1995-1996)"
+    }
+  ],
+  "related": [
+    "stateless-tcp",
+    "stateless-tcp-server",
+    "ack-as-request",
+    "port-as-identifier"
+  ],
+  "temporalCoverage": "1995/1996"
+}
+
