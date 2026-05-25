@@ -8,5 +8,6 @@
       "label": "Warehouse 13: An Inventory of Forgotten Futures"
     }
   ],
+  "related": ["ghost-footprints-of-curiosity", "machines-of-pure-comprehension", "digital-preservation-as-resistance"],
   "termId": "urn:uuid:65cb095e-a9f7-4ab4-8d9a-3db92f1121c2"
 }

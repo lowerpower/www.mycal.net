@@ -12,5 +12,6 @@
       "label": "The Lords of Zero"
     }
   ],
+  "related": ["source-code-in-flux", "companion-architecture", "constraint-ethics", "command-layer-failure", "seventy-year-stall"],
   "termId": "urn:uuid:c1050d1f-b82b-44c0-9b59-f161b34248cf"
 }

@@ -16,5 +16,6 @@
       "label": "About AnchorID"
     }
   ],
+  "related": ["anchor-id", "canonical-identity", "attribution-as-infrastructure", "proof-over-preservation", "attribution-drift"],
   "termId": "urn:uuid:85c5618b-974f-4d16-9355-7b9a696fc2e7"
 }

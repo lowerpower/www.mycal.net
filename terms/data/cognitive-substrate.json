@@ -8,5 +8,6 @@
       "label": "The Three Empires"
     }
   ],
+  "related": ["three-empires", "cognitive-power", "substrate-war", "substrate-determinism", "compute-as-law"],
   "termId": "urn:uuid:8f5f2ca4-4ebf-4eec-8435-963d4ae59a5a"
 }

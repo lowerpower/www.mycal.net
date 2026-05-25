@@ -12,5 +12,6 @@
       "label": "blog.mycal.net"
     }
   ],
+  "related": ["companion-architecture", "cognitive-federalism", "cognitive-citizenship", "federated-agency"],
   "termId": "urn:uuid:fca50315-999d-431b-b5ea-96074e1f0d07"
 }

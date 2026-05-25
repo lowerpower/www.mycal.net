@@ -8,5 +8,6 @@
       "label": "blog.mycal.net"
     }
   ],
+  "related": ["anchor-id", "attribution-anchor", "substrate-war", "load-bearing-language"],
   "termId": "urn:uuid:0bb6b629-e181-4ecc-ad5c-49ef665b5b0d"
 }

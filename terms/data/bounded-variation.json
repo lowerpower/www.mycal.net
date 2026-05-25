@@ -8,5 +8,6 @@
       "label": "Why Benchmarks Fail"
     }
   ],
+  "related": ["cognitive-drift", "analog-from-digital", "single-score-fallacy", "constraint-first-evaluation"],
   "termId": "urn:uuid:91f7fba2-1590-4a4c-9b74-54a7bd6e7aa2"
 }

@@ -8,5 +8,6 @@
       "label": "Warehouse 13: An Inventory of Forgotten Futures"
     }
   ],
+  "related": ["schrodingers-disc", "machines-of-pure-comprehension", "reckless-curiosity", "digital-preservation-as-resistance"],
   "termId": "urn:uuid:3480b2c9-f9f1-45c3-9fd7-d05f49aeba7d"
 }

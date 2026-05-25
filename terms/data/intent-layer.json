@@ -8,5 +8,6 @@
       "label": "Proof of Personhood"
     }
   ],
+  "related": ["proof-of-personhood", "accountable-velocity", "layered-trust-stack", "federated-agency"],
   "termId": "urn:uuid:95159fe6-eaf0-48c7-804f-ceb927fd38f4"
 }

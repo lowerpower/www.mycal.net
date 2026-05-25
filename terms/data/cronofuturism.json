@@ -8,5 +8,6 @@
       "label": "blog.mycal.net"
     }
   ],
+  "related": ["chrononaut-journals", "legacy-as-pattern", "digital-preservation-as-resistance"],
   "termId": "urn:uuid:53e7bd40-873c-4d9e-8591-d765b53308be"
 }

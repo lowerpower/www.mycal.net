@@ -16,5 +16,6 @@
       "label": "Identity Is Easy. Continuity Is Hard."
     }
   ],
+  "related": ["anchor-id", "attribution-anchor", "attribution-as-infrastructure", "vector-collapse", "proof-over-preservation"],
   "termId": "urn:uuid:3ec43a69-2050-4e08-9a7e-0f061d7f677a"
 }

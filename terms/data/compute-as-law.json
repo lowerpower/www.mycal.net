@@ -8,5 +8,6 @@
       "label": "The Three Empires"
     }
   ],
+  "related": ["three-empires", "cognitive-power", "cognitive-substrate", "lords-of-zero", "substrate-war"],
   "termId": "urn:uuid:592d1935-f350-43f2-b355-13b5b291be06"
 }

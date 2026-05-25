@@ -8,5 +8,6 @@
       "label": "Proof of Personhood"
     }
   ],
+  "related": ["proof-of-personhood", "speed-without-trust", "friction-as-stabilizer", "connection-vs-collision"],
   "termId": "urn:uuid:28318ea5-0c6e-47e1-b17b-40dc507bde46"
 }

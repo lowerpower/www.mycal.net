@@ -8,5 +8,6 @@
       "label": "Never Twice the Same Color"
     }
   ],
+  "related": ["complexity-as-noise", "density-threshold", "useful-imprecision", "cognitive-drift", "bounded-variation"],
   "termId": "urn:uuid:1db21370-02ff-4789-91c6-e785edb88a49"
 }

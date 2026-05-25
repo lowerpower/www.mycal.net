@@ -16,5 +16,6 @@
       "label": "Identity Is Easy. Continuity Is Hard."
     }
   ],
+  "related": ["anchor-id", "attribution-anchor", "canonical-identity", "proof-over-preservation", "dissolved-into-the-substrate"],
   "termId": "urn:uuid:40d27767-c8c5-4e17-8fa7-3e9f28842aef"
 }

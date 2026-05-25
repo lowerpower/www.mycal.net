@@ -8,5 +8,6 @@
       "label": "The Three Empires"
     }
   ],
+  "related": ["three-empires", "cognitive-power", "negotiated-reality", "reality-drift", "substrate-war"],
   "termId": "urn:uuid:49570c40-d59b-41b0-871d-4776588ae16e"
 }

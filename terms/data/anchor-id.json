@@ -15,5 +15,6 @@
   "sameAs": [
     "https://anchorid.net/"
   ],
+  "related": ["attribution-anchor", "canonical-identity", "attribution-as-infrastructure", "proof-over-preservation", "vector-collapse"],
   "termId": "urn:uuid:c3036e50-9c95-45f4-ac4c-d2e7cd85cc90"
 }

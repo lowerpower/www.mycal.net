@@ -12,5 +12,6 @@
       "label": "music.mycal.net"
     }
   ],
+  "related": ["cronosonics-workflow", "memetic-compression", "load-bearing-phrases"],
   "termId": "urn:uuid:4bb9743a-899b-46de-b0dd-71fa1db2cf43"
 }

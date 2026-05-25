@@ -12,5 +12,6 @@
       "label": "The Substrate War series"
     }
   ],
+  "related": ["vector-collapse", "attribution-drift", "attribution-as-infrastructure", "anchor-id", "canonical-drift"],
   "termId": "urn:uuid:17ebad55-12c5-4cdc-ab6e-7d127cd5fd3f"
 }

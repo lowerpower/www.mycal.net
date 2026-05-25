@@ -8,5 +8,6 @@
       "label": "Proof of Personhood"
     }
   ],
+  "related": ["proof-of-continuity", "identity-without-exposure", "proof-of-personhood-at-human-scale", "layered-trust-stack", "accountable-velocity"],
   "termId": "urn:uuid:0fe79224-5380-4bc3-91ac-e218a6918c37"
 }

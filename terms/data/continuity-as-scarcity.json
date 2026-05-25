@@ -8,5 +8,6 @@
       "label": "Proof of Personhood"
     }
   ],
+  "related": ["proof-of-continuity", "proof-of-personhood", "identity-without-exposure", "proof-of-personhood-at-human-scale"],
   "termId": "urn:uuid:ac97b6c1-b503-4634-9711-e415af76188e"
 }

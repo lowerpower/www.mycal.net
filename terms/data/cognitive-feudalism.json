@@ -8,5 +8,6 @@
       "label": "Infrastructure Wins"
     }
   ],
+  "related": ["lords-of-zero", "substrate-determinism", "infrastructure-advantage", "federated-agency", "three-empires"],
   "termId": "urn:uuid:a2b570e5-1a64-456e-8d46-7556af864da8"
 }

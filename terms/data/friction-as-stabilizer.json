@@ -8,5 +8,6 @@
       "label": "Proof of Personhood"
     }
   ],
+  "related": ["proof-of-personhood", "speed-without-trust", "accountable-velocity", "connection-vs-collision"],
   "termId": "urn:uuid:e307f023-1585-42aa-ac0e-9fb23570ce10"
 }

@@ -8,5 +8,6 @@
       "label": "The Three Empires"
     }
   ],
+  "related": ["three-empires", "cognitive-substrate", "compute-as-law", "narrative-sovereignty", "substrate-war"],
   "termId": "urn:uuid:a99a26cd-3fcd-4b03-8954-c6f20b318465"
 }

@@ -12,5 +12,6 @@
       "label": "AnchorID"
     }
   ],
+  "related": ["attribution-drift", "canonical-drift", "dissolved-into-the-substrate", "anchor-id", "canonical-identity"],
   "termId": "urn:uuid:8fc30f9f-f54d-443e-b3fb-68a0840221fa"
 }

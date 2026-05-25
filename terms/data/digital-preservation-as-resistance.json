@@ -8,5 +8,6 @@
       "label": "Fight Entropy: From Group42 to Mycal Music"
     }
   ],
+  "related": ["fight-entropy", "legacy-as-pattern", "chrononaut-journals", "air-gapped-truth"],
   "termId": "urn:uuid:ab544f0f-e565-41fa-8824-45dc42846f8c"
 }

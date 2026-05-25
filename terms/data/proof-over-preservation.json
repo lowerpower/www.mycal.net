@@ -12,5 +12,6 @@
       "label": "AnchorID FAQ"
     }
   ],
+  "related": ["anchor-id", "attribution-anchor", "attribution-as-infrastructure", "canonical-identity"],
   "termId": "urn:uuid:cc0378dc-d91d-45c3-a030-42c26e894418"
 }

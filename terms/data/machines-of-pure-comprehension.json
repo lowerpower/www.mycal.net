@@ -8,5 +8,6 @@
       "label": "Warehouse 13: An Inventory of Forgotten Futures"
     }
   ],
+  "related": ["ghost-footprints-of-curiosity", "schrodingers-disc", "solder-smoke-grind"],
   "termId": "urn:uuid:1e39f15f-5976-41ec-8b5b-ecbfb817413b"
 }

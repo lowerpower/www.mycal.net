@@ -8,5 +8,6 @@
       "label": "Proof of Personhood"
     }
   ],
+  "related": ["proof-of-personhood", "proof-of-continuity", "continuity-as-scarcity", "layered-trust-stack"],
   "termId": "urn:uuid:4ddbdf37-e128-49d0-ae5f-0589de55dadf"
 }

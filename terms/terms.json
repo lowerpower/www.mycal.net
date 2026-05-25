@@ -12,7 +12,12 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "proof-of-personhood",
+      "speed-without-trust",
+      "friction-as-stabilizer",
+      "connection-vs-collision"
+    ],
     "termId": "urn:uuid:28318ea5-0c6e-47e1-b17b-40dc507bde46",
     "canonicalUrl": "https://www.mycal.net/terms/accountable-velocity/"
   },
@@ -55,7 +60,13 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "memetic-gravity",
+      "memetic-compression",
+      "vector-gravity",
+      "load-bearing-language",
+      "attractor-basin"
+    ],
     "termId": "urn:uuid:54dd0a64-ce71-42b4-89c6-2da990828a46",
     "canonicalUrl": "https://www.mycal.net/terms/activation-competition/"
   },
@@ -72,7 +83,13 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "local-truth",
+      "stubborn-witness",
+      "human-only-variant-retention",
+      "digital-preservation-as-resistance",
+      "canonical-convergence"
+    ],
     "termId": "urn:uuid:b0945d32-8349-4252-a77d-cfea12b6f35d",
     "canonicalUrl": "https://www.mycal.net/terms/air-gapped-truth/"
   },
@@ -89,7 +106,13 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "complexity-as-noise",
+      "density-threshold",
+      "useful-imprecision",
+      "cognitive-drift",
+      "bounded-variation"
+    ],
     "termId": "urn:uuid:1db21370-02ff-4789-91c6-e785edb88a49",
     "canonicalUrl": "https://www.mycal.net/terms/analog-from-digital/"
   },
@@ -112,7 +135,13 @@
       "https://anchorid.net/"
     ],
     "aliases": [],
-    "related": [],
+    "related": [
+      "attribution-anchor",
+      "canonical-identity",
+      "attribution-as-infrastructure",
+      "proof-over-preservation",
+      "vector-collapse"
+    ],
     "termId": "urn:uuid:c3036e50-9c95-45f4-ac4c-d2e7cd85cc90",
     "canonicalUrl": "https://www.mycal.net/terms/anchor-id/"
   },
@@ -129,7 +158,12 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "anchor-id",
+      "attribution-anchor",
+      "substrate-war",
+      "load-bearing-language"
+    ],
     "termId": "urn:uuid:0bb6b629-e181-4ecc-ad5c-49ef665b5b0d",
     "canonicalUrl": "https://www.mycal.net/terms/anchor-series/"
   },
@@ -199,7 +233,13 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "anchor-id",
+      "canonical-identity",
+      "attribution-as-infrastructure",
+      "proof-over-preservation",
+      "attribution-drift"
+    ],
     "termId": "urn:uuid:85c5618b-974f-4d16-9355-7b9a696fc2e7",
     "canonicalUrl": "https://www.mycal.net/terms/attribution-anchor/"
   },
@@ -224,7 +264,13 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "anchor-id",
+      "attribution-anchor",
+      "canonical-identity",
+      "proof-over-preservation",
+      "dissolved-into-the-substrate"
+    ],
     "termId": "urn:uuid:40d27767-c8c5-4e17-8fa7-3e9f28842aef",
     "canonicalUrl": "https://www.mycal.net/terms/attribution-as-infrastructure/"
   },
@@ -284,7 +330,12 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "constraint-memory",
+      "rewrite-archeology",
+      "source-code-in-flux",
+      "fluent-not-wise"
+    ],
     "termId": "urn:uuid:42ee68dd-ac27-4fdf-b90a-9f65ec417557",
     "canonicalUrl": "https://www.mycal.net/terms/borrowed-certainty/"
   },
@@ -301,7 +352,12 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "cognitive-drift",
+      "analog-from-digital",
+      "single-score-fallacy",
+      "constraint-first-evaluation"
+    ],
     "termId": "urn:uuid:91f7fba2-1590-4a4c-9b74-54a7bd6e7aa2",
     "canonicalUrl": "https://www.mycal.net/terms/bounded-variation/"
   },
@@ -385,7 +441,13 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "local-truth",
+      "canonical-drift",
+      "stubborn-witness",
+      "human-only-variant-retention",
+      "air-gapped-truth"
+    ],
     "termId": "urn:uuid:dbb4a191-485a-4943-9656-81963715c252",
     "canonicalUrl": "https://www.mycal.net/terms/canonical-convergence/"
   },
@@ -433,7 +495,13 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "anchor-id",
+      "attribution-anchor",
+      "attribution-as-infrastructure",
+      "vector-collapse",
+      "proof-over-preservation"
+    ],
     "termId": "urn:uuid:3ec43a69-2050-4e08-9a7e-0f061d7f677a",
     "canonicalUrl": "https://www.mycal.net/terms/canonical-identity/"
   },
@@ -470,7 +538,12 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "cronofuturism",
+      "legacy-as-pattern",
+      "digital-preservation-as-resistance",
+      "fight-entropy"
+    ],
     "termId": "urn:uuid:6f203498-4192-46fa-a865-25bc50b16421",
     "canonicalUrl": "https://www.mycal.net/terms/chrononaut-journals/"
   },
@@ -487,7 +560,12 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "three-empires",
+      "cognitive-federalism",
+      "human-co-regency",
+      "re-subordination"
+    ],
     "termId": "urn:uuid:521c6b5b-5336-462d-b4ea-149a95fec019",
     "canonicalUrl": "https://www.mycal.net/terms/cognitive-citizenship/"
   },
@@ -504,7 +582,13 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "bounded-variation",
+      "analog-from-digital",
+      "single-score-fallacy",
+      "useful-imprecision",
+      "semantic-drift"
+    ],
     "termId": "urn:uuid:9bbf4346-b243-4c1e-8059-726684ad3604",
     "canonicalUrl": "https://www.mycal.net/terms/cognitive-drift/"
   },
@@ -521,7 +605,14 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "federated-agency",
+      "strong-federation",
+      "tripartite-identity",
+      "negotiated-reality",
+      "five-unstable-endgames",
+      "substrate-parallel-routing"
+    ],
     "termId": "urn:uuid:98b3beeb-561a-4821-9de5-e795e7c262ec",
     "canonicalUrl": "https://www.mycal.net/terms/cognitive-federalism/"
   },
@@ -538,7 +629,13 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "lords-of-zero",
+      "substrate-determinism",
+      "infrastructure-advantage",
+      "federated-agency",
+      "three-empires"
+    ],
     "termId": "urn:uuid:a2b570e5-1a64-456e-8d46-7556af864da8",
     "canonicalUrl": "https://www.mycal.net/terms/cognitive-feudalism/"
   },
@@ -555,7 +652,13 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "three-empires",
+      "cognitive-substrate",
+      "compute-as-law",
+      "narrative-sovereignty",
+      "substrate-war"
+    ],
     "termId": "urn:uuid:a99a26cd-3fcd-4b03-8954-c6f20b318465",
     "canonicalUrl": "https://www.mycal.net/terms/cognitive-power/"
   },
@@ -572,7 +675,13 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "three-empires",
+      "cognitive-power",
+      "substrate-war",
+      "substrate-determinism",
+      "compute-as-law"
+    ],
     "termId": "urn:uuid:8f5f2ca4-4ebf-4eec-8435-963d4ae59a5a",
     "canonicalUrl": "https://www.mycal.net/terms/cognitive-substrate/"
   },
@@ -677,7 +786,13 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "analog-from-digital",
+      "density-threshold",
+      "useful-imprecision",
+      "cognitive-drift",
+      "bounded-variation"
+    ],
     "termId": "urn:uuid:6374ae87-64b0-4c7a-9d98-299cb559ccf9",
     "canonicalUrl": "https://www.mycal.net/terms/complexity-as-noise/"
   },
@@ -694,7 +809,13 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "three-empires",
+      "cognitive-power",
+      "cognitive-substrate",
+      "lords-of-zero",
+      "substrate-war"
+    ],
     "termId": "urn:uuid:592d1935-f350-43f2-b355-13b5b291be06",
     "canonicalUrl": "https://www.mycal.net/terms/compute-as-law/"
   },
@@ -711,7 +832,12 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "proof-of-personhood",
+      "speed-without-trust",
+      "friction-as-stabilizer",
+      "accountable-velocity"
+    ],
     "termId": "urn:uuid:97d285c3-19da-4a57-a97e-bb212bc94a2a",
     "canonicalUrl": "https://www.mycal.net/terms/connection-vs-collision/"
   },
@@ -754,7 +880,12 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "single-score-fallacy",
+      "bounded-variation",
+      "cognitive-drift",
+      "useful-imprecision"
+    ],
     "termId": "urn:uuid:8d66e775-df01-4ef7-8b8f-e9460b43791b",
     "canonicalUrl": "https://www.mycal.net/terms/constraint-first-evaluation/"
   },
@@ -771,7 +902,12 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "rewrite-archeology",
+      "borrowed-certainty",
+      "source-code-in-flux",
+      "running-modified-code"
+    ],
     "termId": "urn:uuid:5bb02193-5059-4b6d-8db8-50511cf9e899",
     "canonicalUrl": "https://www.mycal.net/terms/constraint-memory/"
   },
@@ -788,7 +924,12 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "proof-of-continuity",
+      "proof-of-personhood",
+      "identity-without-exposure",
+      "proof-of-personhood-at-human-scale"
+    ],
     "termId": "urn:uuid:ac97b6c1-b503-4634-9711-e415af76188e",
     "canonicalUrl": "https://www.mycal.net/terms/continuity-as-scarcity/"
   },
@@ -805,7 +946,13 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "memetic-compression",
+      "memetic-gravity",
+      "load-bearing-phrases",
+      "vector-gravity",
+      "attractor-basin"
+    ],
     "termId": "urn:uuid:2aafddff-203c-4afa-95e7-5daf55c4d3e0",
     "canonicalUrl": "https://www.mycal.net/terms/conversational-attractors/"
   },
@@ -845,7 +992,11 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "taste-economy",
+      "discernment-as-creative-superpower",
+      "novelty-compression-syndrome"
+    ],
     "termId": "urn:uuid:ad89d463-d130-48d0-91f1-26349384be3f",
     "canonicalUrl": "https://www.mycal.net/terms/creative-abundance-without-curation/"
   },
@@ -862,7 +1013,11 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "chrononaut-journals",
+      "legacy-as-pattern",
+      "digital-preservation-as-resistance"
+    ],
     "termId": "urn:uuid:53e7bd40-873c-4d9e-8591-d765b53308be",
     "canonicalUrl": "https://www.mycal.net/terms/cronofuturism/"
   },
@@ -883,7 +1038,11 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "cronosonics-workflow",
+      "memetic-compression",
+      "load-bearing-phrases"
+    ],
     "termId": "urn:uuid:4bb9743a-899b-46de-b0dd-71fa1db2cf43",
     "canonicalUrl": "https://www.mycal.net/terms/cronosonics/"
   },
@@ -900,7 +1059,11 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "cronosonics",
+      "load-bearing-language",
+      "memetic-compression"
+    ],
     "termId": "urn:uuid:91994a43-f8bf-4acc-be75-9ff7d3c71e18",
     "canonicalUrl": "https://www.mycal.net/terms/cronosonics-workflow/"
   },
@@ -917,7 +1080,12 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "analog-from-digital",
+      "complexity-as-noise",
+      "useful-imprecision",
+      "statistical-cognition"
+    ],
     "termId": "urn:uuid:5b22e22a-e744-44e3-87f4-d296b94ac221",
     "canonicalUrl": "https://www.mycal.net/terms/density-threshold/"
   },
@@ -934,7 +1102,12 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "fight-entropy",
+      "legacy-as-pattern",
+      "chrononaut-journals",
+      "air-gapped-truth"
+    ],
     "termId": "urn:uuid:ab544f0f-e565-41fa-8824-45dc42846f8c",
     "canonicalUrl": "https://www.mycal.net/terms/digital-preservation-as-resistance/"
   },
@@ -953,7 +1126,11 @@
     "aliases": [
       "discernment-as-creative-superpowe"
     ],
-    "related": [],
+    "related": [
+      "taste-economy",
+      "creative-abundance-without-curation",
+      "writing-for-the-tails"
+    ],
     "termId": "urn:uuid:29795690-9757-4275-a24e-c9145ace26b3",
     "canonicalUrl": "https://www.mycal.net/terms/discernment-as-creative-superpower/"
   },
@@ -974,7 +1151,13 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "vector-collapse",
+      "attribution-drift",
+      "attribution-as-infrastructure",
+      "anchor-id",
+      "canonical-drift"
+    ],
     "termId": "urn:uuid:17ebad55-12c5-4cdc-ab6e-7d127cd5fd3f",
     "canonicalUrl": "https://www.mycal.net/terms/dissolved-into-the-substrate/"
   },
@@ -1036,7 +1219,11 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "post-patent-brain",
+      "novelty-compression-syndrome",
+      "patent-parallel"
+    ],
     "termId": "urn:uuid:2e96478a-dbe1-4eea-a7a5-93b511e2985d",
     "canonicalUrl": "https://www.mycal.net/terms/existential-horror-of-prior-art/"
   },
@@ -1095,7 +1282,12 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "digital-preservation-as-resistance",
+      "legacy-as-pattern",
+      "chrononaut-journals",
+      "entropy-reduction-operation"
+    ],
     "termId": "urn:uuid:1f1e1f72-99f2-43b2-9e3f-5086f1941045",
     "canonicalUrl": "https://www.mycal.net/terms/fight-entropy/"
   },
@@ -1137,7 +1329,13 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "negotiated-reality",
+      "cognitive-federalism",
+      "three-empires",
+      "cognitive-feudalism",
+      "substrate-war"
+    ],
     "termId": "urn:uuid:141c651c-0e22-428c-a2c3-574b3baf1a9b",
     "canonicalUrl": "https://www.mycal.net/terms/five-unstable-endgames/"
   },
@@ -1182,7 +1380,12 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "patent-parallel",
+      "reckless-curiosity",
+      "solder-smoke-grind",
+      "borrowed-certainty"
+    ],
     "termId": "urn:uuid:6b0dd0f2-7cdd-4dec-8894-27ba38a487bb",
     "canonicalUrl": "https://www.mycal.net/terms/fluent-not-wise/"
   },
@@ -1199,7 +1402,12 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "three-empires",
+      "negotiated-reality",
+      "five-unstable-endgames",
+      "cognitive-federalism"
+    ],
     "termId": "urn:uuid:078f539a-45e6-49cf-919f-8fd6410a5aa8",
     "canonicalUrl": "https://www.mycal.net/terms/forced-triangle/"
   },
@@ -1216,7 +1424,12 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "proof-of-personhood",
+      "speed-without-trust",
+      "accountable-velocity",
+      "connection-vs-collision"
+    ],
     "termId": "urn:uuid:e307f023-1585-42aa-ac0e-9fb23570ce10",
     "canonicalUrl": "https://www.mycal.net/terms/friction-as-stabilizer/"
   },
@@ -1233,7 +1446,12 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "schrodingers-disc",
+      "machines-of-pure-comprehension",
+      "reckless-curiosity",
+      "digital-preservation-as-resistance"
+    ],
     "termId": "urn:uuid:3480b2c9-f9f1-45c3-9fd7-d05f49aeba7d",
     "canonicalUrl": "https://www.mycal.net/terms/ghost-footprints-of-curiosity/"
   },
@@ -1305,7 +1523,12 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "companion-architecture",
+      "cognitive-federalism",
+      "cognitive-citizenship",
+      "federated-agency"
+    ],
     "termId": "urn:uuid:fca50315-999d-431b-b5ea-96074e1f0d07",
     "canonicalUrl": "https://www.mycal.net/terms/human-co-regency/"
   },
@@ -1322,7 +1545,12 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "local-truth",
+      "stubborn-witness",
+      "canonical-convergence",
+      "air-gapped-truth"
+    ],
     "termId": "urn:uuid:4cf93972-ccca-4d1b-9263-d31e06045a49",
     "canonicalUrl": "https://www.mycal.net/terms/human-only-variant-retention/"
   },
@@ -1339,7 +1567,12 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "proof-of-personhood",
+      "proof-of-continuity",
+      "continuity-as-scarcity",
+      "layered-trust-stack"
+    ],
     "termId": "urn:uuid:4ddbdf37-e128-49d0-ae5f-0589de55dadf",
     "canonicalUrl": "https://www.mycal.net/terms/identity-without-exposure/"
   },
@@ -1409,7 +1642,12 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "substrate-determinism",
+      "cognitive-feudalism",
+      "lords-of-zero",
+      "infrastructure-native-organisms"
+    ],
     "termId": "urn:uuid:49a437d9-19a4-450c-b71d-ff476e8b3f3d",
     "canonicalUrl": "https://www.mycal.net/terms/infrastructure-advantage/"
   },
@@ -1426,7 +1664,12 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "infrastructure-advantage",
+      "substrate-determinism",
+      "cognitive-feudalism",
+      "lords-of-zero"
+    ],
     "termId": "urn:uuid:0b9f6545-fc9d-4a69-88f5-e7f106b3a49a",
     "canonicalUrl": "https://www.mycal.net/terms/infrastructure-native-organisms/"
   },
@@ -1443,7 +1686,12 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "proof-of-personhood",
+      "accountable-velocity",
+      "layered-trust-stack",
+      "federated-agency"
+    ],
     "termId": "urn:uuid:95159fe6-eaf0-48c7-804f-ceb927fd38f4",
     "canonicalUrl": "https://www.mycal.net/terms/intent-layer/"
   },
@@ -1482,7 +1730,10 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "running-modified-code",
+      "kajingen"
+    ],
     "termId": "urn:uuid:308ed74c-2480-4c81-908a-4d6b0e4fde7a",
     "canonicalUrl": "https://www.mycal.net/terms/j-space/"
   },
@@ -1499,7 +1750,10 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "j-space",
+      "running-modified-code"
+    ],
     "termId": "urn:uuid:c5a56089-84a2-4761-8a42-96e6a1d5eb5b",
     "canonicalUrl": "https://www.mycal.net/terms/kajingen/"
   },
@@ -1609,7 +1863,13 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "proof-of-personhood",
+      "proof-of-continuity",
+      "accountable-velocity",
+      "family-isoprep-lite",
+      "identity-without-exposure"
+    ],
     "termId": "urn:uuid:f9b82457-d4c3-4800-bbd5-c0651a194eab",
     "canonicalUrl": "https://www.mycal.net/terms/layered-trust-stack/"
   },
@@ -1626,7 +1886,12 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "fight-entropy",
+      "digital-preservation-as-resistance",
+      "chrononaut-journals",
+      "cronofuturism"
+    ],
     "termId": "urn:uuid:905e9e0c-65af-40fa-bcff-532dcf5ea1e2",
     "canonicalUrl": "https://www.mycal.net/terms/legacy-as-pattern/"
   },
@@ -1669,7 +1934,13 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "load-bearing-phrases",
+      "memetic-compression",
+      "entropy-reduction-operation",
+      "writing-for-the-tails",
+      "vector-gravity"
+    ],
     "termId": "urn:uuid:e8c56805-51b5-48ea-bc61-14b88c3a1c2e",
     "canonicalUrl": "https://www.mycal.net/terms/load-bearing-language/"
   },
@@ -1686,7 +1957,13 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "load-bearing-language",
+      "memetic-compression",
+      "memetic-gravity",
+      "vector-gravity",
+      "writing-for-the-tails"
+    ],
     "termId": "urn:uuid:3294752b-f1f3-4ffc-8283-0c683b9b8fa8",
     "canonicalUrl": "https://www.mycal.net/terms/load-bearing-phrases/"
   },
@@ -1729,7 +2006,13 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "stubborn-witness",
+      "human-only-variant-retention",
+      "canonical-convergence",
+      "air-gapped-truth",
+      "high-provenance-witness"
+    ],
     "termId": "urn:uuid:8db2c3aa-4863-4538-8b57-38b107b0f4e3",
     "canonicalUrl": "https://www.mycal.net/terms/local-truth/"
   },
@@ -1766,7 +2049,13 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "attractor-basin",
+      "entropy-reduction-operation",
+      "inference-centrality",
+      "substrate-war",
+      "vector-gravity"
+    ],
     "termId": "urn:uuid:ef4ae54f-1dbb-4501-a0db-918d2e8b356b",
     "canonicalUrl": "https://www.mycal.net/terms/low-entropy-attractor/"
   },
@@ -1783,7 +2072,11 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "ghost-footprints-of-curiosity",
+      "schrodingers-disc",
+      "solder-smoke-grind"
+    ],
     "termId": "urn:uuid:1e39f15f-5976-41ec-8b5b-ecbfb817413b",
     "canonicalUrl": "https://www.mycal.net/terms/machines-of-pure-comprehension/"
   },
@@ -1800,7 +2093,13 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "memetic-gravity",
+      "load-bearing-phrases",
+      "load-bearing-language",
+      "conversational-attractors",
+      "vector-gravity"
+    ],
     "termId": "urn:uuid:9b33c82d-e582-4111-8d67-e9ceabe23e49",
     "canonicalUrl": "https://www.mycal.net/terms/memetic-compression/"
   },
@@ -1817,7 +2116,13 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "memetic-compression",
+      "load-bearing-phrases",
+      "activation-competition",
+      "vector-gravity",
+      "attractor-basin"
+    ],
     "termId": "urn:uuid:b19ca009-1590-40bb-9336-c76b42b5ddbc",
     "canonicalUrl": "https://www.mycal.net/terms/memetic-gravity/"
   },
@@ -1879,7 +2184,13 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "three-empires",
+      "cognitive-power",
+      "negotiated-reality",
+      "reality-drift",
+      "substrate-war"
+    ],
     "termId": "urn:uuid:49570c40-d59b-41b0-871d-4776588ae16e",
     "canonicalUrl": "https://www.mycal.net/terms/narrative-sovereignty/"
   },
@@ -1896,7 +2207,14 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "three-empires",
+      "cognitive-federalism",
+      "five-unstable-endgames",
+      "reality-drift",
+      "reality-set",
+      "narrative-sovereignty"
+    ],
     "termId": "urn:uuid:f4962523-859f-41ef-8de8-abcf6e0581f5",
     "canonicalUrl": "https://www.mycal.net/terms/negotiated-reality/"
   },
@@ -1941,7 +2259,11 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "post-patent-brain",
+      "existential-horror-of-prior-art",
+      "patent-parallel"
+    ],
     "termId": "urn:uuid:f688ca86-f8d0-4d4b-840d-ba2f82cbc7b1",
     "canonicalUrl": "https://www.mycal.net/terms/novelty-compression-syndrome/"
   },
@@ -1987,7 +2309,12 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "reckless-curiosity",
+      "fluent-not-wise",
+      "solder-smoke-grind",
+      "existential-horror-of-prior-art"
+    ],
     "termId": "urn:uuid:c6148b4f-aaa4-4920-b407-1f09163d7bd8",
     "canonicalUrl": "https://www.mycal.net/terms/patent-parallel/"
   },
@@ -2047,7 +2374,12 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "novelty-compression-syndrome",
+      "existential-horror-of-prior-art",
+      "patent-parallel",
+      "reckless-curiosity"
+    ],
     "termId": "urn:uuid:f8758374-fd58-486b-a4bb-f8fb7cdbca6d",
     "canonicalUrl": "https://www.mycal.net/terms/post-patent-brain/"
   },
@@ -2092,7 +2424,13 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "proof-of-personhood",
+      "continuity-as-scarcity",
+      "identity-without-exposure",
+      "layered-trust-stack",
+      "high-provenance-witness"
+    ],
     "termId": "urn:uuid:d3e60598-47cc-43d1-92fd-1c1252b14502",
     "canonicalUrl": "https://www.mycal.net/terms/proof-of-continuity/"
   },
@@ -2109,7 +2447,13 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "proof-of-continuity",
+      "identity-without-exposure",
+      "proof-of-personhood-at-human-scale",
+      "layered-trust-stack",
+      "accountable-velocity"
+    ],
     "termId": "urn:uuid:0fe79224-5380-4bc3-91ac-e218a6918c37",
     "canonicalUrl": "https://www.mycal.net/terms/proof-of-personhood/"
   },
@@ -2153,7 +2497,12 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "anchor-id",
+      "attribution-anchor",
+      "attribution-as-infrastructure",
+      "canonical-identity"
+    ],
     "termId": "urn:uuid:cc0378dc-d91d-45c3-a030-42c26e894418",
     "canonicalUrl": "https://www.mycal.net/terms/proof-over-preservation/"
   },
@@ -2193,7 +2542,13 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "negotiated-reality",
+      "reality-set",
+      "three-empires",
+      "narrative-sovereignty",
+      "five-unstable-endgames"
+    ],
     "termId": "urn:uuid:51692523-2bb5-4439-a6cf-4c05985e5747",
     "canonicalUrl": "https://www.mycal.net/terms/reality-drift/"
   },
@@ -2210,7 +2565,11 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "reality-drift",
+      "negotiated-reality",
+      "local-truth"
+    ],
     "termId": "urn:uuid:0d10808f-e76b-48fe-afaf-d870b338dd54",
     "canonicalUrl": "https://www.mycal.net/terms/reality-set/"
   },
@@ -2227,7 +2586,12 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "solder-smoke-grind",
+      "patent-parallel",
+      "fluent-not-wise",
+      "techno-shamans"
+    ],
     "termId": "urn:uuid:efedf417-679e-4dba-8e2f-089b4a6ecefe",
     "canonicalUrl": "https://www.mycal.net/terms/reckless-curiosity/"
   },
@@ -2244,7 +2608,11 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "constraint-memory",
+      "borrowed-certainty",
+      "source-code-in-flux"
+    ],
     "termId": "urn:uuid:1edeee14-f16b-4b23-85c7-a04600914ddd",
     "canonicalUrl": "https://www.mycal.net/terms/rewrite-archeology/"
   },
@@ -2261,7 +2629,10 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "j-space",
+      "kajingen"
+    ],
     "termId": "urn:uuid:6a41b9fc-f2a2-41f3-984d-014e91222c59",
     "canonicalUrl": "https://www.mycal.net/terms/running-modified-code/"
   },
@@ -2278,7 +2649,11 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "ghost-footprints-of-curiosity",
+      "machines-of-pure-comprehension",
+      "digital-preservation-as-resistance"
+    ],
     "termId": "urn:uuid:65cb095e-a9f7-4ab4-8d9a-3db92f1121c2",
     "canonicalUrl": "https://www.mycal.net/terms/schrodingers-disc/"
   },
@@ -2345,7 +2720,12 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "kardashev-window",
+      "lords-of-zero",
+      "singularity-grade-ai",
+      "calorie-ladder"
+    ],
     "termId": "urn:uuid:9a4d4ee4-f8e6-40c8-a1a5-db6834341c4f",
     "canonicalUrl": "https://www.mycal.net/terms/seventy-year-stall/"
   },
@@ -2362,7 +2742,12 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "bounded-variation",
+      "cognitive-drift",
+      "constraint-first-evaluation",
+      "useful-imprecision"
+    ],
     "termId": "urn:uuid:bbc760f6-c6d9-4eb6-a6b4-072c66aca7a6",
     "canonicalUrl": "https://www.mycal.net/terms/single-score-fallacy/"
   },
@@ -2383,7 +2768,13 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "source-code-in-flux",
+      "companion-architecture",
+      "constraint-ethics",
+      "command-layer-failure",
+      "seventy-year-stall"
+    ],
     "termId": "urn:uuid:c1050d1f-b82b-44c0-9b59-f161b34248cf",
     "canonicalUrl": "https://www.mycal.net/terms/singularity-grade-ai/"
   },
@@ -2400,7 +2791,12 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "reckless-curiosity",
+      "fluent-not-wise",
+      "patent-parallel",
+      "techno-shamans"
+    ],
     "termId": "urn:uuid:17d892b3-86ec-4fc3-bd73-14af3254affc",
     "canonicalUrl": "https://www.mycal.net/terms/solder-smoke-grind/"
   },
@@ -2444,7 +2840,12 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "accountable-velocity",
+      "friction-as-stabilizer",
+      "proof-of-personhood",
+      "connection-vs-collision"
+    ],
     "termId": "urn:uuid:157c2952-8cb1-433f-8ad3-4bb19fcb9624",
     "canonicalUrl": "https://www.mycal.net/terms/speed-without-trust/"
   },
@@ -2515,7 +2916,12 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "atlas-of-cognition",
+      "energy-to-inference",
+      "thermodynamics-of-cognition",
+      "density-threshold"
+    ],
     "termId": "urn:uuid:2bcbc09c-6aac-4bb9-a476-a46f98636d54",
     "canonicalUrl": "https://www.mycal.net/terms/statistical-cognition/"
   },
@@ -2532,7 +2938,12 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "federated-agency",
+      "cognitive-federalism",
+      "substrate-parallel-routing",
+      "local-cognition-factory"
+    ],
     "termId": "urn:uuid:b3e5559e-beab-4ab8-bfd8-cbd3a5f9475e",
     "canonicalUrl": "https://www.mycal.net/terms/strong-federation/"
   },
@@ -2549,7 +2960,13 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "local-truth",
+      "human-only-variant-retention",
+      "high-provenance-witness",
+      "canonical-convergence",
+      "air-gapped-truth"
+    ],
     "termId": "urn:uuid:fbb71d55-a9f7-44e8-8e5b-9f16ae49b718",
     "canonicalUrl": "https://www.mycal.net/terms/stubborn-witness/"
   },
@@ -2566,7 +2983,13 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "substrate-war",
+      "infrastructure-advantage",
+      "cognitive-feudalism",
+      "calorie-ladder",
+      "lords-of-zero"
+    ],
     "termId": "urn:uuid:167c493c-e1bb-414b-99cd-16095dd7042b",
     "canonicalUrl": "https://www.mycal.net/terms/substrate-determinism/"
   },
@@ -2587,7 +3010,12 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "federated-agency",
+      "strong-federation",
+      "cognitive-federalism",
+      "netgod-architecture"
+    ],
     "termId": "urn:uuid:73ef0d16-d05f-4a75-a1ce-50490f1e8be1",
     "canonicalUrl": "https://www.mycal.net/terms/substrate-parallel-routing/"
   },
@@ -2624,7 +3052,11 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "discernment-as-creative-superpower",
+      "creative-abundance-without-curation",
+      "writing-for-the-tails"
+    ],
     "termId": "urn:uuid:40443c88-41a1-4714-98fa-28c094259608",
     "canonicalUrl": "https://www.mycal.net/terms/taste-economy/"
   },
@@ -2687,7 +3119,14 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "cognitive-power",
+      "cognitive-substrate",
+      "cognitive-feudalism",
+      "forced-triangle",
+      "narrative-sovereignty",
+      "five-unstable-endgames"
+    ],
     "termId": "urn:uuid:e33b916c-6a56-49bb-9084-5524d3a06c56",
     "canonicalUrl": "https://www.mycal.net/terms/three-empires/"
   },
@@ -2704,7 +3143,12 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "cognitive-federalism",
+      "negotiated-reality",
+      "three-empires",
+      "proof-of-personhood"
+    ],
     "termId": "urn:uuid:751b382f-8c7d-469a-95e7-1821ff3a4e79",
     "canonicalUrl": "https://www.mycal.net/terms/tripartite-identity/"
   },
@@ -2749,7 +3193,13 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "analog-from-digital",
+      "complexity-as-noise",
+      "density-threshold",
+      "cognitive-drift",
+      "bounded-variation"
+    ],
     "termId": "urn:uuid:23fe6c4f-e77e-48e2-8f04-fd199f1a6b60",
     "canonicalUrl": "https://www.mycal.net/terms/useful-imprecision/"
   },
@@ -2770,7 +3220,13 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "attribution-drift",
+      "canonical-drift",
+      "dissolved-into-the-substrate",
+      "anchor-id",
+      "canonical-identity"
+    ],
     "termId": "urn:uuid:8fc30f9f-f54d-443e-b3fb-68a0840221fa",
     "canonicalUrl": "https://www.mycal.net/terms/vector-collapse/"
   },
@@ -2787,7 +3243,13 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "memetic-gravity",
+      "memetic-compression",
+      "load-bearing-phrases",
+      "conversational-attractors",
+      "low-entropy-attractor"
+    ],
     "termId": "urn:uuid:6ecbdde4-0c38-4886-9a5e-99088c253832",
     "canonicalUrl": "https://www.mycal.net/terms/vector-gravity/"
   },
@@ -2825,7 +3287,13 @@
     ],
     "sameAs": [],
     "aliases": [],
-    "related": [],
+    "related": [
+      "load-bearing-language",
+      "load-bearing-phrases",
+      "entropy-reduction-operation",
+      "discernment-as-creative-superpower",
+      "substrate-war"
+    ],
     "termId": "urn:uuid:89b78444-ba87-403f-8db6-7c79d9a513b3",
     "canonicalUrl": "https://www.mycal.net/terms/writing-for-the-tails/"
   }

@@ -8,5 +8,6 @@
       "label": "The Three Empires"
     }
   ],
+  "related": ["federated-agency", "cognitive-federalism", "substrate-parallel-routing", "local-cognition-factory"],
   "termId": "urn:uuid:b3e5559e-beab-4ab8-bfd8-cbd3a5f9475e"
 }

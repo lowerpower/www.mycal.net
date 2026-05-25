@@ -8,5 +8,6 @@
       "label": "Never Twice the Same Color"
     }
   ],
+  "related": ["analog-from-digital", "complexity-as-noise", "useful-imprecision", "statistical-cognition"],
   "termId": "urn:uuid:5b22e22a-e744-44e3-87f4-d296b94ac221"
 }

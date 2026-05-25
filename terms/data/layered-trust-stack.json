@@ -8,5 +8,6 @@
       "label": "Proof of Personhood"
     }
   ],
+  "related": ["proof-of-personhood", "proof-of-continuity", "accountable-velocity", "family-isoprep-lite", "identity-without-exposure"],
   "termId": "urn:uuid:f9b82457-d4c3-4800-bbd5-c0651a194eab"
 }

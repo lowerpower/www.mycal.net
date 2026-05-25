@@ -8,5 +8,6 @@
       "label": "New Country for Old Men"
     }
   ],
+  "related": ["patent-parallel", "reckless-curiosity", "solder-smoke-grind", "borrowed-certainty"],
   "termId": "urn:uuid:6b0dd0f2-7cdd-4dec-8894-27ba38a487bb"
 }
