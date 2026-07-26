@@ -1,0 +1,15 @@
+{
+  "name": "Experiential Map",
+  "date": "July 2026",
+  "description": "The second, unofficial map a person builds of a place out of shortcuts, mistakes, landmarks, jokes, and survival phrases. It is personal, imperfect, and often more durable than the official map — the correct pronunciation, the proper translation — learned in a classroom.",
+  "links": [
+    {
+      "url": "https://blog.mycal.net/shake-and-fries/",
+      "label": "Home Starts Showing at the Shake and Fries"
+    }
+  ],
+  "related": [
+    "cronosonics"
+  ],
+  "termId": "urn:uuid:59ab490a-123d-4cba-b755-a4b08b713e82"
+}

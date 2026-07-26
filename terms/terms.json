@@ -1228,6 +1228,25 @@
     "canonicalUrl": "https://www.mycal.net/terms/existential-horror-of-prior-art/"
   },
   {
+    "slug": "experiential-map",
+    "name": "Experiential Map",
+    "date": "July 2026",
+    "description": "The second, unofficial map a person builds of a place out of shortcuts, mistakes, landmarks, jokes, and survival phrases. It is personal, imperfect, and often more durable than the official map — the correct pronunciation, the proper translation — learned in a classroom.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/shake-and-fries/",
+        "label": "Home Starts Showing at the Shake and Fries"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "related": [
+      "cronosonics"
+    ],
+    "termId": "urn:uuid:59ab490a-123d-4cba-b755-a4b08b713e82",
+    "canonicalUrl": "https://www.mycal.net/terms/experiential-map/"
+  },
+  {
     "slug": "family-isoprep-lite",
     "name": "Family ISOPREP-Lite",
     "date": "May 2026",
@@ -2079,6 +2098,27 @@
     ],
     "termId": "urn:uuid:1e39f15f-5976-41ec-8b5b-ecbfb817413b",
     "canonicalUrl": "https://www.mycal.net/terms/machines-of-pure-comprehension/"
+  },
+  {
+    "slug": "maoist-democracy",
+    "name": "Maoist Democracy",
+    "date": "~2003",
+    "description": "A political system in which everybody who is carrying a gun gets to vote. Named after Mao's dictum that \"Political Power Comes Out of the Barrel of a Gun\". This system is not widely used, because elections tend to involve a lot of killing.\n\nUsage: Good thing that we don't practice Maoist Democracy, like they're doing in Liberia.\n\nDave D'rave and I created this in one of our riff sessions.",
+    "links": [
+      {
+        "url": "https://archive.mycal.net/?cpath=/Articles/&id=238&action=9",
+        "label": "Mycal Archives"
+      },
+      {
+        "url": "http://www.mycal.net/?cpath=/Articles/&id=238&action=9",
+        "label": "Oldest known archive.org"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "related": [],
+    "termId": "urn:uuid:4f6240de-c9de-492f-8439-aa5a695da6cc",
+    "canonicalUrl": "https://www.mycal.net/terms/maoist-democracy/"
   },
   {
     "slug": "memetic-compression",
