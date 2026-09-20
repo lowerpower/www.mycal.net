@@ -8,7 +8,8 @@
 
 Central hub connecting all Mycal domains and projects:
 
-- 🎵 **[music.mycal.net](https://music.mycal.net)** - Albums from Black Rock City
+- 🎵 **[North Shore Kinda Heaven](https://music.mycal.net/albums/north-shore-kinda-heaven/)** - Country and Americana stories from Clear Lake
+- 🎶 **[Ashes and Echoes](https://music.mycal.net/albums/ashes-and-echoes/)** - Folk-electronic stories from Black Rock City
 - 📖 **[Standing by the Record Machine](https://blog.mycal.net/sbtrm/)** - Serialized speculative-fiction novel
 - 📝 **[blog.mycal.net](https://blog.mycal.net)** - Essays on chronofuturism, tech, and culture
 - 🏛️ **[archive.mycal.net](https://archive.mycal.net)** - Historical artifacts (1977-present)
