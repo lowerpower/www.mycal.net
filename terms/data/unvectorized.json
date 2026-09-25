@@ -1,0 +1,17 @@
+{
+  "name": "Unvectorized",
+  "date": "September 2026",
+  "description": "The condition of people who stall not because they are lazy or inert but because they are misaligned, lacking a resolved combination of direction and magnitude. The unvectorized are pulled into reactive short-term loops (short-term jobs, leases, relationships, coping strategies, and politics) in which the present expands, the future shrinks, and their energy dissipates as heat rather than doing work, until they become objects instead of actors. The corrective is alignment: choosing a direction and committing magnitude to it. Distinct from the computing sense of unvectorized code.",
+  "links": [
+    {
+      "url": "https://blog.mycal.net/the-agency-gap-stall-or-move/",
+      "label": "The Agency Gap: Why Most People Stall, and Why a Few Move the World"
+    }
+  ],
+  "related": [
+    "agency-as-a-vector",
+    "agency-gap",
+    "fight-entropy"
+  ],
+  "termId": "urn:uuid:c1830e61-8241-4e74-97b7-9d3adb1c00a4"
+}

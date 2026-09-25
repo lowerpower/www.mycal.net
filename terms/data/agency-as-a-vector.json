@@ -1,0 +1,19 @@
+{
+  "name": "Agency as a Vector",
+  "date": "September 2026",
+  "description": "The framing of agency not as a personality trait, mindset, or self-help slogan but as a vector with two components: direction (purpose, vision, ideals) and magnitude (energy, ambition, drive). Magnitude without direction disperses into heat; direction without magnitude goes nowhere. Only the combination produces movement, and when two high-agency vectors meet they compound rather than cancel. Agency is also environmental: the surrounding substrate of incentives determines how much room a vector has to move.",
+  "links": [
+    {
+      "url": "https://blog.mycal.net/the-agency-gap-stall-or-move/",
+      "label": "The Agency Gap: Why Most People Stall, and Why a Few Move the World"
+    }
+  ],
+  "related": [
+    "agency-gap",
+    "unvectorized",
+    "substrate-determinism",
+    "fight-entropy",
+    "cronosonics"
+  ],
+  "termId": "urn:uuid:4a499788-5d7f-424d-875a-eb6c4ffbd829"
+}

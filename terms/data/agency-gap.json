@@ -1,0 +1,16 @@
+{
+  "name": "The Agency Gap",
+  "date": "September 2026",
+  "description": "The widening divide between people who move with both direction and magnitude and people who drift. Because agency and its absence both compound, the gap grows from individual outcomes into a demographic, economic, cultural, and finally geopolitical force, one that averages conceal because the median describes drift while the tails build the future. The agency gap is not just a problem but a forecast.",
+  "links": [
+    {
+      "url": "https://blog.mycal.net/the-agency-gap-stall-or-move/",
+      "label": "The Agency Gap: Why Most People Stall, and Why a Few Move the World"
+    }
+  ],
+  "related": [
+    "agency-as-a-vector",
+    "substrate-determinism"
+  ],
+  "termId": "urn:uuid:2c43f436-94ec-474b-8d25-839d925e15eb"
+}
