@@ -71,6 +71,49 @@
     "canonicalUrl": "https://www.mycal.net/terms/activation-competition/"
   },
   {
+    "slug": "agency-as-a-vector",
+    "name": "Agency as a Vector",
+    "date": "September 2026",
+    "description": "The framing of agency not as a personality trait, mindset, or self-help slogan but as a vector with two components: direction (purpose, vision, ideals) and magnitude (energy, ambition, drive). Magnitude without direction disperses into heat; direction without magnitude goes nowhere. Only the combination produces movement, and when two high-agency vectors meet they compound rather than cancel. Agency is also environmental: the surrounding substrate of incentives determines how much room a vector has to move.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/the-agency-gap-stall-or-move/",
+        "label": "The Agency Gap: Why Most People Stall, and Why a Few Move the World"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "related": [
+      "agency-gap",
+      "unvectorized",
+      "substrate-determinism",
+      "fight-entropy",
+      "cronosonics"
+    ],
+    "termId": "urn:uuid:4a499788-5d7f-424d-875a-eb6c4ffbd829",
+    "canonicalUrl": "https://www.mycal.net/terms/agency-as-a-vector/"
+  },
+  {
+    "slug": "agency-gap",
+    "name": "The Agency Gap",
+    "date": "September 2026",
+    "description": "The widening divide between people who move with both direction and magnitude and people who drift. Because agency and its absence both compound, the gap grows from individual outcomes into a demographic, economic, cultural, and finally geopolitical force, one that averages conceal because the median describes drift while the tails build the future. The agency gap is not just a problem but a forecast.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/the-agency-gap-stall-or-move/",
+        "label": "The Agency Gap: Why Most People Stall, and Why a Few Move the World"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "related": [
+      "agency-as-a-vector",
+      "substrate-determinism"
+    ],
+    "termId": "urn:uuid:2c43f436-94ec-474b-8d25-839d925e15eb",
+    "canonicalUrl": "https://www.mycal.net/terms/agency-gap/"
+  },
+  {
     "slug": "air-gapped-truth",
     "name": "Air-Gapped Truth",
     "date": "2026",
@@ -3219,6 +3262,27 @@
     ],
     "termId": "urn:uuid:8fec9cd5-8e80-482a-a4a3-9ad22c3de401",
     "canonicalUrl": "https://www.mycal.net/terms/trust-becomes-physics/"
+  },
+  {
+    "slug": "unvectorized",
+    "name": "Unvectorized",
+    "date": "September 2026",
+    "description": "The condition of people who stall not because they are lazy or inert but because they are misaligned, lacking a resolved combination of direction and magnitude. The unvectorized are pulled into reactive short-term loops (short-term jobs, leases, relationships, coping strategies, and politics) in which the present expands, the future shrinks, and their energy dissipates as heat rather than doing work, until they become objects instead of actors. The corrective is alignment: choosing a direction and committing magnitude to it. Distinct from the computing sense of unvectorized code.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/the-agency-gap-stall-or-move/",
+        "label": "The Agency Gap: Why Most People Stall, and Why a Few Move the World"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "related": [
+      "agency-as-a-vector",
+      "agency-gap",
+      "fight-entropy"
+    ],
+    "termId": "urn:uuid:c1830e61-8241-4e74-97b7-9d3adb1c00a4",
+    "canonicalUrl": "https://www.mycal.net/terms/unvectorized/"
   },
   {
     "slug": "useful-imprecision",

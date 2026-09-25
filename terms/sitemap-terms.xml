@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.mycal.net/terms/</loc>
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-09-25</lastmod>
   </url>
   <url>
     <loc>https://www.mycal.net/terms/accountable-velocity/</loc>
@@ -15,6 +15,14 @@
   <url>
     <loc>https://www.mycal.net/terms/activation-competition/</loc>
     <lastmod>2026-05-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mycal.net/terms/agency-as-a-vector/</loc>
+    <lastmod>2026-09-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mycal.net/terms/agency-gap/</loc>
+    <lastmod>2026-09-25</lastmod>
   </url>
   <url>
     <loc>https://www.mycal.net/terms/air-gapped-truth/</loc>
@@ -54,7 +62,7 @@
   </url>
   <url>
     <loc>https://www.mycal.net/terms/audience-tell/</loc>
-    <lastmod>2026-04-20</lastmod>
+    <lastmod>2026-04-23</lastmod>
   </url>
   <url>
     <loc>https://www.mycal.net/terms/borrowed-certainty/</loc>
@@ -122,11 +130,11 @@
   </url>
   <url>
     <loc>https://www.mycal.net/terms/collapse-to-the-mean-as-epistemology/</loc>
-    <lastmod>2026-05-25</lastmod>
+    <lastmod>2026-05-12</lastmod>
   </url>
   <url>
     <loc>https://www.mycal.net/terms/command-layer-failure/</loc>
-    <lastmod>2026-04-20</lastmod>
+    <lastmod>2026-04-23</lastmod>
   </url>
   <url>
     <loc>https://www.mycal.net/terms/companion-architecture/</loc>
@@ -146,7 +154,7 @@
   </url>
   <url>
     <loc>https://www.mycal.net/terms/constraint-ethics/</loc>
-    <lastmod>2026-04-20</lastmod>
+    <lastmod>2026-04-23</lastmod>
   </url>
   <url>
     <loc>https://www.mycal.net/terms/constraint-first-evaluation/</loc>
@@ -238,7 +246,7 @@
   </url>
   <url>
     <loc>https://www.mycal.net/terms/flight-surgeon-problem/</loc>
-    <lastmod>2026-05-25</lastmod>
+    <lastmod>2026-05-12</lastmod>
   </url>
   <url>
     <loc>https://www.mycal.net/terms/fluent-not-wise/</loc>
@@ -258,7 +266,7 @@
   </url>
   <url>
     <loc>https://www.mycal.net/terms/high-provenance-witness/</loc>
-    <lastmod>2026-05-25</lastmod>
+    <lastmod>2026-05-12</lastmod>
   </url>
   <url>
     <loc>https://www.mycal.net/terms/honest-inflation/</loc>
@@ -382,7 +390,7 @@
   </url>
   <url>
     <loc>https://www.mycal.net/terms/mirror-fluency/</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-04-23</lastmod>
   </url>
   <url>
     <loc>https://www.mycal.net/terms/narrative-sovereignty/</loc>
@@ -402,7 +410,7 @@
   </url>
   <url>
     <loc>https://www.mycal.net/terms/ouroboros/</loc>
-    <lastmod>2026-05-25</lastmod>
+    <lastmod>2026-05-12</lastmod>
   </url>
   <url>
     <loc>https://www.mycal.net/terms/patent-parallel/</loc>
@@ -410,7 +418,7 @@
   </url>
   <url>
     <loc>https://www.mycal.net/terms/Petaluma-Chicken-Scratch/</loc>
-    <lastmod>2026-02-27</lastmod>
+    <lastmod>2026-02-28</lastmod>
   </url>
   <url>
     <loc>https://www.mycal.net/terms/port-as-identifier/</loc>
@@ -442,7 +450,7 @@
   </url>
   <url>
     <loc>https://www.mycal.net/terms/re-subordination/</loc>
-    <lastmod>2026-04-20</lastmod>
+    <lastmod>2026-04-23</lastmod>
   </url>
   <url>
     <loc>https://www.mycal.net/terms/reality-drift/</loc>
@@ -555,6 +563,10 @@
   <url>
     <loc>https://www.mycal.net/terms/trust-becomes-physics/</loc>
     <lastmod>2026-05-04</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mycal.net/terms/unvectorized/</loc>
+    <lastmod>2026-09-25</lastmod>
   </url>
   <url>
     <loc>https://www.mycal.net/terms/useful-imprecision/</loc>
