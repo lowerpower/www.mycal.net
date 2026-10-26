@@ -1,7 +1,7 @@
 {
   "name": "MIDI-to-Propane",
   "date": "2019",
-  "description": "A fire art control architecture that maps MIDI note and velocity data to solenoid valve states over relays, turning a musical performance into a choreographed flame effect with velocity modulating flame height. Implemented on Raspberry Pi with SainSmart relay boards, the pattern lets a DJ's bass drop, a pedaled bicycle, or a live keyboard breathe directly into a propane installation. Killer app for the Fire Kathedral and the connective tissue between musical timing and combustion.",
+  "description": "A fire art control architecture that maps MIDI note and velocity data to solenoid valve states over relays, turning a musical performance into a choreographed flame effect with velocity modulating flame height. Implemented on Raspberry Pi with SainSmart relay boards, the pattern lets a DJ's bass drop, a pedaled bicycle, or a live keyboard breathe directly into a propane installation. Killer app for the Fire Kethedral and the connective tissue between musical timing and combustion.",
   "links": [
     {
       "url": "https://blog.mycal.net/launch-on-the-shriek/",
@@ -13,7 +13,7 @@
     }
   ],
   "related": [
-    "fire-kathedral",
+    "fire-kethedral",
     "launch-on-the-shriek"
   ],
   "termId": "urn:uuid:95de9272-d9bf-4d69-8637-c1e0e7338626"

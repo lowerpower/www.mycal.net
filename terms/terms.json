@@ -1354,10 +1354,10 @@
     "canonicalUrl": "https://www.mycal.net/terms/fight-entropy/"
   },
   {
-    "slug": "fire-kathedral",
-    "name": "Fire Kathedral",
+    "slug": "fire-kethedral",
+    "name": "Fire Kethedral",
     "date": "2019",
-    "description": "A 44-foot steel Kathederal crowned with 88 propane valves and pilot lights, controlled via a Raspberry Pi and a web GUI sending bitmask commands over WebSockets, accepting live MIDI input to sequence flame effects in real time. Built with the Reared in Steel collective in Petaluma and first burned on the Black Rock playa at Burning Man 2019, the Kathedral is the present-day terminus of a thirty-eight-year arc that began with lightning-triggered rockets in the 1987 Plumas National Forest.",
+    "description": "A 44-foot steel Kethedral crowned with 88 propane valves and pilot lights, controlled via a Raspberry Pi and a web GUI sending bitmask commands over WebSockets, accepting live MIDI input to sequence flame effects in real time. Built with the Reared in Steel collective in Petaluma and first burned on the Black Rock playa at Burning Man 2019, the Kethedral is the present-day terminus of a thirty-eight-year arc that began with lightning-triggered rockets in the 1987 Plumas National Forest.",
     "links": [
       {
         "url": "https://blog.mycal.net/launch-on-the-shriek/",
@@ -1369,14 +1369,16 @@
       }
     ],
     "sameAs": [],
-    "aliases": [],
+    "aliases": [
+      "fire-kathedral"
+    ],
     "related": [
       "midi-to-propane",
       "launch-on-the-shriek",
       "techno-shamans"
     ],
     "termId": "urn:uuid:0605727e-684b-4bbe-a943-80beaf9c2543",
-    "canonicalUrl": "https://www.mycal.net/terms/fire-kathedral/"
+    "canonicalUrl": "https://www.mycal.net/terms/fire-kethedral/"
   },
   {
     "slug": "five-unstable-endgames",
@@ -1894,7 +1896,7 @@
     "slug": "launch-on-the-shriek",
     "name": "Launch on the Shriek",
     "date": "1987",
-    "description": "The operational command and organizing metaphor of the 1987 lightning-triggered rocket experiments: firing a TOW-wire-trailing rocket at the peak of a VLF whistler to invite a cloud-to-ground strike down the conductive filament. Later generalized as a stance toward timing any scheme to the storm's own rhythm rather than forcing it, surfacing again decades later when MIDI whistler input was patched into the Fire Kathedral control stack at Burning Man.",
+    "description": "The operational command and organizing metaphor of the 1987 lightning-triggered rocket experiments: firing a TOW-wire-trailing rocket at the peak of a VLF whistler to invite a cloud-to-ground strike down the conductive filament. Later generalized as a stance toward timing any scheme to the storm's own rhythm rather than forcing it, surfacing again decades later when MIDI whistler input was patched into the Fire Kethedral control stack at Burning Man.",
     "links": [
       {
         "url": "https://blog.mycal.net/launch-on-the-shriek/",
@@ -1906,7 +1908,7 @@
     "related": [
       "techno-shamans",
       "celebration-of-life",
-      "fire-kathedral",
+      "fire-kethedral",
       "midi-to-propane"
     ],
     "termId": "urn:uuid:315fa8eb-8a2d-4f3d-8661-d1d656092b18",
@@ -2213,7 +2215,7 @@
     "slug": "midi-to-propane",
     "name": "MIDI-to-Propane",
     "date": "2019",
-    "description": "A fire art control architecture that maps MIDI note and velocity data to solenoid valve states over relays, turning a musical performance into a choreographed flame effect with velocity modulating flame height. Implemented on Raspberry Pi with SainSmart relay boards, the pattern lets a DJ's bass drop, a pedaled bicycle, or a live keyboard breathe directly into a propane installation. Killer app for the Fire Kathedral and the connective tissue between musical timing and combustion.",
+    "description": "A fire art control architecture that maps MIDI note and velocity data to solenoid valve states over relays, turning a musical performance into a choreographed flame effect with velocity modulating flame height. Implemented on Raspberry Pi with SainSmart relay boards, the pattern lets a DJ's bass drop, a pedaled bicycle, or a live keyboard breathe directly into a propane installation. Killer app for the Fire Kethedral and the connective tissue between musical timing and combustion.",
     "links": [
       {
         "url": "https://blog.mycal.net/launch-on-the-shriek/",
@@ -2227,7 +2229,7 @@
     "sameAs": [],
     "aliases": [],
     "related": [
-      "fire-kathedral",
+      "fire-kethedral",
       "launch-on-the-shriek"
     ],
     "termId": "urn:uuid:95de9272-d9bf-4d69-8637-c1e0e7338626",
