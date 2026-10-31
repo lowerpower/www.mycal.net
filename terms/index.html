@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mycal Terms — A Lexicon of Original Concepts</title>
-  <meta name="description" content="Original terms and concepts coined by Mike Johnson (Mycal) — 146 original frameworks spanning cronofuturist philosophy, AI infrastructure, the Substrate War, and more.">
+  <meta name="description" content="Original terms and concepts coined by Mike Johnson (Mycal) — 147 original frameworks spanning cronofuturist philosophy, AI infrastructure, the Substrate War, and more.">
   <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="shortcut icon" href="/favicon.ico">
@@ -536,6 +536,9 @@
         },
         {
           "@id": "https://www.mycal.net/terms/#novelty-compression-syndrome"
+        },
+        {
+          "@id": "https://www.mycal.net/terms/#one-dongle-one-owner"
         },
         {
           "@id": "https://www.mycal.net/terms/#ouroboros"
@@ -4559,6 +4562,30 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://www.mycal.net/terms/#one-dongle-one-owner",
+      "name": "One Dongle, One Owner",
+      "termCode": "one-dongle-one-owner",
+      "description": "A design rule for shared radio hardware: an RTL-SDR dongle is a USB device that only one process can claim, so exactly one program is allowed to open it and every consumer is served from that program's reads. Two rtl_433 instances on the same dongle both fail, intermittently; with one owner, a single RF read refreshes a local graph and feeds a public uploader, and a non-blocking lock enforces the rule at runtime.",
+      "inDefinedTermSet": {
+        "@id": "https://www.mycal.net/terms/#termset"
+      },
+      "url": "https://www.mycal.net/terms/one-dongle-one-owner/",
+      "creator": {
+        "@id": "https://blog.mycal.net/about/#mycal"
+      },
+      "dateCreated": "October 2026",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "term-uuid",
+        "value": "urn:uuid:bcd11599-d551-468d-9d5f-5b8e21c72dac"
+      },
+      "isDefinedIn": {
+        "@type": "Article",
+        "@id": "https://blog.mycal.net/wu-upload-acurite-rtl-sdr-weather-underground/#article"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://www.mycal.net/terms/#ouroboros",
       "name": "Ouroboros",
       "termCode": "ouroboros",
@@ -6314,7 +6341,7 @@
       <h1>Mycal Terms</h1>
       <p class="subtitle">A Lexicon of Original Concepts</p>
       <p class="intro">
-        146 terms and frameworks that emerged from decades of building, writing, and exploring
+        147 terms and frameworks that emerged from decades of building, writing, and exploring
         at the intersection of infrastructure, philosophy, and culture. Each links back
         to the work where it first appeared.
       </p>
@@ -7568,6 +7595,18 @@ Dave D&#x27;rave and I created this in one of our riff sessions.</p>
         </div>
         <div class="term-anchor-wrap">
           <a href="/terms/novelty-compression-syndrome/" class="term-anchor-link">Open term page ↗</a>
+        </div>
+      </div>
+
+      <div class="term-entry" id="one-dongle-one-owner">
+        <div class="term-name"><a href="/terms/one-dongle-one-owner/" class="term-page-link">One Dongle, One Owner</a></div>
+        <div class="term-meta"><span>First used: October 2026</span></div>
+        <p class="term-definition">A design rule for shared radio hardware: an RTL-SDR dongle is a USB device that only one process can claim, so exactly one program is allowed to open it and every consumer is served from that program&#x27;s reads. Two rtl_433 instances on the same dongle both fail, intermittently; with one owner, a single RF read refreshes a local graph and feeds a public uploader, and a non-blocking lock enforces the rule at runtime.</p>
+        <div class="term-links">
+          <a href="https://blog.mycal.net/wu-upload-acurite-rtl-sdr-weather-underground/" class="term-link" data-umami-event="term-one-dongle-one-owner-0">One Dongle, One Owner: Putting a Clear Lake Weather Station on the Air</a>
+        </div>
+        <div class="term-anchor-wrap">
+          <a href="/terms/one-dongle-one-owner/" class="term-anchor-link">Open term page ↗</a>
         </div>
       </div>
 

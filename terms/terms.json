@@ -2353,6 +2353,23 @@
     "canonicalUrl": "https://www.mycal.net/terms/novelty-compression-syndrome/"
   },
   {
+    "slug": "one-dongle-one-owner",
+    "name": "One Dongle, One Owner",
+    "date": "October 2026",
+    "description": "A design rule for shared radio hardware: an RTL-SDR dongle is a USB device that only one process can claim, so exactly one program is allowed to open it and every consumer is served from that program's reads. Two rtl_433 instances on the same dongle both fail, intermittently; with one owner, a single RF read refreshes a local graph and feeds a public uploader, and a non-blocking lock enforces the rule at runtime.",
+    "links": [
+      {
+        "url": "https://blog.mycal.net/wu-upload-acurite-rtl-sdr-weather-underground/",
+        "label": "One Dongle, One Owner: Putting a Clear Lake Weather Station on the Air"
+      }
+    ],
+    "sameAs": [],
+    "aliases": [],
+    "related": [],
+    "termId": "urn:uuid:bcd11599-d551-468d-9d5f-5b8e21c72dac",
+    "canonicalUrl": "https://www.mycal.net/terms/one-dongle-one-owner/"
+  },
+  {
     "slug": "ouroboros",
     "name": "Ouroboros",
     "date": "2026",
